@@ -4,6 +4,11 @@ The root directory for this challenge contains data, documents, and images that 
 
 Don't forget to check social media for hashtag **#HackCT2023** and tag your own posts with that hashtag!
 
+## Set up:
+1. Clone the repo
+2. Download Jupyter Notebook and Live Preview (Microsoft version) extensions
+3. Click "Go live" in VS Code to host a local live server
+
 # Data sources
 
 ## UConn Crash Repository:
