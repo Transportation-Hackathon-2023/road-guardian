@@ -121,6 +121,7 @@ Papa.parse('./data/crashes.csv', {
                 return point.d >= from && point.d <= to;
             })
 
+            // Filter crashes based on checkboxes
             let crashesFiltered = crashes.filter(function(point) {
                 return (( $('#local').prop('checked') ? point.r !== 1 : false)
                 || ( $('#highways').prop('checked') ? point.r === 1 : false))
@@ -132,11 +133,13 @@ Papa.parse('./data/crashes.csv', {
                 && (( $('#injury').prop('checked') ? point.s === 'A' : false)
                 || ( $('#fatal').prop('checked') ? point.s === 'K' : true))
 
-                && (( $('#bikelane').prop('checked') ? point.f === 'True' : true)
-                || ( !$('#bikelane').prop('checked') ? point.f !== 'True' : false))
+                && (( $('#bikelane').prop('checked') ? point.blp === 'True' : true)
+                || ( !$('#bikelane').prop('checked') ? point.blp !== 'True' : false))
 
-                && (( $('#crashesHitAndRun').prop('checked') ? point.v === 'True' : true)
-                || ( !$('#crashesHitAndRun').prop('checked') ? point.v !== 'True' : false))
+                && (( $('#crashesHitAndRun').prop('checked') ? point.hr === 'True' : true)
+                || ( !$('#crashesHitAndRun').prop('checked') ? point.hr !== 'True' : false))
+
+                // filter point 'tn' for town name
             });
 
             updateStatsText(

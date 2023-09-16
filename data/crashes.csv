@@ -1,422 +1,422 @@
-id,x,y,d,t,s,r,o,h,k,j,m,b,v,f,p,c
-12349,41.839598,-71.877738,14296608,16:47,A,1.0, I 395 N ,NB EXIT TO RTE 101(HTFD PIKE)(052) : Exit 93,['Driver' 'Bicyclist'],N,0.0,35.0,False,False,0,1
-12349,41.839598,-71.877738,14296608,16:47,A,1.0, I 395 N ,NB EXIT TO RTE 101(HTFD PIKE)(052) : Exit 93,['Driver' 'Bicyclist'],W,0.0,88.0,False,False,0,1
-16244,41.971878,-72.048918,14282784,06:11,A,3.0,RT 197 ,,['Driver' 'Pedestrian' 'Witness'],W,0.0,45.0,False,False,1,0
-21512,41.737468,-72.188262,14213664,15:07,A,4.0,Circle Dr,STONEGATE RD,['Pedestrian' 'Driver' 'Passenger'],W,97.0,15.0,,,1,0
-21866,41.657526,-72.0331,14242176,18:28,K,4.0,Water St,,['Pedestrian' 'Witness' 'Driver'],S,99.0,30.0,False,False,1,0
-27582,41.953063,-72.307495,14217120,18:54,A,3.0,Main St,RTE 140(TOLLAND AVE),['Pedestrian' 'Driver'],S,0.0,99.0,False,False,1,0
-27582,41.953063,-72.307495,14217120,18:54,A,3.0,Main St,RTE 140(TOLLAND AVE),['Pedestrian' 'Driver'],,,,,,1,0
-58716,41.71573183,-72.19664526,14356224,15:49,A,3.0,Main St,MAYO ST,['Pedestrian' 'Driver'],E,0.0,25.0,False,False,1,0
-58733,41.715659,-72.223204,14376960,10:22,A,4.0,VALLEY ST,IVANHILL ST,['Witness' 'Driver' 'Bicyclist'],E,0.0,25.0,False,False,0,1
-58733,41.715659,-72.223204,14376960,10:22,A,4.0,VALLEY ST,IVANHILL ST,['Witness' 'Driver' 'Bicyclist'],S,1.0,25.0,False,False,0,1
-63601,41.70286,-72.191757,14376096,17:11,A,3.0,RT 32,PLAINS RD,['Driver' 'Pedestrian' 'Witness'],N,0.0,35.0,False,False,1,0
-67945,41.7988575,-71.90624404,14381280,16:22,A,2.0,Hartford Road (Rt. 6),,['Driver' 'Bicyclist'],S,0.0,35.0,False,False,0,1
-67945,41.7988575,-71.90624404,14381280,16:22,A,2.0,Hartford Road (Rt. 6),,['Driver' 'Bicyclist'],,0.0,88.0,,,0,1
-73001,41.798476,-71.90569011,14383008,11:03,A,2.0,PROVIDENCE RD,,"['Other Pedestrian (wheelchair, person in a building, skater, pedestrian conveyance)'
+id,x,y,tn,d,t,s,r,o,ir,pt,dt,m,sl,hr,blp,p,c
+12349,41.839598,-71.877738,Killingly,14296608,16:47,A,1.0, I 395 N ,NB EXIT TO RTE 101(HTFD PIKE)(052) : Exit 93,['Driver' 'Bicyclist'],N,0.0,35.0,False,False,0,1
+12349,41.839598,-71.877738,Killingly,14296608,16:47,A,1.0, I 395 N ,NB EXIT TO RTE 101(HTFD PIKE)(052) : Exit 93,['Driver' 'Bicyclist'],W,0.0,88.0,False,False,0,1
+16244,41.971878,-72.048918,Woodstock,14282784,06:11,A,3.0,RT 197 ,,['Driver' 'Pedestrian' 'Witness'],W,0.0,45.0,False,False,1,0
+21512,41.737468,-72.188262,Windham,14213664,15:07,A,4.0,Circle Dr,STONEGATE RD,['Pedestrian' 'Driver' 'Passenger'],W,97.0,15.0,,,1,0
+21866,41.657526,-72.0331,Canterbury,14242176,18:28,K,4.0,Water St,,['Pedestrian' 'Witness' 'Driver'],S,99.0,30.0,False,False,1,0
+27582,41.953063,-72.307495,Stafford,14217120,18:54,A,3.0,Main St,RTE 140(TOLLAND AVE),['Pedestrian' 'Driver'],S,0.0,99.0,False,False,1,0
+27582,41.953063,-72.307495,Stafford,14217120,18:54,A,3.0,Main St,RTE 140(TOLLAND AVE),['Pedestrian' 'Driver'],,,,,,1,0
+58716,41.71573183,-72.19664526,Windham,14356224,15:49,A,3.0,Main St,MAYO ST,['Pedestrian' 'Driver'],E,0.0,25.0,False,False,1,0
+58733,41.715659,-72.223204,Windham,14376960,10:22,A,4.0,VALLEY ST,IVANHILL ST,['Witness' 'Driver' 'Bicyclist'],E,0.0,25.0,False,False,0,1
+58733,41.715659,-72.223204,Windham,14376960,10:22,A,4.0,VALLEY ST,IVANHILL ST,['Witness' 'Driver' 'Bicyclist'],S,1.0,25.0,False,False,0,1
+63601,41.70286,-72.191757,Windham,14376096,17:11,A,3.0,RT 32,PLAINS RD,['Driver' 'Pedestrian' 'Witness'],N,0.0,35.0,False,False,1,0
+67945,41.7988575,-71.90624404,Brooklyn,14381280,16:22,A,2.0,Hartford Road (Rt. 6),,['Driver' 'Bicyclist'],S,0.0,35.0,False,False,0,1
+67945,41.7988575,-71.90624404,Brooklyn,14381280,16:22,A,2.0,Hartford Road (Rt. 6),,['Driver' 'Bicyclist'],,0.0,88.0,,,0,1
+73001,41.798476,-71.90569011,Brooklyn,14383008,11:03,A,2.0,PROVIDENCE RD,,"['Other Pedestrian (wheelchair, person in a building, skater, pedestrian conveyance)'
  'Driver']",W,0.0,1.0,False,False,0,0
-73788,41.606438,-72.005694,14395968,11:11,A,3.0,96 Newent Road,BUSHNELL RD(DE),['Bicyclist' 'Witness' 'Driver'],E,99.0,25.0,,False,0,1
-73788,41.606438,-72.005694,14395968,11:11,A,3.0,96 Newent Road,BUSHNELL RD(DE),['Bicyclist' 'Witness' 'Driver'],,0.0,88.0,,,0,1
-77446,41.924099,-71.916475,14415840,12:43,A,3.0,PROVIDENCE ST,(RTE 171 - WOODSTOCK AVE),['Bicyclist' 'Driver' 'Passenger'],E,0.0,25.0,False,False,0,1
-77446,41.924099,-71.916475,14415840,12:43,A,3.0,PROVIDENCE ST,(RTE 171 - WOODSTOCK AVE),['Bicyclist' 'Driver' 'Passenger'],E,0.0,25.0,False,True,0,1
-79202,41.66694,-71.916361,14414112,13:26,A,3.0,NORWICH RD,unknown,['Pedestrian' 'Driver'],S,0.0,40.0,False,False,1,0
-80302,41.715971,-72.213242,14427936,09:15,A,4.0,PROSPECT ST,,['Pedestrian' 'Driver' 'Witness'],E,0.0,25.0,False,False,1,0
-80302,41.715971,-72.213242,14427936,09:15,A,4.0,PROSPECT ST,,['Pedestrian' 'Driver' 'Witness'],E,0.0,25.0,False,False,1,0
-80302,41.715971,-72.213242,14427936,09:15,A,4.0,PROSPECT ST,,['Pedestrian' 'Driver' 'Witness'],E,0.0,25.0,False,False,1,0
-81192,41.797814,-71.948331,14231808,14:11,K,3.0,RTE 169 Pomfret Rd,Pomfret RD,['Witness' 'Pedestrian'],E,0.0,88.0,False,False,1,0
-82040,41.7246,-72.2409,14432256,09:21,A,,60 Cantor Drive ,,['Pedestrian' 'Witness' 'Driver'],W,99.0,1.0,False,False,1,0
-84091,41.798408,-72.382888,14425344,07:23,A,2.0,Boston Tnpk,SILVER ST,['Pedestrian' 'Driver'],N,0.0,25.0,True,False,1,0
-85037,41.6739,-71.9182,14417568,15:20,A,4.0,FIFTH ST,EIGHTH ST,['Bicyclist' 'Driver'],W,0.0,25.0,False,False,0,1
-85037,41.6739,-71.9182,14417568,15:20,A,4.0,FIFTH ST,EIGHTH ST,['Bicyclist' 'Driver'],S,88.0,1.0,False,False,0,1
-87281,41.63232,-72.207479,14442624,19:40,A,3.0,RT 87 ,,['Driver' 'Bicyclist' 'Witness'],S,0.0,40.0,False,False,0,1
-87281,41.63232,-72.207479,14442624,19:40,A,3.0,RT 87 ,,['Driver' 'Bicyclist' 'Witness'],S,0.0,40.0,False,False,0,1
-92661,41.851852,-72.349654,14267232,11:37,K,4.0,Anderson Rd,,['Pedestrian' 'Driver'],E,0.0,30.0,False,False,1,0
-95416,41.869094,-72.417903,14459040,12:14,A,3.0,Tolland Stage Rd,,['Driver' 'Pedestrian'],E,0.0,35.0,False,False,1,0
-95416,41.869094,-72.417903,14459040,12:14,A,3.0,Tolland Stage Rd,,['Driver' 'Pedestrian'],E,0.0,35.0,False,False,1,0
-96366,41.86807,-71.87298,14463360,15:18,A,4.0,Ballouville Rd,,['Driver' 'Pedestrian'],E,0.0,30.0,True,,1,0
-104103,41.606444,-71.949837,14479776,15:36,A,1.0,I 395 ,,['Driver' 'Pedestrian'],S,0.0,65.0,True,False,1,0
-104152,41.809929,-71.891312,14478912,19:09,A,4.0,Maple St,unknown,['Passenger' 'Pedestrian' 'Driver'],N,0.0,30.0,False,False,1,0
-104488,41.716762,-72.218002,14274144,06:47,A,4.0,PROSPECT ST,WINDHAM ST,['Witness' 'Pedestrian' 'Driver'],W,0.0,25.0,False,False,1,0
-106638,41.739346,-72.179227,14477184,16:41,A,2.0,Boston Post Rd,CRYSTAL RD(DE),['Driver' 'Bicyclist'],E,0.0,45.0,,False,0,1
-106638,41.739346,-72.179227,14477184,16:41,A,2.0,Boston Post Rd,CRYSTAL RD(DE),['Driver' 'Bicyclist'],E,0.0,45.0,,,0,1
-113856,41.564669,-72.351911,14393376,19:02,A,3.0,Middletown Rd,,['Bicyclist' 'Driver'],S,0.0,45.0,False,False,0,1
-113856,41.564669,-72.351911,14393376,19:02,A,3.0,Middletown Rd,,['Bicyclist' 'Driver'],W,0.0,45.0,False,False,0,1
-119411,41.674181,-72.170282,14440032,09:35,A,4.0,Babcock Hill Rd,,['Bicyclist' 'Driver' 'Witness'],N,0.0,30.0,False,False,0,1
-119411,41.674181,-72.170282,14440032,09:35,A,4.0,Babcock Hill Rd,,['Bicyclist' 'Driver' 'Witness'],S,0.0,35.0,False,False,0,1
-120151,41.7138,-72.213632,14522112,13:54,A,4.0,VALLEY ST,BANK ST,['Pedestrian' 'Witness' 'Driver'],W,0.0,1.0,True,False,1,0
-122018,41.71959,-71.90346,14211936,17:46,A,3.0,E MAIN ST,,['Driver' 'Pedestrian'],W,11.0,25.0,True,False,1,0
-127945,41.558065,-72.044384,14517792,14:00,A,3.0,RT 12  ,LOWER BLISSVILLE RD,['Bicyclist' 'Driver'],N,0.0,35.0,False,False,0,1
-127945,41.558065,-72.044384,14517792,14:00,A,3.0,RT 12  ,LOWER BLISSVILLE RD,['Bicyclist' 'Driver'],N,0.0,35.0,False,False,0,1
-130212,41.809954,-72.258264,14544576,21:12,A,3.0,North Eagleville Road,NORTH HILLSIDE RD(SI),['Driver' 'Pedestrian'],W,0.0,25.0,False,True,1,0
-132738,41.803979,-71.879869,14544576,18:13,A,4.0,Broad St,KILLINGLY DR,['Pedestrian' 'Driver'],S,0.0,30.0,False,False,1,0
-140736,41.787345,-71.906421,14461632,06:40,A,4.0,Salmon Drive,SOUTH ST,['Pedestrian' 'Driver'],N,99.0,25.0,True,False,1,0
-140915,41.862574,-72.362814,14555808,00:30,A,1.0,Interstate 84 East,,['Passenger' 'Pedestrian' 'Driver'],E,0.0,65.0,False,False,1,0
-140915,41.862574,-72.362814,14555808,00:30,A,1.0,Interstate 84 East,,['Passenger' 'Pedestrian' 'Driver'],E,0.0,65.0,False,False,1,0
-141248,41.719511,-72.325361,14546304,15:33,A,4.0,Whitney Rd,,['Witness' 'Pedestrian' 'Driver'],N,0.0,30.0,,False,1,0
-141909,41.79767,-71.907494,14573088,18:28,A,2.0,Providence Rd,,['Bicyclist' 'Driver'],,99.0,99.0,,,0,1
-141909,41.79767,-71.907494,14573088,18:28,A,2.0,Providence Rd,,['Bicyclist' 'Driver'],W,0.0,45.0,,False,0,1
-142270,41.784167,-72.328313,14574816,18:52,A,3.0,2268 Main St,CHENEY LA(PVT),['Pedestrian' 'Driver'],N,0.0,35.0,False,False,1,0
-145875,41.891884,-72.416555,14244768,22:44,A,4.0,Shenipsit Lake RD,,['Witness' 'Pedestrian' 'Passenger' 'Driver'],N,0.0,25.0,,False,1,0
-145875,41.891884,-72.416555,14244768,22:44,A,4.0,Shenipsit Lake RD,,['Witness' 'Pedestrian' 'Passenger' 'Driver'],N,0.0,25.0,,,1,0
-146137,41.60732,-71.980918,14205888,15:39,A,3.0,Route 12 ,,['Witness' 'Pedestrian' 'Driver'],N,0.0,25.0,False,False,1,0
-148536,41.78096,-72.336478,14588640,00:56,A,4.0,Daly Rd,LAKE RD,['Bicyclist' 'Driver'],W,0.0,30.0,False,False,0,1
-148536,41.78096,-72.336478,14588640,00:56,A,4.0,Daly Rd,LAKE RD,['Bicyclist' 'Driver'],W,99.0,30.0,True,False,0,1
-149325,41.55394423,-72.41147441,14556672,13:11,A,3.0,Route 149,CHURCH ST,['Pedestrian' 'Witness' 'Driver'],N,11.0,35.0,True,,1,0
-155118,41.712726,-72.207979,14605920,08:45,A,4.0,JACKSON ST,VALLEY ST,['Witness' 'Pedestrian' 'Driver'],N,0.0,25.0,False,False,1,0
-161835,41.572295,-72.318861,14503104,18:00,A,4.0,Halls Hill Rd,,['Pedestrian' 'Driver'],E,0.0,25.0,False,False,1,0
-165418,41.715987,-72.230594,14632704,15:02,A,3.0,MAIN ST,EXIT FR STOP & SHOP SHOPPING CTR,['Driver' 'Bicyclist'],S,97.0,1.0,False,False,0,1
-165418,41.715987,-72.230594,14632704,15:02,A,3.0,MAIN ST,EXIT FR STOP & SHOP SHOPPING CTR,['Driver' 'Bicyclist'],E,0.0,1.0,False,False,0,1
-165751,41.703016,-72.300018,14635296,10:33,A,4.0,Schoolhouse Rd,RT 66-MIDDLETOWN RD,['Driver' 'Pedestrian'],N,0.0,1.0,,False,1,0
-169058,41.545688,-72.13559,14638752,14:22,A,4.0,#267 Browning Rd,MICHELE DR,['Pedestrian' 'Driver'],S,0.0,30.0,False,False,1,0
-172202,41.715155,-72.214856,14649984,18:58,A,4.0,SPRING ST,,"['Driver'
+73788,41.606438,-72.005694,Lisbon,14395968,11:11,A,3.0,96 Newent Road,BUSHNELL RD(DE),['Bicyclist' 'Witness' 'Driver'],E,99.0,25.0,,False,0,1
+73788,41.606438,-72.005694,Lisbon,14395968,11:11,A,3.0,96 Newent Road,BUSHNELL RD(DE),['Bicyclist' 'Witness' 'Driver'],,0.0,88.0,,,0,1
+77446,41.924099,-71.916475,Putnam,14415840,12:43,A,3.0,PROVIDENCE ST,(RTE 171 - WOODSTOCK AVE),['Bicyclist' 'Driver' 'Passenger'],E,0.0,25.0,False,False,0,1
+77446,41.924099,-71.916475,Putnam,14415840,12:43,A,3.0,PROVIDENCE ST,(RTE 171 - WOODSTOCK AVE),['Bicyclist' 'Driver' 'Passenger'],E,0.0,25.0,False,True,0,1
+79202,41.66694,-71.916361,Plainfield,14414112,13:26,A,3.0,NORWICH RD,unknown,['Pedestrian' 'Driver'],S,0.0,40.0,False,False,1,0
+80302,41.715971,-72.213242,Windham,14427936,09:15,A,4.0,PROSPECT ST,,['Pedestrian' 'Driver' 'Witness'],E,0.0,25.0,False,False,1,0
+80302,41.715971,-72.213242,Windham,14427936,09:15,A,4.0,PROSPECT ST,,['Pedestrian' 'Driver' 'Witness'],E,0.0,25.0,False,False,1,0
+80302,41.715971,-72.213242,Windham,14427936,09:15,A,4.0,PROSPECT ST,,['Pedestrian' 'Driver' 'Witness'],E,0.0,25.0,False,False,1,0
+81192,41.797814,-71.948331,Brooklyn,14231808,14:11,K,3.0,RTE 169 Pomfret Rd,Pomfret RD,['Witness' 'Pedestrian'],E,0.0,88.0,False,False,1,0
+82040,41.7246,-72.2409,Windham,14432256,09:21,A,,60 Cantor Drive ,,['Pedestrian' 'Witness' 'Driver'],W,99.0,1.0,False,False,1,0
+84091,41.798408,-72.382888,Coventry,14425344,07:23,A,2.0,Boston Tnpk,SILVER ST,['Pedestrian' 'Driver'],N,0.0,25.0,True,False,1,0
+85037,41.6739,-71.9182,Plainfield,14417568,15:20,A,4.0,FIFTH ST,EIGHTH ST,['Bicyclist' 'Driver'],W,0.0,25.0,False,False,0,1
+85037,41.6739,-71.9182,Plainfield,14417568,15:20,A,4.0,FIFTH ST,EIGHTH ST,['Bicyclist' 'Driver'],S,88.0,1.0,False,False,0,1
+87281,41.63232,-72.207479,Lebanon,14442624,19:40,A,3.0,RT 87 ,,['Driver' 'Bicyclist' 'Witness'],S,0.0,40.0,False,False,0,1
+87281,41.63232,-72.207479,Lebanon,14442624,19:40,A,3.0,RT 87 ,,['Driver' 'Bicyclist' 'Witness'],S,0.0,40.0,False,False,0,1
+92661,41.851852,-72.349654,Tolland,14267232,11:37,K,4.0,Anderson Rd,,['Pedestrian' 'Driver'],E,0.0,30.0,False,False,1,0
+95416,41.869094,-72.417903,Tolland,14459040,12:14,A,3.0,Tolland Stage Rd,,['Driver' 'Pedestrian'],E,0.0,35.0,False,False,1,0
+95416,41.869094,-72.417903,Tolland,14459040,12:14,A,3.0,Tolland Stage Rd,,['Driver' 'Pedestrian'],E,0.0,35.0,False,False,1,0
+96366,41.86807,-71.87298,Killingly,14463360,15:18,A,4.0,Ballouville Rd,,['Driver' 'Pedestrian'],E,0.0,30.0,True,,1,0
+104103,41.606444,-71.949837,Griswold,14479776,15:36,A,1.0,I 395 ,,['Driver' 'Pedestrian'],S,0.0,65.0,True,False,1,0
+104152,41.809929,-71.891312,Killingly,14478912,19:09,A,4.0,Maple St,unknown,['Passenger' 'Pedestrian' 'Driver'],N,0.0,30.0,False,False,1,0
+104488,41.716762,-72.218002,Windham,14274144,06:47,A,4.0,PROSPECT ST,WINDHAM ST,['Witness' 'Pedestrian' 'Driver'],W,0.0,25.0,False,False,1,0
+106638,41.739346,-72.179227,Windham,14477184,16:41,A,2.0,Boston Post Rd,CRYSTAL RD(DE),['Driver' 'Bicyclist'],E,0.0,45.0,,False,0,1
+106638,41.739346,-72.179227,Windham,14477184,16:41,A,2.0,Boston Post Rd,CRYSTAL RD(DE),['Driver' 'Bicyclist'],E,0.0,45.0,,,0,1
+113856,41.564669,-72.351911,Colchester,14393376,19:02,A,3.0,Middletown Rd,,['Bicyclist' 'Driver'],S,0.0,45.0,False,False,0,1
+113856,41.564669,-72.351911,Colchester,14393376,19:02,A,3.0,Middletown Rd,,['Bicyclist' 'Driver'],W,0.0,45.0,False,False,0,1
+119411,41.674181,-72.170282,Windham,14440032,09:35,A,4.0,Babcock Hill Rd,,['Bicyclist' 'Driver' 'Witness'],N,0.0,30.0,False,False,0,1
+119411,41.674181,-72.170282,Windham,14440032,09:35,A,4.0,Babcock Hill Rd,,['Bicyclist' 'Driver' 'Witness'],S,0.0,35.0,False,False,0,1
+120151,41.7138,-72.213632,Windham,14522112,13:54,A,4.0,VALLEY ST,BANK ST,['Pedestrian' 'Witness' 'Driver'],W,0.0,1.0,True,False,1,0
+122018,41.71959,-71.90346,Plainfield,14211936,17:46,A,3.0,E MAIN ST,,['Driver' 'Pedestrian'],W,11.0,25.0,True,False,1,0
+127945,41.558065,-72.044384,Lisbon,14517792,14:00,A,3.0,RT 12  ,LOWER BLISSVILLE RD,['Bicyclist' 'Driver'],N,0.0,35.0,False,False,0,1
+127945,41.558065,-72.044384,Lisbon,14517792,14:00,A,3.0,RT 12  ,LOWER BLISSVILLE RD,['Bicyclist' 'Driver'],N,0.0,35.0,False,False,0,1
+130212,41.809954,-72.258264,Mansfield,14544576,21:12,A,3.0,North Eagleville Road,NORTH HILLSIDE RD(SI),['Driver' 'Pedestrian'],W,0.0,25.0,False,True,1,0
+132738,41.803979,-71.879869,Killingly,14544576,18:13,A,4.0,Broad St,KILLINGLY DR,['Pedestrian' 'Driver'],S,0.0,30.0,False,False,1,0
+140736,41.787345,-71.906421,Brooklyn,14461632,06:40,A,4.0,Salmon Drive,SOUTH ST,['Pedestrian' 'Driver'],N,99.0,25.0,True,False,1,0
+140915,41.862574,-72.362814,Tolland,14555808,00:30,A,1.0,Interstate 84 East,,['Passenger' 'Pedestrian' 'Driver'],E,0.0,65.0,False,False,1,0
+140915,41.862574,-72.362814,Tolland,14555808,00:30,A,1.0,Interstate 84 East,,['Passenger' 'Pedestrian' 'Driver'],E,0.0,65.0,False,False,1,0
+141248,41.719511,-72.325361,Columbia,14546304,15:33,A,4.0,Whitney Rd,,['Witness' 'Pedestrian' 'Driver'],N,0.0,30.0,,False,1,0
+141909,41.79767,-71.907494,Brooklyn,14573088,18:28,A,2.0,Providence Rd,,['Bicyclist' 'Driver'],,99.0,99.0,,,0,1
+141909,41.79767,-71.907494,Brooklyn,14573088,18:28,A,2.0,Providence Rd,,['Bicyclist' 'Driver'],W,0.0,45.0,,False,0,1
+142270,41.784167,-72.328313,Coventry,14574816,18:52,A,3.0,2268 Main St,CHENEY LA(PVT),['Pedestrian' 'Driver'],N,0.0,35.0,False,False,1,0
+145875,41.891884,-72.416555,Tolland,14244768,22:44,A,4.0,Shenipsit Lake RD,,['Witness' 'Pedestrian' 'Passenger' 'Driver'],N,0.0,25.0,,False,1,0
+145875,41.891884,-72.416555,Tolland,14244768,22:44,A,4.0,Shenipsit Lake RD,,['Witness' 'Pedestrian' 'Passenger' 'Driver'],N,0.0,25.0,,,1,0
+146137,41.60732,-71.980918,Griswold,14205888,15:39,A,3.0,Route 12 ,,['Witness' 'Pedestrian' 'Driver'],N,0.0,25.0,False,False,1,0
+148536,41.78096,-72.336478,Coventry,14588640,00:56,A,4.0,Daly Rd,LAKE RD,['Bicyclist' 'Driver'],W,0.0,30.0,False,False,0,1
+148536,41.78096,-72.336478,Coventry,14588640,00:56,A,4.0,Daly Rd,LAKE RD,['Bicyclist' 'Driver'],W,99.0,30.0,True,False,0,1
+149325,41.55394423,-72.41147441,Colchester,14556672,13:11,A,3.0,Route 149,CHURCH ST,['Pedestrian' 'Witness' 'Driver'],N,11.0,35.0,True,,1,0
+155118,41.712726,-72.207979,Windham,14605920,08:45,A,4.0,JACKSON ST,VALLEY ST,['Witness' 'Pedestrian' 'Driver'],N,0.0,25.0,False,False,1,0
+161835,41.572295,-72.318861,Colchester,14503104,18:00,A,4.0,Halls Hill Rd,,['Pedestrian' 'Driver'],E,0.0,25.0,False,False,1,0
+165418,41.715987,-72.230594,Windham,14632704,15:02,A,3.0,MAIN ST,EXIT FR STOP & SHOP SHOPPING CTR,['Driver' 'Bicyclist'],S,97.0,1.0,False,False,0,1
+165418,41.715987,-72.230594,Windham,14632704,15:02,A,3.0,MAIN ST,EXIT FR STOP & SHOP SHOPPING CTR,['Driver' 'Bicyclist'],E,0.0,1.0,False,False,0,1
+165751,41.703016,-72.300018,Columbia,14635296,10:33,A,4.0,Schoolhouse Rd,RT 66-MIDDLETOWN RD,['Driver' 'Pedestrian'],N,0.0,1.0,,False,1,0
+169058,41.545688,-72.13559,Bozrah,14638752,14:22,A,4.0,#267 Browning Rd,MICHELE DR,['Pedestrian' 'Driver'],S,0.0,30.0,False,False,1,0
+172202,41.715155,-72.214856,Windham,14649984,18:58,A,4.0,SPRING ST,,"['Driver'
  'Other Pedestrian (wheelchair, person in a building, skater, pedestrian conveyance)']",E,0.0,25.0,True,False,0,0
-179707,41.73694012,-72.36318763,14659488,13:18,A,2.0,RT 6,,['Driver' 'Pedestrian'],E,0.0,40.0,False,False,1,0
-181426,41.883497,-72.385697,14572224,18:33,A,4.0,Burbank Road,,['Witness' 'Bicyclist' 'Driver'],S,0.0,35.0,False,False,0,1
-181426,41.883497,-72.385697,14572224,18:33,A,4.0,Burbank Road,,['Witness' 'Bicyclist' 'Driver'],S,0.0,35.0,False,False,0,1
-183586,41.957331,-71.863618,14227488,22:35,A,3.0,Route 200,,['Pedestrian' 'Driver' 'Witness'],E,99.0,40.0,True,False,1,0
-188917,41.989451,-72.317005,14662080,17:09,A,3.0,Rte 32,,['Witness' 'Bicyclist' 'Driver'],S,0.0,35.0,True,False,0,1
-188917,41.989451,-72.317005,14662080,17:09,A,3.0,Rte 32,,['Witness' 'Bicyclist' 'Driver'],S,0.0,35.0,False,False,0,1
-197608,41.795718,-72.366677,14717376,16:02,A,3.0,Main Street,,"['Occupant of a Non-Motor Vehicle Transportation Device' 'Driver'
+179707,41.73694012,-72.36318763,Andover,14659488,13:18,A,2.0,RT 6,,['Driver' 'Pedestrian'],E,0.0,40.0,False,False,1,0
+181426,41.883497,-72.385697,Tolland,14572224,18:33,A,4.0,Burbank Road,,['Witness' 'Bicyclist' 'Driver'],S,0.0,35.0,False,False,0,1
+181426,41.883497,-72.385697,Tolland,14572224,18:33,A,4.0,Burbank Road,,['Witness' 'Bicyclist' 'Driver'],S,0.0,35.0,False,False,0,1
+183586,41.957331,-71.863618,Thompson,14227488,22:35,A,3.0,Route 200,,['Pedestrian' 'Driver' 'Witness'],E,99.0,40.0,True,False,1,0
+188917,41.989451,-72.317005,Stafford,14662080,17:09,A,3.0,Rte 32,,['Witness' 'Bicyclist' 'Driver'],S,0.0,35.0,True,False,0,1
+188917,41.989451,-72.317005,Stafford,14662080,17:09,A,3.0,Rte 32,,['Witness' 'Bicyclist' 'Driver'],S,0.0,35.0,False,False,0,1
+197608,41.795718,-72.366677,Coventry,14717376,16:02,A,3.0,Main Street,,"['Occupant of a Non-Motor Vehicle Transportation Device' 'Driver'
  'Witness']",S,0.0,40.0,True,False,0,0
-197608,41.795718,-72.366677,14717376,16:02,A,3.0,Main Street,,"['Occupant of a Non-Motor Vehicle Transportation Device' 'Driver'
+197608,41.795718,-72.366677,Coventry,14717376,16:02,A,3.0,Main Street,,"['Occupant of a Non-Motor Vehicle Transportation Device' 'Driver'
  'Witness']",S,0.0,40.0,False,False,0,0
-197787,41.71577965,-72.19648186,14718240,16:52,A,3.0,MAIN ST,MAYO ST,['Driver' 'Pedestrian'],S,0.0,25.0,False,False,1,0
-204287,41.691095,-72.313797,14726016,20:20,A,4.0,Pine St,,"['Other Pedestrian (wheelchair, person in a building, skater, pedestrian conveyance)'
+197787,41.71577965,-72.19648186,Windham,14718240,16:52,A,3.0,MAIN ST,MAYO ST,['Driver' 'Pedestrian'],S,0.0,25.0,False,False,1,0
+204287,41.691095,-72.313797,Columbia,14726016,20:20,A,4.0,Pine St,,"['Other Pedestrian (wheelchair, person in a building, skater, pedestrian conveyance)'
  'Driver']",N,0.0,30.0,,False,0,0
-206430,41.734676,-71.883511,14491872,14:38,K,1.0,I 395 ,,['Pedestrian' 'Driver' 'Witness'],N,0.0,65.0,False,False,1,0
-207945,41.728888,-72.216274,14737248,14:39,A,4.0,High St,EXIT FR EB US 6(015),['Driver' 'Witness' 'Pedestrian'],E,0.0,25.0,False,False,1,0
-208513,41.754397,-72.287582,14745888,17:18,A,4.0,40 Nathan Hale Dr,,['Bicyclist' 'Witness' 'Driver'],S,0.0,25.0,False,False,0,1
-208513,41.754397,-72.287582,14745888,17:18,A,4.0,40 Nathan Hale Dr,,['Bicyclist' 'Witness' 'Driver'],E,0.0,25.0,False,False,0,1
-209022,41.7139,-72.2247,14745024,17:44,A,4.0,mansfield ave,RT 66-MAIN ST,['Witness' 'Pedestrian' 'Driver'],W,0.0,88.0,False,False,1,0
-210653,41.73443609,-72.19951066,14624928,17:14,A,3.0,RTE.195,,['Driver' 'Pedestrian'],N,0.0,35.0,False,False,1,0
-219805,41.8109267,-72.24829544,14760576,20:04,A,3.0,Horserbarn Hill,HORSEBARN HILL RD(SI),['Witness' 'Pedestrian' 'Driver'],E,0.0,25.0,,False,1,0
-223417,41.995689,-71.999438,14767488,18:52,A,3.0,RT 169 ,,['Witness' 'Driver' 'Bicyclist'],N,0.0,30.0,False,False,0,1
-223417,41.995689,-71.999438,14767488,18:52,A,3.0,RT 169 ,,['Witness' 'Driver' 'Bicyclist'],N,0.0,30.0,False,False,0,1
-224024,41.843432,-72.213496,14611104,22:15,K,2.0,Route 44,,['Pedestrian' 'Driver'],W,0.0,45.0,False,False,1,0
-226742,41.784135,-71.957772,14562720,18:25,K,2.0,RT 6  ,,['Witness' 'Pedestrian' 'Driver'],W,0.0,35.0,False,False,1,0
-226946,41.79717019,-72.24777496,14770080,15:01,A,3.0,RT 275,WESTWOOD RD,['Witness' 'Pedestrian' 'Driver'],E,0.0,30.0,False,False,1,0
-227295,41.79000069,-72.22819945,14572224,02:20,A,3.0,Storrs Rd (Rt. 195),,['Pedestrian' 'Driver' 'Witness' 'Passenger'],N,0.0,40.0,False,False,1,0
-227295,41.79000069,-72.22819945,14572224,02:20,A,3.0,Storrs Rd (Rt. 195),,['Pedestrian' 'Driver' 'Witness' 'Passenger'],N,0.0,40.0,False,False,1,0
-229850,41.768138,-71.899261,14630112,13:48,K,3.0,Wauregan Rd,,['Pedestrian' 'Witness' 'Driver'],S,0.0,45.0,False,False,1,0
-234258,41.87656,-72.314946,14795136,22:50,A,4.0,South River Rd,unknown,['Driver' 'Passenger' 'Pedestrian'],N,0.0,25.0,False,False,1,0
-234258,41.87656,-72.314946,14795136,22:50,A,4.0,South River Rd,unknown,['Driver' 'Passenger' 'Pedestrian'],N,0.0,25.0,False,False,1,0
-236859,41.793778,-71.884889,14788224,17:40,A,3.0,Wauregan Rd,,['Driver' 'Pedestrian' 'Witness'],N,0.0,40.0,False,False,1,0
-240810,41.798182,-72.238079,14812416,14:06,A,3.0,Storrs Rd,,['Pedestrian' 'Driver'],N,0.0,30.0,False,False,1,0
-252878,41.845737,-71.887134,14837472,18:26,A,3.0,Rt 101,,['Pedestrian' 'Passenger' 'Driver'],E,0.0,30.0,False,False,1,0
-253317,41.7153,-72.1983,14848704,06:46,A,3.0,MAIN ST,,['Pedestrian' 'Driver'],E,0.0,25.0,False,False,1,0
-254475,41.858043,-71.881555,14843520,17:15,A,3.0,Rt 12,,['Pedestrian' 'Driver'],S,0.0,40.0,False,False,1,0
-259062,41.716467,-72.197301,14859072,11:07,A,3.0,BOSTON POST RD,MOBIL GAS STA(CL),['Driver' 'Bicyclist' 'Witness'],N,0.0,25.0,False,False,0,1
-259062,41.716467,-72.197301,14859072,11:07,A,3.0,BOSTON POST RD,MOBIL GAS STA(CL),['Driver' 'Bicyclist' 'Witness'],W,0.0,25.0,False,False,0,1
-259893,41.894919,-72.203265,14672448,17:11,A,4.0,Zaicek Rd,,['Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
-259893,41.894919,-72.203265,14672448,17:11,A,4.0,Zaicek Rd,,['Pedestrian' 'Driver'],N,0.0,25.0,False,False,1,0
-259973,41.80206757,-71.88874542,14729472,07:43,A,2.0,Providence Rd,(Killingly) BROOKLYN - KILLINGLY TL,['Passenger' 'Bicyclist' 'Driver'],W,0.0,40.0,False,False,0,1
-259973,41.80206757,-71.88874542,14729472,07:43,A,2.0,Providence Rd,(Killingly) BROOKLYN - KILLINGLY TL,['Passenger' 'Bicyclist' 'Driver'],W,0.0,40.0,False,False,0,1
-259978,41.801694,-71.883221,14737248,16:56,A,4.0,Cottage St.,FURNACE ST NO 1,['Driver' 'Bicyclist'],N,0.0,25.0,False,False,0,1
-259978,41.801694,-71.883221,14737248,16:56,A,4.0,Cottage St.,FURNACE ST NO 1,['Driver' 'Bicyclist'],W,0.0,25.0,,False,0,1
-264556,41.801958,-71.88739,14872896,18:42,A,2.0,Rt 6,MAPLE ST(WB),['Driver' 'Bicyclist'],E,0.0,,False,False,0,1
-264556,41.801958,-71.88739,14872896,18:42,A,2.0,Rt 6,MAPLE ST(WB),['Driver' 'Bicyclist'],,0.0,99.0,,,0,1
-267673,41.967216,-71.987064,14764896,11:40,A,3.0,Route 169,DIVIDEND RD(E-1),['Driver' 'Bicyclist' 'Passenger'],S,0.0,40.0,False,False,0,1
-267673,41.967216,-71.987064,14764896,11:40,A,3.0,Route 169,DIVIDEND RD(E-1),['Driver' 'Bicyclist' 'Passenger'],S,0.0,40.0,,False,0,1
-267703,42.017468,-71.961446,14784768,10:14,A,3.0,RT 197 ,,['Bicyclist' 'Driver'],W,0.0,,False,False,0,1
-267703,42.017468,-71.961446,14784768,10:14,A,3.0,RT 197 ,,['Bicyclist' 'Driver'],S,0.0,,,,0,1
-267747,41.731791,-72.200337,14817600,15:59,A,3.0,Storrs Road,,['Bicyclist' 'Driver'],N,0.0,35.0,False,False,0,1
-267747,41.731791,-72.200337,14817600,15:59,A,3.0,Storrs Road,,['Bicyclist' 'Driver'],N,7.0,35.0,False,False,0,1
-274229,41.606868,-71.981127,14884992,15:52,A,3.0,Main St,,['Bicyclist' 'Driver' 'Passenger'],N,0.0,25.0,False,False,0,1
-274229,41.606868,-71.981127,14884992,15:52,A,3.0,Main St,,['Bicyclist' 'Driver' 'Passenger'],W,0.0,,,,0,1
-274229,41.606868,-71.981127,14884992,15:52,A,3.0,Main St,,['Bicyclist' 'Driver' 'Passenger'],N,0.0,25.0,False,False,0,1
-288803,41.702875,-72.19176,14935104,17:53,A,4.0,Plains Rd,RT 32-WINDHAM RD,['Witness' 'Driver' 'Pedestrian'],W,0.0,25.0,,,1,0
-295406,41.777461,-72.352208,14951520,15:26,A,4.0,Talcott Hill Rd ,SEAGRAVES RD,['Driver' 'Bicyclist'],S,0.0,99.0,False,False,0,1
-295406,41.777461,-72.352208,14951520,15:26,A,4.0,Talcott Hill Rd ,SEAGRAVES RD,['Driver' 'Bicyclist'],W,1.0,99.0,False,False,0,1
-296830,41.912486,-71.906272,14942880,20:22,A,3.0,GROVE ST,,['Pedestrian' 'Witness' 'Driver'],W,0.0,25.0,False,False,1,0
-325052,41.909041,-71.89508,15000768,09:47,A,3.0,GROVE ST,EDMOND ST(DE),['Driver' 'Bicyclist'],W,0.0,35.0,False,False,0,1
-325052,41.909041,-71.89508,15000768,09:47,A,3.0,GROVE ST,EDMOND ST(DE),['Driver' 'Bicyclist'],W,0.0,35.0,False,False,0,1
-326440,41.809433,-71.878928,15029280,18:34,A,3.0,Main St.,HUTCHINS ST(DE),['Bicyclist' 'Witness' 'Driver'],N,0.0,25.0,False,False,0,1
-326440,41.809433,-71.878928,15029280,18:34,A,3.0,Main St.,HUTCHINS ST(DE),['Bicyclist' 'Witness' 'Driver'],E,0.0,25.0,False,False,0,1
-329026,41.78343812,-72.21799731,14992992,18:14,A,3.0,Storrs Rd,,['Bicyclist' 'Driver'],S,0.0,45.0,False,False,0,1
-329026,41.78343812,-72.21799731,14992992,18:14,A,3.0,Storrs Rd,,['Bicyclist' 'Driver'],,,,,,0,1
-329206,41.976118,-72.181701,15035328,20:08,A,3.0,Buckley Hwy,,"['Driver'
+206430,41.734676,-71.883511,Plainfield,14491872,14:38,K,1.0,I 395 ,,['Pedestrian' 'Driver' 'Witness'],N,0.0,65.0,False,False,1,0
+207945,41.728888,-72.216274,Mansfield,14737248,14:39,A,4.0,High St,EXIT FR EB US 6(015),['Driver' 'Witness' 'Pedestrian'],E,0.0,25.0,False,False,1,0
+208513,41.754397,-72.287582,Coventry,14745888,17:18,A,4.0,40 Nathan Hale Dr,,['Bicyclist' 'Witness' 'Driver'],S,0.0,25.0,False,False,0,1
+208513,41.754397,-72.287582,Coventry,14745888,17:18,A,4.0,40 Nathan Hale Dr,,['Bicyclist' 'Witness' 'Driver'],E,0.0,25.0,False,False,0,1
+209022,41.7139,-72.2247,Windham,14745024,17:44,A,4.0,mansfield ave,RT 66-MAIN ST,['Witness' 'Pedestrian' 'Driver'],W,0.0,88.0,False,False,1,0
+210653,41.73443609,-72.19951066,Mansfield,14624928,17:14,A,3.0,RTE.195,,['Driver' 'Pedestrian'],N,0.0,35.0,False,False,1,0
+219805,41.8109267,-72.24829544,Mansfield,14760576,20:04,A,3.0,Horserbarn Hill,HORSEBARN HILL RD(SI),['Witness' 'Pedestrian' 'Driver'],E,0.0,25.0,,False,1,0
+223417,41.995689,-71.999438,Woodstock,14767488,18:52,A,3.0,RT 169 ,,['Witness' 'Driver' 'Bicyclist'],N,0.0,30.0,False,False,0,1
+223417,41.995689,-71.999438,Woodstock,14767488,18:52,A,3.0,RT 169 ,,['Witness' 'Driver' 'Bicyclist'],N,0.0,30.0,False,False,0,1
+224024,41.843432,-72.213496,Ashford,14611104,22:15,K,2.0,Route 44,,['Pedestrian' 'Driver'],W,0.0,45.0,False,False,1,0
+226742,41.784135,-71.957772,Brooklyn,14562720,18:25,K,2.0,RT 6  ,,['Witness' 'Pedestrian' 'Driver'],W,0.0,35.0,False,False,1,0
+226946,41.79717019,-72.24777496,Mansfield,14770080,15:01,A,3.0,RT 275,WESTWOOD RD,['Witness' 'Pedestrian' 'Driver'],E,0.0,30.0,False,False,1,0
+227295,41.79000069,-72.22819945,Mansfield,14572224,02:20,A,3.0,Storrs Rd (Rt. 195),,['Pedestrian' 'Driver' 'Witness' 'Passenger'],N,0.0,40.0,False,False,1,0
+227295,41.79000069,-72.22819945,Mansfield,14572224,02:20,A,3.0,Storrs Rd (Rt. 195),,['Pedestrian' 'Driver' 'Witness' 'Passenger'],N,0.0,40.0,False,False,1,0
+229850,41.768138,-71.899261,Killingly,14630112,13:48,K,3.0,Wauregan Rd,,['Pedestrian' 'Witness' 'Driver'],S,0.0,45.0,False,False,1,0
+234258,41.87656,-72.314946,Tolland,14795136,22:50,A,4.0,South River Rd,unknown,['Driver' 'Passenger' 'Pedestrian'],N,0.0,25.0,False,False,1,0
+234258,41.87656,-72.314946,Tolland,14795136,22:50,A,4.0,South River Rd,unknown,['Driver' 'Passenger' 'Pedestrian'],N,0.0,25.0,False,False,1,0
+236859,41.793778,-71.884889,Killingly,14788224,17:40,A,3.0,Wauregan Rd,,['Driver' 'Pedestrian' 'Witness'],N,0.0,40.0,False,False,1,0
+240810,41.798182,-72.238079,Mansfield,14812416,14:06,A,3.0,Storrs Rd,,['Pedestrian' 'Driver'],N,0.0,30.0,False,False,1,0
+252878,41.845737,-71.887134,Killingly,14837472,18:26,A,3.0,Rt 101,,['Pedestrian' 'Passenger' 'Driver'],E,0.0,30.0,False,False,1,0
+253317,41.7153,-72.1983,Windham,14848704,06:46,A,3.0,MAIN ST,,['Pedestrian' 'Driver'],E,0.0,25.0,False,False,1,0
+254475,41.858043,-71.881555,Killingly,14843520,17:15,A,3.0,Rt 12,,['Pedestrian' 'Driver'],S,0.0,40.0,False,False,1,0
+259062,41.716467,-72.197301,Windham,14859072,11:07,A,3.0,BOSTON POST RD,MOBIL GAS STA(CL),['Driver' 'Bicyclist' 'Witness'],N,0.0,25.0,False,False,0,1
+259062,41.716467,-72.197301,Windham,14859072,11:07,A,3.0,BOSTON POST RD,MOBIL GAS STA(CL),['Driver' 'Bicyclist' 'Witness'],W,0.0,25.0,False,False,0,1
+259893,41.894919,-72.203265,Ashford,14672448,17:11,A,4.0,Zaicek Rd,,['Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
+259893,41.894919,-72.203265,Ashford,14672448,17:11,A,4.0,Zaicek Rd,,['Pedestrian' 'Driver'],N,0.0,25.0,False,False,1,0
+259973,41.80206757,-71.88874542,Brooklyn,14729472,07:43,A,2.0,Providence Rd,(Killingly) BROOKLYN - KILLINGLY TL,['Passenger' 'Bicyclist' 'Driver'],W,0.0,40.0,False,False,0,1
+259973,41.80206757,-71.88874542,Brooklyn,14729472,07:43,A,2.0,Providence Rd,(Killingly) BROOKLYN - KILLINGLY TL,['Passenger' 'Bicyclist' 'Driver'],W,0.0,40.0,False,False,0,1
+259978,41.801694,-71.883221,Killingly,14737248,16:56,A,4.0,Cottage St.,FURNACE ST NO 1,['Driver' 'Bicyclist'],N,0.0,25.0,False,False,0,1
+259978,41.801694,-71.883221,Killingly,14737248,16:56,A,4.0,Cottage St.,FURNACE ST NO 1,['Driver' 'Bicyclist'],W,0.0,25.0,,False,0,1
+264556,41.801958,-71.88739,Killingly,14872896,18:42,A,2.0,Rt 6,MAPLE ST(WB),['Driver' 'Bicyclist'],E,0.0,,False,False,0,1
+264556,41.801958,-71.88739,Killingly,14872896,18:42,A,2.0,Rt 6,MAPLE ST(WB),['Driver' 'Bicyclist'],,0.0,99.0,,,0,1
+267673,41.967216,-71.987064,Woodstock,14764896,11:40,A,3.0,Route 169,DIVIDEND RD(E-1),['Driver' 'Bicyclist' 'Passenger'],S,0.0,40.0,False,False,0,1
+267673,41.967216,-71.987064,Woodstock,14764896,11:40,A,3.0,Route 169,DIVIDEND RD(E-1),['Driver' 'Bicyclist' 'Passenger'],S,0.0,40.0,,False,0,1
+267703,42.017468,-71.961446,Woodstock,14784768,10:14,A,3.0,RT 197 ,,['Bicyclist' 'Driver'],W,0.0,,False,False,0,1
+267703,42.017468,-71.961446,Woodstock,14784768,10:14,A,3.0,RT 197 ,,['Bicyclist' 'Driver'],S,0.0,,,,0,1
+267747,41.731791,-72.200337,Mansfield,14817600,15:59,A,3.0,Storrs Road,,['Bicyclist' 'Driver'],N,0.0,35.0,False,False,0,1
+267747,41.731791,-72.200337,Mansfield,14817600,15:59,A,3.0,Storrs Road,,['Bicyclist' 'Driver'],N,7.0,35.0,False,False,0,1
+274229,41.606868,-71.981127,Griswold,14884992,15:52,A,3.0,Main St,,['Bicyclist' 'Driver' 'Passenger'],N,0.0,25.0,False,False,0,1
+274229,41.606868,-71.981127,Griswold,14884992,15:52,A,3.0,Main St,,['Bicyclist' 'Driver' 'Passenger'],W,0.0,,,,0,1
+274229,41.606868,-71.981127,Griswold,14884992,15:52,A,3.0,Main St,,['Bicyclist' 'Driver' 'Passenger'],N,0.0,25.0,False,False,0,1
+288803,41.702875,-72.19176,Windham,14935104,17:53,A,4.0,Plains Rd,RT 32-WINDHAM RD,['Witness' 'Driver' 'Pedestrian'],W,0.0,25.0,,,1,0
+295406,41.777461,-72.352208,Coventry,14951520,15:26,A,4.0,Talcott Hill Rd ,SEAGRAVES RD,['Driver' 'Bicyclist'],S,0.0,99.0,False,False,0,1
+295406,41.777461,-72.352208,Coventry,14951520,15:26,A,4.0,Talcott Hill Rd ,SEAGRAVES RD,['Driver' 'Bicyclist'],W,1.0,99.0,False,False,0,1
+296830,41.912486,-71.906272,Putnam,14942880,20:22,A,3.0,GROVE ST,,['Pedestrian' 'Witness' 'Driver'],W,0.0,25.0,False,False,1,0
+325052,41.909041,-71.89508,Putnam,15000768,09:47,A,3.0,GROVE ST,EDMOND ST(DE),['Driver' 'Bicyclist'],W,0.0,35.0,False,False,0,1
+325052,41.909041,-71.89508,Putnam,15000768,09:47,A,3.0,GROVE ST,EDMOND ST(DE),['Driver' 'Bicyclist'],W,0.0,35.0,False,False,0,1
+326440,41.809433,-71.878928,Killingly,15029280,18:34,A,3.0,Main St.,HUTCHINS ST(DE),['Bicyclist' 'Witness' 'Driver'],N,0.0,25.0,False,False,0,1
+326440,41.809433,-71.878928,Killingly,15029280,18:34,A,3.0,Main St.,HUTCHINS ST(DE),['Bicyclist' 'Witness' 'Driver'],E,0.0,25.0,False,False,0,1
+329026,41.78343812,-72.21799731,Mansfield,14992992,18:14,A,3.0,Storrs Rd,,['Bicyclist' 'Driver'],S,0.0,45.0,False,False,0,1
+329026,41.78343812,-72.21799731,Mansfield,14992992,18:14,A,3.0,Storrs Rd,,['Bicyclist' 'Driver'],,,,,,0,1
+329206,41.976118,-72.181701,Union,15035328,20:08,A,3.0,Buckley Hwy,,"['Driver'
  'Other Pedestrian (wheelchair, person in a building, skater, pedestrian conveyance)']",N,0.0,40.0,,False,0,0
-329965,41.976478,-72.324479,15002496,10:48,A,4.0,Spellman Rd,RT 319-ORCUTTVILLE RD,['Other Cyclist' 'Driver'],N,0.0,25.0,False,False,0,0
-329965,41.976478,-72.324479,15002496,10:48,A,4.0,Spellman Rd,RT 319-ORCUTTVILLE RD,['Other Cyclist' 'Driver'],S,0.0,25.0,False,False,0,0
-338457,41.711072,-72.206395,15060384,07:05,A,4.0,MILK ST,UNION ST,['Bicyclist' 'Witness' 'Driver'],S,0.0,1.0,False,False,0,1
-338457,41.711072,-72.206395,15060384,07:05,A,4.0,MILK ST,UNION ST,['Bicyclist' 'Witness' 'Driver'],W,0.0,1.0,False,False,0,1
-340012,41.59173483,-72.33818065,15049152,18:04,A,4.0,Old Amston Rd,,['Pedestrian' 'Driver'],N,0.0,15.0,False,False,1,0
-340265,41.663146,-72.363376,15062112,01:54,A,3.0,WALL ST,,['Pedestrian' 'Passenger' 'Driver'],N,0.0,35.0,False,False,1,0
-340381,41.804748,-72.244052,15045696,16:51,A,3.0,Storrs Rd,DOG LA,['Witness' 'Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
-340787,41.716868,-72.20734,15062976,17:57,A,4.0,OAK ST,SUMMIT ST,['Bicyclist' 'Driver'],N,0.0,25.0,False,False,0,1
-340787,41.716868,-72.20734,15062976,17:57,A,4.0,OAK ST,SUMMIT ST,['Bicyclist' 'Driver'],E,1.0,25.0,False,False,0,1
-341852,41.865978,-72.363504,15060384,15:36,A,3.0,Merrow Rd,,['Driver' 'Bicyclist'],S,0.0,35.0,False,False,0,1
-341852,41.865978,-72.363504,15060384,15:36,A,3.0,Merrow Rd,,['Driver' 'Bicyclist'],N,0.0,35.0,False,False,0,1
-345803,41.907189,-72.113124,15065568,17:15,A,4.0,WESTFORD RD,,['Driver' 'Pedestrian'],W,99.0,35.0,,False,1,0
-348430,41.676636,-72.318257,15075936,16:59,A,4.0,Hunt Rd,,['Bicyclist' 'Driver'],E,0.0,25.0,False,False,0,1
-348430,41.676636,-72.318257,15075936,16:59,A,4.0,Hunt Rd,,['Bicyclist' 'Driver'],E,0.0,25.0,,,0,1
-355523,41.789971,-71.869305,15022368,22:08,A,2.0,Providence Pike,,['Driver' 'Pedestrian'],W,99.0,45.0,True,False,1,0
-360254,41.913536,-72.390995,15037920,14:37,A,3.0,Crystal Lake Rd,,['Driver' 'Bicyclist'],S,0.0,45.0,False,False,0,1
-360254,41.913536,-72.390995,15037920,14:37,A,3.0,Crystal Lake Rd,,['Driver' 'Bicyclist'],S,99.0,45.0,True,False,0,1
-360255,41.713204,-72.169201,15101856,19:37,A,4.0,Tuckie Rd,,['Driver' 'Pedestrian'],N,0.0,35.0,,,1,0
-361644,41.979842,-71.902353,15108768,05:49,A,4.0,Reardon Road,,['Driver' 'Pedestrian'],S,0.0,1.0,False,False,1,0
-361644,41.979842,-71.902353,15108768,05:49,A,4.0,Reardon Road,,['Driver' 'Pedestrian'],S,0.0,25.0,True,False,1,0
-361644,41.979842,-71.902353,15108768,05:49,A,4.0,Reardon Road,,['Driver' 'Pedestrian'],S,0.0,1.0,False,False,1,0
-361644,41.979842,-71.902353,15108768,05:49,A,4.0,Reardon Road,,['Driver' 'Pedestrian'],S,0.0,1.0,False,False,1,0
-368916,41.701217,-72.189894,15107040,16:58,A,3.0,RT 32,,['Driver' 'Pedestrian'],S,0.0,35.0,,False,1,0
-370769,41.712188,-72.214239,15120000,16:39,A,3.0,MAIN ST,,['Pedestrian' 'Driver'],N,0.0,1.0,False,False,1,0
-371439,41.613887,-71.949894,15142464,12:05,A,3.0,Hopeville Rd,PACHAUG RIVER DR,['Other Cyclist' 'Driver'],E,0.0,45.0,,False,0,0
-371439,41.613887,-71.949894,15142464,12:05,A,3.0,Hopeville Rd,PACHAUG RIVER DR,['Other Cyclist' 'Driver'],,99.0,99.0,,,0,0
-376132,41.953604,-72.303235,15139872,12:52,A,3.0,River Rd,RTE 190 EB(EAST MAIN ST),['Pedestrian' 'Driver'],S,0.0,25.0,,False,1,0
-377391,41.953367,-72.305263,15149376,17:40,A,3.0,32-N,,['Pedestrian' 'Driver'],E,0.0,25.0,,,1,0
-392013,41.685205,-72.164055,15179616,11:43,A,3.0,203-N,,['Pedestrian' 'Driver'],S,0.0,40.0,False,False,1,0
-395370,41.724727,-72.306756,15177888,16:27,A,2.0,6-E,HOP RIVER RD,['Driver' 'Pedestrian'],E,0.0,50.0,False,False,1,0
-410446,41.6305,-71.98852,15037920,02:05,A,4.0,Phillips Rd,,"['Other Pedestrian (wheelchair, person in a building, skater, pedestrian conveyance)'
+329965,41.976478,-72.324479,Stafford,15002496,10:48,A,4.0,Spellman Rd,RT 319-ORCUTTVILLE RD,['Other Cyclist' 'Driver'],N,0.0,25.0,False,False,0,0
+329965,41.976478,-72.324479,Stafford,15002496,10:48,A,4.0,Spellman Rd,RT 319-ORCUTTVILLE RD,['Other Cyclist' 'Driver'],S,0.0,25.0,False,False,0,0
+338457,41.711072,-72.206395,Windham,15060384,07:05,A,4.0,MILK ST,UNION ST,['Bicyclist' 'Witness' 'Driver'],S,0.0,1.0,False,False,0,1
+338457,41.711072,-72.206395,Windham,15060384,07:05,A,4.0,MILK ST,UNION ST,['Bicyclist' 'Witness' 'Driver'],W,0.0,1.0,False,False,0,1
+340012,41.59173483,-72.33818065,Colchester,15049152,18:04,A,4.0,Old Amston Rd,,['Pedestrian' 'Driver'],N,0.0,15.0,False,False,1,0
+340265,41.663146,-72.363376,Hebron,15062112,01:54,A,3.0,WALL ST,,['Pedestrian' 'Passenger' 'Driver'],N,0.0,35.0,False,False,1,0
+340381,41.804748,-72.244052,Mansfield,15045696,16:51,A,3.0,Storrs Rd,DOG LA,['Witness' 'Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
+340787,41.716868,-72.20734,Windham,15062976,17:57,A,4.0,OAK ST,SUMMIT ST,['Bicyclist' 'Driver'],N,0.0,25.0,False,False,0,1
+340787,41.716868,-72.20734,Windham,15062976,17:57,A,4.0,OAK ST,SUMMIT ST,['Bicyclist' 'Driver'],E,1.0,25.0,False,False,0,1
+341852,41.865978,-72.363504,Tolland,15060384,15:36,A,3.0,Merrow Rd,,['Driver' 'Bicyclist'],S,0.0,35.0,False,False,0,1
+341852,41.865978,-72.363504,Tolland,15060384,15:36,A,3.0,Merrow Rd,,['Driver' 'Bicyclist'],N,0.0,35.0,False,False,0,1
+345803,41.907189,-72.113124,Eastford,15065568,17:15,A,4.0,WESTFORD RD,,['Driver' 'Pedestrian'],W,99.0,35.0,,False,1,0
+348430,41.676636,-72.318257,Columbia,15075936,16:59,A,4.0,Hunt Rd,,['Bicyclist' 'Driver'],E,0.0,25.0,False,False,0,1
+348430,41.676636,-72.318257,Columbia,15075936,16:59,A,4.0,Hunt Rd,,['Bicyclist' 'Driver'],E,0.0,25.0,,,0,1
+355523,41.789971,-71.869305,Killingly,15022368,22:08,A,2.0,Providence Pike,,['Driver' 'Pedestrian'],W,99.0,45.0,True,False,1,0
+360254,41.913536,-72.390995,Tolland,15037920,14:37,A,3.0,Crystal Lake Rd,,['Driver' 'Bicyclist'],S,0.0,45.0,False,False,0,1
+360254,41.913536,-72.390995,Tolland,15037920,14:37,A,3.0,Crystal Lake Rd,,['Driver' 'Bicyclist'],S,99.0,45.0,True,False,0,1
+360255,41.713204,-72.169201,Windham,15101856,19:37,A,4.0,Tuckie Rd,,['Driver' 'Pedestrian'],N,0.0,35.0,,,1,0
+361644,41.979842,-71.902353,Thompson,15108768,05:49,A,4.0,Reardon Road,,['Driver' 'Pedestrian'],S,0.0,1.0,False,False,1,0
+361644,41.979842,-71.902353,Thompson,15108768,05:49,A,4.0,Reardon Road,,['Driver' 'Pedestrian'],S,0.0,25.0,True,False,1,0
+361644,41.979842,-71.902353,Thompson,15108768,05:49,A,4.0,Reardon Road,,['Driver' 'Pedestrian'],S,0.0,1.0,False,False,1,0
+361644,41.979842,-71.902353,Thompson,15108768,05:49,A,4.0,Reardon Road,,['Driver' 'Pedestrian'],S,0.0,1.0,False,False,1,0
+368916,41.701217,-72.189894,Windham,15107040,16:58,A,3.0,RT 32,,['Driver' 'Pedestrian'],S,0.0,35.0,,False,1,0
+370769,41.712188,-72.214239,Windham,15120000,16:39,A,3.0,MAIN ST,,['Pedestrian' 'Driver'],N,0.0,1.0,False,False,1,0
+371439,41.613887,-71.949894,Griswold,15142464,12:05,A,3.0,Hopeville Rd,PACHAUG RIVER DR,['Other Cyclist' 'Driver'],E,0.0,45.0,,False,0,0
+371439,41.613887,-71.949894,Griswold,15142464,12:05,A,3.0,Hopeville Rd,PACHAUG RIVER DR,['Other Cyclist' 'Driver'],,99.0,99.0,,,0,0
+376132,41.953604,-72.303235,Stafford,15139872,12:52,A,3.0,River Rd,RTE 190 EB(EAST MAIN ST),['Pedestrian' 'Driver'],S,0.0,25.0,,False,1,0
+377391,41.953367,-72.305263,Stafford,15149376,17:40,A,3.0,32-N,,['Pedestrian' 'Driver'],E,0.0,25.0,,,1,0
+392013,41.685205,-72.164055,Windham,15179616,11:43,A,3.0,203-N,,['Pedestrian' 'Driver'],S,0.0,40.0,False,False,1,0
+395370,41.724727,-72.306756,Columbia,15177888,16:27,A,2.0,6-E,HOP RIVER RD,['Driver' 'Pedestrian'],E,0.0,50.0,False,False,1,0
+410446,41.6305,-71.98852,Lisbon,15037920,02:05,A,4.0,Phillips Rd,,"['Other Pedestrian (wheelchair, person in a building, skater, pedestrian conveyance)'
  'Driver']",E,99.0,1.0,False,False,0,0
-413222,41.92153,-71.910021,15228864,16:10,A,4.0,CHURCH ST,,['Witness' 'Driver' 'Pedestrian'],S,0.0,30.0,False,False,1,0
-413864,41.796388,-72.410923,15257376,16:37,A,2.0,44-E,,['Passenger' 'Pedestrian' 'Driver'],W,0.0,45.0,False,False,1,0
-428446,41.857967,-72.401294,15296256,17:00,A,4.0,GARNET RIDGE DR,,['Bicyclist' 'Driver'],W,0.0,25.0,,False,0,1
-428446,41.857967,-72.401294,15296256,17:00,A,4.0,GARNET RIDGE DR,,['Bicyclist' 'Driver'],S,0.0,25.0,,,0,1
-429857,41.698462,-72.084166,15281568,11:06,A,3.0,14-E,,['Pedestrian' 'Witness' 'Driver'],E,0.0,20.0,False,False,1,0
-433541,41.860831,-72.0086,14991264,22:04,K,2.0,Mashamoquet Rd (Route 44),,['Pedestrian' 'Witness' 'Passenger' 'Driver'],W,0.0,45.0,False,False,1,0
-439272,41.701369,-72.211944,15325632,15:55,A,4.0,SOUTH RIDGE DR,,['Pedestrian' 'Driver'],N,0.0,25.0,False,False,1,0
-439272,41.701369,-72.211944,15325632,15:55,A,4.0,SOUTH RIDGE DR,,['Pedestrian' 'Driver'],N,0.0,25.0,False,False,1,0
-440620,41.671978,-72.165284,15074208,21:32,K,3.0,Windham Rd,,['Driver' 'Witness' 'Pedestrian' 'Passenger'],S,0.0,50.0,False,False,1,0
-461715,41.915078,-71.909859,15348960,17:21,A,4.0,CANAL ST,,['Driver' 'Pedestrian'],S,0.0,25.0,False,False,1,0
-462836,41.709077,-72.209999,15360192,20:40,A,3.0,661-N,32-N,['Pedestrian' 'Witness' 'Passenger' 'Driver'],S,0.0,25.0,False,False,1,0
-466492,41.712663,-72.208015,15374016,20:45,A,4.0,VALLEY ST,JACKSON,['Witness' 'Bicyclist' 'Driver'],E,0.0,25.0,False,False,0,1
-466492,41.712663,-72.208015,15374016,20:45,A,4.0,VALLEY ST,JACKSON,['Witness' 'Bicyclist' 'Driver'],,99.0,99.0,,,0,1
-466492,41.712663,-72.208015,15374016,20:45,A,4.0,VALLEY ST,JACKSON,['Witness' 'Bicyclist' 'Driver'],W,0.0,25.0,False,False,0,1
-468542,41.664663,-71.913903,15386976,19:18,A,1.0,395-N-38,LATHROP RD,"['Other Pedestrian (wheelchair, person in a building, skater, pedestrian conveyance)'
+413222,41.92153,-71.910021,Putnam,15228864,16:10,A,4.0,CHURCH ST,,['Witness' 'Driver' 'Pedestrian'],S,0.0,30.0,False,False,1,0
+413864,41.796388,-72.410923,Coventry,15257376,16:37,A,2.0,44-E,,['Passenger' 'Pedestrian' 'Driver'],W,0.0,45.0,False,False,1,0
+428446,41.857967,-72.401294,Tolland,15296256,17:00,A,4.0,GARNET RIDGE DR,,['Bicyclist' 'Driver'],W,0.0,25.0,,False,0,1
+428446,41.857967,-72.401294,Tolland,15296256,17:00,A,4.0,GARNET RIDGE DR,,['Bicyclist' 'Driver'],S,0.0,25.0,,,0,1
+429857,41.698462,-72.084166,Scotland,15281568,11:06,A,3.0,14-E,,['Pedestrian' 'Witness' 'Driver'],E,0.0,20.0,False,False,1,0
+433541,41.860831,-72.0086,Pomfret,14991264,22:04,K,2.0,Mashamoquet Rd (Route 44),,['Pedestrian' 'Witness' 'Passenger' 'Driver'],W,0.0,45.0,False,False,1,0
+439272,41.701369,-72.211944,Windham,15325632,15:55,A,4.0,SOUTH RIDGE DR,,['Pedestrian' 'Driver'],N,0.0,25.0,False,False,1,0
+439272,41.701369,-72.211944,Windham,15325632,15:55,A,4.0,SOUTH RIDGE DR,,['Pedestrian' 'Driver'],N,0.0,25.0,False,False,1,0
+440620,41.671978,-72.165284,Windham,15074208,21:32,K,3.0,Windham Rd,,['Driver' 'Witness' 'Pedestrian' 'Passenger'],S,0.0,50.0,False,False,1,0
+461715,41.915078,-71.909859,Putnam,15348960,17:21,A,4.0,CANAL ST,,['Driver' 'Pedestrian'],S,0.0,25.0,False,False,1,0
+462836,41.709077,-72.209999,Windham,15360192,20:40,A,3.0,661-N,32-N,['Pedestrian' 'Witness' 'Passenger' 'Driver'],S,0.0,25.0,False,False,1,0
+466492,41.712663,-72.208015,Windham,15374016,20:45,A,4.0,VALLEY ST,JACKSON,['Witness' 'Bicyclist' 'Driver'],E,0.0,25.0,False,False,0,1
+466492,41.712663,-72.208015,Windham,15374016,20:45,A,4.0,VALLEY ST,JACKSON,['Witness' 'Bicyclist' 'Driver'],,99.0,99.0,,,0,1
+466492,41.712663,-72.208015,Windham,15374016,20:45,A,4.0,VALLEY ST,JACKSON,['Witness' 'Bicyclist' 'Driver'],W,0.0,25.0,False,False,0,1
+468542,41.664663,-71.913903,Plainfield,15386976,19:18,A,1.0,395-N-38,LATHROP RD,"['Other Pedestrian (wheelchair, person in a building, skater, pedestrian conveyance)'
  'Driver']",S,0.0,25.0,False,False,0,0
-475472,41.811405,-72.254263,15413760,18:04,A,3.0,430-E,,['Pedestrian' 'Driver' 'Passenger'],W,0.0,25.0,False,True,1,0
-476149,41.808225,-72.246905,15415488,09:48,A,3.0,195-N,WILLOWBROOK RD,['Pedestrian' 'Driver'],,0.0,35.0,False,False,1,0
-477851,41.800984,-72.241115,15418080,14:28,A,3.0,195-S,,['Driver' 'Pedestrian'],W,0.0,1.0,False,False,1,0
-480202,41.717273,-72.221317,15423264,17:12,A,4.0,PROSPECT ST,BIRCH ST,['Driver' 'Pedestrian' 'Witness'],E,0.0,30.0,False,False,1,0
-487334,41.793329,-71.880036,15434496,08:58,A,4.0,GREEN HOLLOW RD,GREEN HOLLOW RD CON,['Driver' 'Pedestrian'],E,0.0,30.0,False,False,1,0
-490451,41.747084,-71.853318,15440544,09:49,A,3.0,664-N,,['Pedestrian' 'Driver'],N,0.0,30.0,True,False,1,0
-498046,41.836307,-72.307329,15444864,23:04,A,3.0,32-N,,['Pedestrian' 'Driver'],E,0.0,45.0,False,False,1,0
-501483,41.715002,-71.880199,15462144,16:37,A,3.0,14-E,,['Witness' 'Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
-513470,41.711451,-72.220117,15494112,19:02,A,3.0,32-N,BRIDGE ST,['Pedestrian' 'Witness' 'Driver'],S,97.0,25.0,False,False,1,0
-525642,41.663028,-71.921206,15399936,19:23,A,3.0,12-N,,['Pedestrian' 'Driver'],N,99.0,45.0,True,False,1,0
-534984,41.843413,-72.211907,15553728,11:47,A,4.0,HOWARD RD,,['Driver' 'Occupant of a Non-Motor Vehicle Transportation Device'],W,0.0,25.0,False,False,0,0
-534984,41.843413,-72.211907,15553728,11:47,A,4.0,HOWARD RD,,['Driver' 'Occupant of a Non-Motor Vehicle Transportation Device'],S,0.0,25.0,False,False,0,0
-551698,41.756217,-71.923652,15549408,17:16,A,3.0,205-N,,['Witness' 'Pedestrian' 'Driver'],E,0.0,40.0,False,False,1,0
-552108,41.714924,-72.218861,15586560,17:54,A,4.0,VALLEY ST,WINDHAM ST,['Witness' 'Driver' 'Bicyclist' 'Passenger'],S,0.0,25.0,False,False,0,1
-552108,41.714924,-72.218861,15586560,17:54,A,4.0,VALLEY ST,WINDHAM ST,['Witness' 'Driver' 'Bicyclist' 'Passenger'],E,0.0,25.0,False,False,0,1
-556749,41.863617,-72.162156,15589152,12:21,A,2.0,44-E,,['Driver' 'Bicyclist'],E,0.0,45.0,False,False,0,1
-556749,41.863617,-72.162156,15589152,12:21,A,2.0,44-E,,['Driver' 'Bicyclist'],E,0.0,45.0,False,False,0,1
-560061,41.792229,-72.3553,15615072,17:21,A,3.0,31-E,SOUTH RIVER RD,['Bicyclist' 'Witness' 'Passenger' 'Driver'],N,0.0,40.0,False,False,0,1
-560061,41.792229,-72.3553,15615072,17:21,A,3.0,31-E,SOUTH RIVER RD,['Bicyclist' 'Witness' 'Passenger' 'Driver'],N,0.0,40.0,False,False,0,1
-560629,41.558325,-71.797631,15592608,12:50,A,3.0,138-E,,['Driver' 'Bicyclist'],E,0.0,88.0,,,0,1
-560629,41.558325,-71.797631,15592608,12:50,A,3.0,138-E,,['Driver' 'Bicyclist'],E,0.0,45.0,False,False,0,1
-560694,41.58495,-71.935102,15611616,13:43,A,3.0,138-E,,['Pedestrian' 'Driver'],E,0.0,45.0,False,False,1,0
-561479,41.617221,-72.085031,15604704,19:15,A,3.0,207-E,97-N,['Pedestrian' 'Driver' 'Witness'],N,0.0,25.0,False,False,1,0
-562093,41.716509,-72.227919,15621120,16:20,A,4.0,VALLEY ST,VANDERMAN,['Witness' 'Bicyclist' 'Driver'],S,0.0,1.0,False,False,0,1
-562093,41.716509,-72.227919,15621120,16:20,A,4.0,VALLEY ST,VANDERMAN,['Witness' 'Bicyclist' 'Driver'],W,0.0,25.0,False,False,0,1
-562917,41.572727,-72.334771,15609888,14:46,A,3.0,16-E,,['Bicyclist' 'Driver' 'Passenger'],W,1.0,,,,0,1
-562917,41.572727,-72.334771,15609888,14:46,A,3.0,16-E,,['Bicyclist' 'Driver' 'Passenger'],N,0.0,1.0,False,False,0,1
-565384,41.706057,-72.191957,15611616,14:10,A,4.0,RUSS RD,HOWARD DR,['Bicyclist' 'Driver'],E,0.0,30.0,,,0,1
-565384,41.706057,-72.191957,15611616,14:10,A,4.0,RUSS RD,HOWARD DR,['Bicyclist' 'Driver'],N,0.0,1.0,False,False,0,1
-565408,41.652249,-72.46183,15618528,14:56,A,4.0,JONES HOLLOW RD,,['Pedestrian' 'Driver'],S,0.0,35.0,,False,1,0
-572462,41.714158,-72.215014,15644448,18:18,A,4.0,VALLEY ST,WALNUT ST,['Pedestrian' 'Driver' 'Passenger' 'Witness'],W,0.0,25.0,False,False,1,0
-580415,41.929982,-71.910564,15647904,19:37,A,4.0,BIBEAULT ST,VIENS,"['Other Pedestrian (wheelchair, person in a building, skater, pedestrian conveyance)'
+475472,41.811405,-72.254263,Mansfield,15413760,18:04,A,3.0,430-E,,['Pedestrian' 'Driver' 'Passenger'],W,0.0,25.0,False,True,1,0
+476149,41.808225,-72.246905,Mansfield,15415488,09:48,A,3.0,195-N,WILLOWBROOK RD,['Pedestrian' 'Driver'],,0.0,35.0,False,False,1,0
+477851,41.800984,-72.241115,Mansfield,15418080,14:28,A,3.0,195-S,,['Driver' 'Pedestrian'],W,0.0,1.0,False,False,1,0
+480202,41.717273,-72.221317,Windham,15423264,17:12,A,4.0,PROSPECT ST,BIRCH ST,['Driver' 'Pedestrian' 'Witness'],E,0.0,30.0,False,False,1,0
+487334,41.793329,-71.880036,Killingly,15434496,08:58,A,4.0,GREEN HOLLOW RD,GREEN HOLLOW RD CON,['Driver' 'Pedestrian'],E,0.0,30.0,False,False,1,0
+490451,41.747084,-71.853318,Plainfield,15440544,09:49,A,3.0,664-N,,['Pedestrian' 'Driver'],N,0.0,30.0,True,False,1,0
+498046,41.836307,-72.307329,Willington,15444864,23:04,A,3.0,32-N,,['Pedestrian' 'Driver'],E,0.0,45.0,False,False,1,0
+501483,41.715002,-71.880199,Plainfield,15462144,16:37,A,3.0,14-E,,['Witness' 'Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
+513470,41.711451,-72.220117,Windham,15494112,19:02,A,3.0,32-N,BRIDGE ST,['Pedestrian' 'Witness' 'Driver'],S,97.0,25.0,False,False,1,0
+525642,41.663028,-71.921206,Plainfield,15399936,19:23,A,3.0,12-N,,['Pedestrian' 'Driver'],N,99.0,45.0,True,False,1,0
+534984,41.843413,-72.211907,Ashford,15553728,11:47,A,4.0,HOWARD RD,,['Driver' 'Occupant of a Non-Motor Vehicle Transportation Device'],W,0.0,25.0,False,False,0,0
+534984,41.843413,-72.211907,Ashford,15553728,11:47,A,4.0,HOWARD RD,,['Driver' 'Occupant of a Non-Motor Vehicle Transportation Device'],S,0.0,25.0,False,False,0,0
+551698,41.756217,-71.923652,Brooklyn,15549408,17:16,A,3.0,205-N,,['Witness' 'Pedestrian' 'Driver'],E,0.0,40.0,False,False,1,0
+552108,41.714924,-72.218861,Windham,15586560,17:54,A,4.0,VALLEY ST,WINDHAM ST,['Witness' 'Driver' 'Bicyclist' 'Passenger'],S,0.0,25.0,False,False,0,1
+552108,41.714924,-72.218861,Windham,15586560,17:54,A,4.0,VALLEY ST,WINDHAM ST,['Witness' 'Driver' 'Bicyclist' 'Passenger'],E,0.0,25.0,False,False,0,1
+556749,41.863617,-72.162156,Ashford,15589152,12:21,A,2.0,44-E,,['Driver' 'Bicyclist'],E,0.0,45.0,False,False,0,1
+556749,41.863617,-72.162156,Ashford,15589152,12:21,A,2.0,44-E,,['Driver' 'Bicyclist'],E,0.0,45.0,False,False,0,1
+560061,41.792229,-72.3553,Coventry,15615072,17:21,A,3.0,31-E,SOUTH RIVER RD,['Bicyclist' 'Witness' 'Passenger' 'Driver'],N,0.0,40.0,False,False,0,1
+560061,41.792229,-72.3553,Coventry,15615072,17:21,A,3.0,31-E,SOUTH RIVER RD,['Bicyclist' 'Witness' 'Passenger' 'Driver'],N,0.0,40.0,False,False,0,1
+560629,41.558325,-71.797631,Voluntown,15592608,12:50,A,3.0,138-E,,['Driver' 'Bicyclist'],E,0.0,88.0,,,0,1
+560629,41.558325,-71.797631,Voluntown,15592608,12:50,A,3.0,138-E,,['Driver' 'Bicyclist'],E,0.0,45.0,False,False,0,1
+560694,41.58495,-71.935102,Griswold,15611616,13:43,A,3.0,138-E,,['Pedestrian' 'Driver'],E,0.0,45.0,False,False,1,0
+561479,41.617221,-72.085031,Sprague,15604704,19:15,A,3.0,207-E,97-N,['Pedestrian' 'Driver' 'Witness'],N,0.0,25.0,False,False,1,0
+562093,41.716509,-72.227919,Windham,15621120,16:20,A,4.0,VALLEY ST,VANDERMAN,['Witness' 'Bicyclist' 'Driver'],S,0.0,1.0,False,False,0,1
+562093,41.716509,-72.227919,Windham,15621120,16:20,A,4.0,VALLEY ST,VANDERMAN,['Witness' 'Bicyclist' 'Driver'],W,0.0,25.0,False,False,0,1
+562917,41.572727,-72.334771,Colchester,15609888,14:46,A,3.0,16-E,,['Bicyclist' 'Driver' 'Passenger'],W,1.0,,,,0,1
+562917,41.572727,-72.334771,Colchester,15609888,14:46,A,3.0,16-E,,['Bicyclist' 'Driver' 'Passenger'],N,0.0,1.0,False,False,0,1
+565384,41.706057,-72.191957,Windham,15611616,14:10,A,4.0,RUSS RD,HOWARD DR,['Bicyclist' 'Driver'],E,0.0,30.0,,,0,1
+565384,41.706057,-72.191957,Windham,15611616,14:10,A,4.0,RUSS RD,HOWARD DR,['Bicyclist' 'Driver'],N,0.0,1.0,False,False,0,1
+565408,41.652249,-72.46183,Marlborough,15618528,14:56,A,4.0,JONES HOLLOW RD,,['Pedestrian' 'Driver'],S,0.0,35.0,,False,1,0
+572462,41.714158,-72.215014,Windham,15644448,18:18,A,4.0,VALLEY ST,WALNUT ST,['Pedestrian' 'Driver' 'Passenger' 'Witness'],W,0.0,25.0,False,False,1,0
+580415,41.929982,-71.910564,Putnam,15647904,19:37,A,4.0,BIBEAULT ST,VIENS,"['Other Pedestrian (wheelchair, person in a building, skater, pedestrian conveyance)'
  'Driver']",S,0.0,25.0,False,False,0,0
-580510,41.713868,-72.207206,15665184,12:31,A,4.0,JACKSON ST,MAPLE AV,['Bicyclist' 'Witness' 'Driver'],S,0.0,25.0,False,False,0,1
-580510,41.713868,-72.207206,15665184,12:31,A,4.0,JACKSON ST,MAPLE AV,['Bicyclist' 'Witness' 'Driver'],N,0.0,25.0,True,False,0,1
-588493,41.62389,-72.322913,15691104,10:46,A,4.0,DEEPWOOD DR,Island Beach Rd pvt,['Bicyclist' 'Driver'],W,0.0,25.0,,,0,1
-588493,41.62389,-72.322913,15691104,10:46,A,4.0,DEEPWOOD DR,Island Beach Rd pvt,['Bicyclist' 'Driver'],S,0.0,25.0,,False,0,1
-588694,41.553737,-72.38267,15660864,09:30,A,3.0,16-E,,['Pedestrian' 'Driver'],N,0.0,1.0,False,False,1,0
-599458,41.91705,-71.905623,15460416,18:04,A,2.0,44-E,,['Driver' 'Bicyclist'],N,99.0,1.0,True,False,0,1
-599458,41.91705,-71.905623,15460416,18:04,A,2.0,44-E,,['Driver' 'Bicyclist'],S,0.0,1.0,False,False,0,1
-601962,41.808644,-71.879569,15293664,17:19,A,3.0,12-N,BROAD ST,['Passenger' 'Witness' 'Driver' 'Pedestrian'],W,0.0,1.0,False,False,1,0
-602057,41.792164,-72.249721,15361056,15:08,A,4.0,MAPLE RD,,['Bicyclist' 'Witness' 'Driver'],S,0.0,30.0,False,False,0,1
-602057,41.792164,-72.249721,15361056,15:08,A,4.0,MAPLE RD,,['Bicyclist' 'Witness' 'Driver'],,99.0,99.0,,,0,1
-602057,41.792164,-72.249721,15361056,15:08,A,4.0,MAPLE RD,,['Bicyclist' 'Witness' 'Driver'],N,0.0,30.0,False,False,0,1
-603150,41.945036,-72.289986,15560640,20:22,A,4.0,WOODLAND DR,FOREST RD,['Pedestrian' 'Witness' 'Driver'],N,0.0,25.0,False,False,1,0
-604479,41.713977,-72.22488,15704928,19:12,A,3.0,32-N,MANSFIELD AV,['Driver' 'Pedestrian'],E,0.0,25.0,False,False,1,0
-610257,41.915287,-71.90905,15719616,15:26,A,2.0,44-E,Main Street,['Driver' 'Pedestrian'],N,0.0,25.0,False,False,1,0
-610807,41.864852,-71.882802,15730848,21:13,A,3.0,12-N,,['Driver' 'Pedestrian'],S,0.0,25.0,,False,1,0
-611005,41.576263,-72.201703,15724800,06:46,A,3.0,608-E,POLY LA,['Driver' 'Pedestrian'],W,0.0,1.0,False,False,1,0
-611005,41.576263,-72.201703,15724800,06:46,A,3.0,608-E,POLY LA,['Driver' 'Pedestrian'],W,0.0,1.0,False,False,1,0
-613659,41.79709827,-71.91220564,15477696,18:29,K,2.0,Providence Rd,,['Driver' 'Pedestrian'],E,0.0,45.0,False,False,1,0
-618983,41.71345,-72.222082,15749856,17:15,A,3.0,66-E,,['Driver' 'Pedestrian' 'Witness'],E,0.0,25.0,False,False,1,0
-627002,41.73967159,-72.17878228,15761088,17:02,A,2.0,6-E,,['Pedestrian' 'Driver'],E,0.0,35.0,False,False,1,0
-641931,41.95095,-71.977995,15796512,15:06,A,3.0,169-N,,['Driver' 'Pedestrian'],N,0.0,35.0,False,False,1,0
-645095,41.809621,-72.259372,15803424,19:01,A,3.0,213N-N,430-E,['Pedestrian' 'Driver'],N,0.0,25.0,False,False,1,0
-650898,41.715097,-72.220077,15808608,17:50,A,4.0,VALLEY ST,TINGLEY ST,['Pedestrian' 'Driver'],W,0.0,25.0,False,False,1,0
-654760,41.712661,-72.216089,15794784,20:41,A,3.0,66-E,,['Driver' 'Pedestrian'],W,0.0,25.0,False,False,1,0
-654760,41.712661,-72.216089,15794784,20:41,A,3.0,66-E,,['Driver' 'Pedestrian'],E,99.0,25.0,True,False,1,0
-660869,41.79988,-71.899319,15825888,19:48,A,2.0,6-E,,['Pedestrian' 'Passenger' 'Driver'],W,0.0,45.0,False,False,1,0
-674094,41.567506,-72.401277,15852672,17:53,A,3.0,149-N,,['Bicyclist' 'Driver' 'Passenger'],N,0.0,35.0,False,False,0,1
-674094,41.567506,-72.401277,15852672,17:53,A,3.0,149-N,,['Bicyclist' 'Driver' 'Passenger'],N,0.0,40.0,False,False,0,1
-675097,41.746793,-72.155867,15817248,18:13,A,3.0,203-N,,['Driver' 'Pedestrian'],S,0.0,40.0,False,False,1,0
-682188,41.57352,-72.332062,15900192,19:48,A,3.0,85-N,616-E,['Driver' 'Bicyclist'],E,0.0,35.0,False,False,0,1
-682188,41.57352,-72.332062,15900192,19:48,A,3.0,85-N,616-E,['Driver' 'Bicyclist'],N,0.0,35.0,False,False,0,1
-688389,41.684707,-72.282219,15916608,00:42,A,3.0,87-N,,['Driver' 'Pedestrian'],W,0.0,35.0,False,False,1,0
-688389,41.684707,-72.282219,15916608,00:42,A,3.0,87-N,,['Driver' 'Pedestrian'],W,9.0,35.0,False,False,1,0
-698622,41.549989,-72.170957,15939936,11:07,A,3.0,163-N,,['Bicyclist' 'Driver'],,99.0,99.0,,,0,1
-698622,41.549989,-72.170957,15939936,11:07,A,3.0,163-N,,['Bicyclist' 'Driver'],S,0.0,40.0,,False,0,1
-701754,41.750446,-72.191678,15946848,21:14,A,3.0,195-N,,['Bicyclist' 'Witness' 'Driver'],S,0.0,35.0,True,False,0,1
-701754,41.750446,-72.191678,15946848,21:14,A,3.0,195-N,,['Bicyclist' 'Witness' 'Driver'],N,0.0,35.0,True,False,0,1
-709860,41.945235,-72.290673,15895872,19:08,A,4.0,WOODLAND DR,,['Bicyclist' 'Driver'],W,99.0,25.0,True,False,0,1
-709860,41.945235,-72.290673,15895872,19:08,A,4.0,WOODLAND DR,,['Bicyclist' 'Driver'],W,0.0,25.0,False,False,0,1
-711663,41.717872,-72.231694,15956352,09:25,A,4.0,VALLEY ST,,['Bicyclist' 'Driver'],,0.0,,,,0,1
-711663,41.717872,-72.231694,15956352,09:25,A,4.0,VALLEY ST,,['Bicyclist' 'Driver'],W,0.0,25.0,False,False,0,1
-712212,41.80492443,-72.2434005,15229728,12:27,A,4.0,DOG LA,ROYCE CIR,['Driver' 'Pedestrian'],W,0.0,1.0,False,False,1,0
-712932,41.871255,-72.407575,15979680,20:24,A,3.0,74-E,,['Driver' 'Bicyclist'],E,99.0,30.0,True,False,0,1
-712932,41.871255,-72.407575,15979680,20:24,A,3.0,74-E,,['Driver' 'Bicyclist'],,99.0,99.0,,,0,1
-717470,41.954065,-72.30205,15985728,09:13,A,3.0,190-E,WILLINGTON AV,['Pedestrian' 'Driver'],E,0.0,25.0,False,False,1,0
-719210,41.648756,-72.461556,15990912,12:41,A,4.0,JONES HOLLOW RD,,['Driver' 'Bicyclist'],S,99.0,30.0,True,False,0,1
-719210,41.648756,-72.461556,15990912,12:41,A,4.0,JONES HOLLOW RD,,['Driver' 'Bicyclist'],,99.0,99.0,,,0,1
-722020,41.955326,-72.304464,15996096,17:29,A,4.0,PROSPECT ST,HIGH ST,['Driver' 'Witness' 'Bicyclist'],S,0.0,25.0,False,False,0,1
-722020,41.955326,-72.304464,15996096,17:29,A,4.0,PROSPECT ST,HIGH ST,['Driver' 'Witness' 'Bicyclist'],W,0.0,25.0,False,False,0,1
-723930,41.788495,-72.344003,15997824,20:32,A,3.0,31-E,,['Bicyclist' 'Witness' 'Driver'],S,9.0,40.0,False,False,0,1
-723930,41.788495,-72.344003,15997824,20:32,A,3.0,31-E,,['Bicyclist' 'Witness' 'Driver'],S,0.0,40.0,True,False,0,1
-724416,41.716356,-72.203279,16009056,07:09,A,4.0,HOPE ST,,['Driver' 'Pedestrian'],E,99.0,20.0,True,False,1,0
-729803,41.595767,-71.977466,16019424,15:03,A,3.0,138-E,,['Bicyclist' 'Driver'],N,0.0,25.0,False,False,0,1
-729803,41.595767,-71.977466,16019424,15:03,A,3.0,138-E,,['Bicyclist' 'Driver'],E,0.0,99.0,,,0,1
-735203,41.802233,-72.265628,16024608,13:52,A,4.0,HILLYNDALE RD,,['Pedestrian' 'Driver'],S,99.0,25.0,True,False,1,0
-757363,41.71461,-72.216948,16052256,23:13,A,4.0,HIGH ST,VALLEY ST,['Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
-770252,41.71076844,-72.20907163,16076448,06:06,A,3.0,661-N,JACKSON ST,['Driver' 'Pedestrian' 'Witness'],S,0.0,25.0,False,False,1,0
-770921,41.896389,-72.049501,15683328,17:36,A,3.0,244-E,,['Bicyclist' 'Driver'],E,0.0,35.0,False,False,0,1
-770921,41.896389,-72.049501,15683328,17:36,A,3.0,244-E,,['Bicyclist' 'Driver'],,99.0,99.0,,,0,1
-770921,41.896389,-72.049501,15683328,17:36,A,3.0,244-E,,['Bicyclist' 'Driver'],E,0.0,35.0,False,False,0,1
-770957,41.968639,-72.025298,15837984,16:30,A,4.0,Center Rd,,['Bicyclist' 'Driver'],,99.0,99.0,True,,0,1
-770957,41.968639,-72.025298,15837984,16:30,A,4.0,Center Rd,,['Bicyclist' 'Driver'],,99.0,99.0,,,0,1
-770980,41.577824,-72.329674,16023744,11:05,A,4.0,HAMMOND CT NO 1,16-E,['Bicyclist' 'Driver'],S,0.0,15.0,False,False,0,1
-770980,41.577824,-72.329674,16023744,11:05,A,4.0,HAMMOND CT NO 1,16-E,['Bicyclist' 'Driver'],E,0.0,88.0,False,False,0,1
-772119,41.74656,-71.91302,15947712,18:52,A,3.0,205-N,,['Driver' 'Witness' 'Bicyclist' 'Passenger'],W,0.0,25.0,False,False,0,1
-772119,41.74656,-71.91302,15947712,18:52,A,3.0,205-N,,['Driver' 'Witness' 'Bicyclist' 'Passenger'],W,0.0,25.0,False,False,0,1
-772160,41.923167,-71.90781,15637536,20:55,A,3.0,171-E,,['Driver' 'Bicyclist'],S,9.0,25.0,False,False,0,1
-772160,41.923167,-71.90781,15637536,20:55,A,3.0,171-E,,['Driver' 'Bicyclist'],E,0.0,25.0,False,False,0,1
-773098,41.98272522,-72.29692341,16058304,18:44,A,4.0,FURNACE AV,rt 319,['Driver' 'Pedestrian'],N,0.0,30.0,False,False,1,0
-776913,41.843402,-71.88080415,16092864,16:12,A,3.0,101-E,,['Driver' 'Pedestrian'],W,0.0,1.0,False,False,1,0
-778302,41.709144,-72.209985,16092864,20:08,A,3.0,661-N,SOUTH ST,['Pedestrian' 'Driver'],E,0.0,35.0,False,False,1,0
-785978,41.686334,-72.360905,16125696,23:31,A,3.0,316-N,BASKET SHOP RD,['Driver' 'Pedestrian' 'Witness'],N,0.0,45.0,True,False,1,0
-786158,41.673019,-72.440174,16116192,11:38,A,4.0,WEST ST,MARTIN RD,['Driver' 'Pedestrian'],W,0.0,25.0,False,False,1,0
-802245,42.014665,-71.878027,16079904,15:03,A,4.0,WAGHER RD,,['Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
-802245,42.014665,-71.878027,16079904,15:03,A,4.0,WAGHER RD,,['Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
-808480,41.94553252,-71.89932119,16156800,11:50,A,4.0,WEST THOMPSON RD,,['Witness' 'Bicyclist' 'Driver'],W,97.0,30.0,False,False,0,1
-808480,41.94553252,-71.89932119,16156800,11:50,A,4.0,WEST THOMPSON RD,,['Witness' 'Bicyclist' 'Driver'],,99.0,99.0,,,0,1
-810318,41.729061,-72.216091,16171488,18:35,A,3.0,633-E,HIGH ST,['Passenger' 'Bicyclist' 'Driver'],W,0.0,40.0,False,False,0,1
-810318,41.729061,-72.216091,16171488,18:35,A,3.0,633-E,HIGH ST,['Passenger' 'Bicyclist' 'Driver'],,99.0,99.0,,,0,1
-810392,41.639455,-72.056797,16202592,16:49,A,4.0,POTASH HILL RD,,['Bicyclist' 'Driver'],E,0.0,,,,0,1
-810392,41.639455,-72.056797,16202592,16:49,A,4.0,POTASH HILL RD,,['Bicyclist' 'Driver'],N,0.0,25.0,False,False,0,1
-814165,41.55771,-72.298168,16213824,15:28,A,3.0,354-E,,['Driver' 'Bicyclist'],S,0.0,40.0,False,False,0,1
-814165,41.55771,-72.298168,16213824,15:28,A,3.0,354-E,,['Driver' 'Bicyclist'],N,0.0,40.0,False,False,0,1
-818119,41.712968,-72.218434,16226784,14:42,A,3.0,66-E,32-N,"['Other Pedestrian (wheelchair, person in a building, skater, pedestrian conveyance)'
+580510,41.713868,-72.207206,Windham,15665184,12:31,A,4.0,JACKSON ST,MAPLE AV,['Bicyclist' 'Witness' 'Driver'],S,0.0,25.0,False,False,0,1
+580510,41.713868,-72.207206,Windham,15665184,12:31,A,4.0,JACKSON ST,MAPLE AV,['Bicyclist' 'Witness' 'Driver'],N,0.0,25.0,True,False,0,1
+588493,41.62389,-72.322913,Lebanon,15691104,10:46,A,4.0,DEEPWOOD DR,Island Beach Rd pvt,['Bicyclist' 'Driver'],W,0.0,25.0,,,0,1
+588493,41.62389,-72.322913,Lebanon,15691104,10:46,A,4.0,DEEPWOOD DR,Island Beach Rd pvt,['Bicyclist' 'Driver'],S,0.0,25.0,,False,0,1
+588694,41.553737,-72.38267,Colchester,15660864,09:30,A,3.0,16-E,,['Pedestrian' 'Driver'],N,0.0,1.0,False,False,1,0
+599458,41.91705,-71.905623,Putnam,15460416,18:04,A,2.0,44-E,,['Driver' 'Bicyclist'],N,99.0,1.0,True,False,0,1
+599458,41.91705,-71.905623,Putnam,15460416,18:04,A,2.0,44-E,,['Driver' 'Bicyclist'],S,0.0,1.0,False,False,0,1
+601962,41.808644,-71.879569,Killingly,15293664,17:19,A,3.0,12-N,BROAD ST,['Passenger' 'Witness' 'Driver' 'Pedestrian'],W,0.0,1.0,False,False,1,0
+602057,41.792164,-72.249721,Mansfield,15361056,15:08,A,4.0,MAPLE RD,,['Bicyclist' 'Witness' 'Driver'],S,0.0,30.0,False,False,0,1
+602057,41.792164,-72.249721,Mansfield,15361056,15:08,A,4.0,MAPLE RD,,['Bicyclist' 'Witness' 'Driver'],,99.0,99.0,,,0,1
+602057,41.792164,-72.249721,Mansfield,15361056,15:08,A,4.0,MAPLE RD,,['Bicyclist' 'Witness' 'Driver'],N,0.0,30.0,False,False,0,1
+603150,41.945036,-72.289986,Stafford,15560640,20:22,A,4.0,WOODLAND DR,FOREST RD,['Pedestrian' 'Witness' 'Driver'],N,0.0,25.0,False,False,1,0
+604479,41.713977,-72.22488,Windham,15704928,19:12,A,3.0,32-N,MANSFIELD AV,['Driver' 'Pedestrian'],E,0.0,25.0,False,False,1,0
+610257,41.915287,-71.90905,Putnam,15719616,15:26,A,2.0,44-E,Main Street,['Driver' 'Pedestrian'],N,0.0,25.0,False,False,1,0
+610807,41.864852,-71.882802,Killingly,15730848,21:13,A,3.0,12-N,,['Driver' 'Pedestrian'],S,0.0,25.0,,False,1,0
+611005,41.576263,-72.201703,Bozrah,15724800,06:46,A,3.0,608-E,POLY LA,['Driver' 'Pedestrian'],W,0.0,1.0,False,False,1,0
+611005,41.576263,-72.201703,Bozrah,15724800,06:46,A,3.0,608-E,POLY LA,['Driver' 'Pedestrian'],W,0.0,1.0,False,False,1,0
+613659,41.79709827,-71.91220564,Brooklyn,15477696,18:29,K,2.0,Providence Rd,,['Driver' 'Pedestrian'],E,0.0,45.0,False,False,1,0
+618983,41.71345,-72.222082,Windham,15749856,17:15,A,3.0,66-E,,['Driver' 'Pedestrian' 'Witness'],E,0.0,25.0,False,False,1,0
+627002,41.73967159,-72.17878228,Windham,15761088,17:02,A,2.0,6-E,,['Pedestrian' 'Driver'],E,0.0,35.0,False,False,1,0
+641931,41.95095,-71.977995,Woodstock,15796512,15:06,A,3.0,169-N,,['Driver' 'Pedestrian'],N,0.0,35.0,False,False,1,0
+645095,41.809621,-72.259372,Mansfield,15803424,19:01,A,3.0,213N-N,430-E,['Pedestrian' 'Driver'],N,0.0,25.0,False,False,1,0
+650898,41.715097,-72.220077,Windham,15808608,17:50,A,4.0,VALLEY ST,TINGLEY ST,['Pedestrian' 'Driver'],W,0.0,25.0,False,False,1,0
+654760,41.712661,-72.216089,Windham,15794784,20:41,A,3.0,66-E,,['Driver' 'Pedestrian'],W,0.0,25.0,False,False,1,0
+654760,41.712661,-72.216089,Windham,15794784,20:41,A,3.0,66-E,,['Driver' 'Pedestrian'],E,99.0,25.0,True,False,1,0
+660869,41.79988,-71.899319,Brooklyn,15825888,19:48,A,2.0,6-E,,['Pedestrian' 'Passenger' 'Driver'],W,0.0,45.0,False,False,1,0
+674094,41.567506,-72.401277,Colchester,15852672,17:53,A,3.0,149-N,,['Bicyclist' 'Driver' 'Passenger'],N,0.0,35.0,False,False,0,1
+674094,41.567506,-72.401277,Colchester,15852672,17:53,A,3.0,149-N,,['Bicyclist' 'Driver' 'Passenger'],N,0.0,40.0,False,False,0,1
+675097,41.746793,-72.155867,Windham,15817248,18:13,A,3.0,203-N,,['Driver' 'Pedestrian'],S,0.0,40.0,False,False,1,0
+682188,41.57352,-72.332062,Colchester,15900192,19:48,A,3.0,85-N,616-E,['Driver' 'Bicyclist'],E,0.0,35.0,False,False,0,1
+682188,41.57352,-72.332062,Colchester,15900192,19:48,A,3.0,85-N,616-E,['Driver' 'Bicyclist'],N,0.0,35.0,False,False,0,1
+688389,41.684707,-72.282219,Columbia,15916608,00:42,A,3.0,87-N,,['Driver' 'Pedestrian'],W,0.0,35.0,False,False,1,0
+688389,41.684707,-72.282219,Columbia,15916608,00:42,A,3.0,87-N,,['Driver' 'Pedestrian'],W,9.0,35.0,False,False,1,0
+698622,41.549989,-72.170957,Bozrah,15939936,11:07,A,3.0,163-N,,['Bicyclist' 'Driver'],,99.0,99.0,,,0,1
+698622,41.549989,-72.170957,Bozrah,15939936,11:07,A,3.0,163-N,,['Bicyclist' 'Driver'],S,0.0,40.0,,False,0,1
+701754,41.750446,-72.191678,Mansfield,15946848,21:14,A,3.0,195-N,,['Bicyclist' 'Witness' 'Driver'],S,0.0,35.0,True,False,0,1
+701754,41.750446,-72.191678,Mansfield,15946848,21:14,A,3.0,195-N,,['Bicyclist' 'Witness' 'Driver'],N,0.0,35.0,True,False,0,1
+709860,41.945235,-72.290673,Stafford,15895872,19:08,A,4.0,WOODLAND DR,,['Bicyclist' 'Driver'],W,99.0,25.0,True,False,0,1
+709860,41.945235,-72.290673,Stafford,15895872,19:08,A,4.0,WOODLAND DR,,['Bicyclist' 'Driver'],W,0.0,25.0,False,False,0,1
+711663,41.717872,-72.231694,Windham,15956352,09:25,A,4.0,VALLEY ST,,['Bicyclist' 'Driver'],,0.0,,,,0,1
+711663,41.717872,-72.231694,Windham,15956352,09:25,A,4.0,VALLEY ST,,['Bicyclist' 'Driver'],W,0.0,25.0,False,False,0,1
+712212,41.80492443,-72.2434005,Mansfield,15229728,12:27,A,4.0,DOG LA,ROYCE CIR,['Driver' 'Pedestrian'],W,0.0,1.0,False,False,1,0
+712932,41.871255,-72.407575,Tolland,15979680,20:24,A,3.0,74-E,,['Driver' 'Bicyclist'],E,99.0,30.0,True,False,0,1
+712932,41.871255,-72.407575,Tolland,15979680,20:24,A,3.0,74-E,,['Driver' 'Bicyclist'],,99.0,99.0,,,0,1
+717470,41.954065,-72.30205,Stafford,15985728,09:13,A,3.0,190-E,WILLINGTON AV,['Pedestrian' 'Driver'],E,0.0,25.0,False,False,1,0
+719210,41.648756,-72.461556,Marlborough,15990912,12:41,A,4.0,JONES HOLLOW RD,,['Driver' 'Bicyclist'],S,99.0,30.0,True,False,0,1
+719210,41.648756,-72.461556,Marlborough,15990912,12:41,A,4.0,JONES HOLLOW RD,,['Driver' 'Bicyclist'],,99.0,99.0,,,0,1
+722020,41.955326,-72.304464,Stafford,15996096,17:29,A,4.0,PROSPECT ST,HIGH ST,['Driver' 'Witness' 'Bicyclist'],S,0.0,25.0,False,False,0,1
+722020,41.955326,-72.304464,Stafford,15996096,17:29,A,4.0,PROSPECT ST,HIGH ST,['Driver' 'Witness' 'Bicyclist'],W,0.0,25.0,False,False,0,1
+723930,41.788495,-72.344003,Coventry,15997824,20:32,A,3.0,31-E,,['Bicyclist' 'Witness' 'Driver'],S,9.0,40.0,False,False,0,1
+723930,41.788495,-72.344003,Coventry,15997824,20:32,A,3.0,31-E,,['Bicyclist' 'Witness' 'Driver'],S,0.0,40.0,True,False,0,1
+724416,41.716356,-72.203279,Windham,16009056,07:09,A,4.0,HOPE ST,,['Driver' 'Pedestrian'],E,99.0,20.0,True,False,1,0
+729803,41.595767,-71.977466,Griswold,16019424,15:03,A,3.0,138-E,,['Bicyclist' 'Driver'],N,0.0,25.0,False,False,0,1
+729803,41.595767,-71.977466,Griswold,16019424,15:03,A,3.0,138-E,,['Bicyclist' 'Driver'],E,0.0,99.0,,,0,1
+735203,41.802233,-72.265628,Mansfield,16024608,13:52,A,4.0,HILLYNDALE RD,,['Pedestrian' 'Driver'],S,99.0,25.0,True,False,1,0
+757363,41.71461,-72.216948,Windham,16052256,23:13,A,4.0,HIGH ST,VALLEY ST,['Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
+770252,41.71076844,-72.20907163,Windham,16076448,06:06,A,3.0,661-N,JACKSON ST,['Driver' 'Pedestrian' 'Witness'],S,0.0,25.0,False,False,1,0
+770921,41.896389,-72.049501,Eastford,15683328,17:36,A,3.0,244-E,,['Bicyclist' 'Driver'],E,0.0,35.0,False,False,0,1
+770921,41.896389,-72.049501,Eastford,15683328,17:36,A,3.0,244-E,,['Bicyclist' 'Driver'],,99.0,99.0,,,0,1
+770921,41.896389,-72.049501,Eastford,15683328,17:36,A,3.0,244-E,,['Bicyclist' 'Driver'],E,0.0,35.0,False,False,0,1
+770957,41.968639,-72.025298,Woodstock,15837984,16:30,A,4.0,Center Rd,,['Bicyclist' 'Driver'],,99.0,99.0,True,,0,1
+770957,41.968639,-72.025298,Woodstock,15837984,16:30,A,4.0,Center Rd,,['Bicyclist' 'Driver'],,99.0,99.0,,,0,1
+770980,41.577824,-72.329674,Colchester,16023744,11:05,A,4.0,HAMMOND CT NO 1,16-E,['Bicyclist' 'Driver'],S,0.0,15.0,False,False,0,1
+770980,41.577824,-72.329674,Colchester,16023744,11:05,A,4.0,HAMMOND CT NO 1,16-E,['Bicyclist' 'Driver'],E,0.0,88.0,False,False,0,1
+772119,41.74656,-71.91302,Plainfield,15947712,18:52,A,3.0,205-N,,['Driver' 'Witness' 'Bicyclist' 'Passenger'],W,0.0,25.0,False,False,0,1
+772119,41.74656,-71.91302,Plainfield,15947712,18:52,A,3.0,205-N,,['Driver' 'Witness' 'Bicyclist' 'Passenger'],W,0.0,25.0,False,False,0,1
+772160,41.923167,-71.90781,Putnam,15637536,20:55,A,3.0,171-E,,['Driver' 'Bicyclist'],S,9.0,25.0,False,False,0,1
+772160,41.923167,-71.90781,Putnam,15637536,20:55,A,3.0,171-E,,['Driver' 'Bicyclist'],E,0.0,25.0,False,False,0,1
+773098,41.98272522,-72.29692341,Stafford,16058304,18:44,A,4.0,FURNACE AV,rt 319,['Driver' 'Pedestrian'],N,0.0,30.0,False,False,1,0
+776913,41.843402,-71.88080415,Killingly,16092864,16:12,A,3.0,101-E,,['Driver' 'Pedestrian'],W,0.0,1.0,False,False,1,0
+778302,41.709144,-72.209985,Windham,16092864,20:08,A,3.0,661-N,SOUTH ST,['Pedestrian' 'Driver'],E,0.0,35.0,False,False,1,0
+785978,41.686334,-72.360905,Hebron,16125696,23:31,A,3.0,316-N,BASKET SHOP RD,['Driver' 'Pedestrian' 'Witness'],N,0.0,45.0,True,False,1,0
+786158,41.673019,-72.440174,Hebron,16116192,11:38,A,4.0,WEST ST,MARTIN RD,['Driver' 'Pedestrian'],W,0.0,25.0,False,False,1,0
+802245,42.014665,-71.878027,Thompson,16079904,15:03,A,4.0,WAGHER RD,,['Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
+802245,42.014665,-71.878027,Thompson,16079904,15:03,A,4.0,WAGHER RD,,['Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
+808480,41.94553252,-71.89932119,Thompson,16156800,11:50,A,4.0,WEST THOMPSON RD,,['Witness' 'Bicyclist' 'Driver'],W,97.0,30.0,False,False,0,1
+808480,41.94553252,-71.89932119,Thompson,16156800,11:50,A,4.0,WEST THOMPSON RD,,['Witness' 'Bicyclist' 'Driver'],,99.0,99.0,,,0,1
+810318,41.729061,-72.216091,Mansfield,16171488,18:35,A,3.0,633-E,HIGH ST,['Passenger' 'Bicyclist' 'Driver'],W,0.0,40.0,False,False,0,1
+810318,41.729061,-72.216091,Mansfield,16171488,18:35,A,3.0,633-E,HIGH ST,['Passenger' 'Bicyclist' 'Driver'],,99.0,99.0,,,0,1
+810392,41.639455,-72.056797,Sprague,16202592,16:49,A,4.0,POTASH HILL RD,,['Bicyclist' 'Driver'],E,0.0,,,,0,1
+810392,41.639455,-72.056797,Sprague,16202592,16:49,A,4.0,POTASH HILL RD,,['Bicyclist' 'Driver'],N,0.0,25.0,False,False,0,1
+814165,41.55771,-72.298168,Colchester,16213824,15:28,A,3.0,354-E,,['Driver' 'Bicyclist'],S,0.0,40.0,False,False,0,1
+814165,41.55771,-72.298168,Colchester,16213824,15:28,A,3.0,354-E,,['Driver' 'Bicyclist'],N,0.0,40.0,False,False,0,1
+818119,41.712968,-72.218434,Windham,16226784,14:42,A,3.0,66-E,32-N,"['Other Pedestrian (wheelchair, person in a building, skater, pedestrian conveyance)'
  'Witness' 'Driver']",N,0.0,25.0,False,False,0,0
-819656,41.952491,-72.28783,16234560,20:24,A,4.0,WESTFORD AV,,['Driver' 'Pedestrian' 'Passenger'],W,0.0,30.0,False,False,1,0
-830869,41.77517149,-72.20815351,16244928,17:56,A,3.0,195-N,,['Driver' 'Pedestrian' 'Witness'],S,0.0,45.0,False,False,1,0
-834189,41.98517,-71.898091,16250976,10:24,A,3.0,12-N,,['Driver' 'Pedestrian'],N,0.0,25.0,False,False,1,0
-834548,41.725981,-72.242352,16273440,10:37,A,3.0,32-N,,['Witness' 'Pedestrian' 'Driver'],W,0.0,25.0,False,False,1,0
-834837,41.7124465,-72.20444981,16276896,18:43,A,4.0,IVES ST NO 1,,['Witness' 'Driver' 'Passenger' 'Pedestrian'],E,0.0,25.0,False,False,1,0
-839244,41.970743,-72.361308,16276896,06:29,A,3.0,190-E,,['Driver' 'Bicyclist'],W,0.0,35.0,False,False,0,1
-839244,41.970743,-72.361308,16276896,06:29,A,3.0,190-E,,['Driver' 'Bicyclist'],W,0.0,35.0,False,False,0,1
-843603,41.740415,-72.217333,16300224,08:07,A,4.0,PUDDIN LA,,['Pedestrian' 'Driver'],E,0.0,25.0,False,False,1,0
-846775,41.70986,-72.218648,16306272,14:27,A,3.0,289-N,32-N,['Driver' 'Witness' 'Pedestrian'],E,0.0,25.0,False,False,1,0
-852885,41.798403,-72.369791,16328736,20:53,A,2.0,44-E,,['Pedestrian' 'Driver'],W,0.0,,True,False,1,0
-866056,41.716766,-72.218067,16358976,18:55,A,4.0,PROSPECT ST,WINDHAM ST,['Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
-868856,41.818746,-72.255325,16311456,21:35,A,3.0,195-N,224N-E,['Pedestrian' 'Driver' 'Witness'],S,0.0,40.0,False,False,1,0
-869551,41.95317614,-72.3067433,16368480,12:02,A,3.0,32-N,,['Pedestrian' 'Driver'],E,0.0,25.0,False,False,1,0
-870364,41.714109,-72.215231,16370208,13:51,A,4.0,VALLEY ST,WALNUT ST,['Driver' 'Pedestrian'],W,0.0,30.0,False,False,1,0
-872590,41.714952,-72.218989,16375392,13:18,A,4.0,VALLEY ST,WINDHAM ST,['Pedestrian' 'Driver' 'Witness'],N,0.0,25.0,False,False,1,0
-876003,41.710866,-72.20948,16384032,17:40,A,3.0,661-N,JACKSON ST,['Pedestrian' 'Passenger' 'Driver'],S,0.0,25.0,False,False,1,0
-877690,41.80437,-72.25247,16381440,18:00,A,,207N-S,,['Pedestrian' 'Witness' 'Driver'],W,99.0,25.0,False,False,1,0
-877690,41.80437,-72.25247,16381440,18:00,A,,207N-S,,['Pedestrian' 'Witness' 'Driver'],S,99.0,25.0,True,False,1,0
-879326,41.79790304,-72.24646032,16372800,16:52,A,3.0,275-E,,['Bicyclist' 'Witness' 'Driver'],S,0.0,30.0,False,False,0,1
-879326,41.79790304,-72.24646032,16372800,16:52,A,3.0,275-E,,['Bicyclist' 'Witness' 'Driver'],S,0.0,30.0,False,False,0,1
-879835,41.76033,-72.120796,16371936,12:17,A,4.0,CHEWINK RD,,['Driver' 'Pedestrian'],N,0.0,1.0,,False,1,0
-886914,41.715881,-72.213257,16403040,02:32,A,4.0,CHESTNUT ST,,['Driver' 'Pedestrian'],S,0.0,25.0,True,False,1,0
-886914,41.715881,-72.213257,16403040,02:32,A,4.0,CHESTNUT ST,,['Driver' 'Pedestrian'],,0.0,25.0,False,False,1,0
-897497,41.966242,-72.200514,16413408,09:40,A,3.0,89-N,190-E,['Pedestrian' 'Driver'],N,0.0,45.0,False,False,1,0
-907864,41.716061,-72.230628,16446240,15:19,A,3.0,66-E,,['Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
-909544,41.802176,-71.887233,16447968,16:34,A,2.0,6-W,MAPLE ST,['Pedestrian' 'Driver'],S,99.0,35.0,False,False,1,0
-923560,41.649365,-72.359587,16220736,12:16,A,3.0,85-N,,['Driver' 'Pedestrian'],,99.0,1.0,True,False,1,0
-927202,41.809149,-71.868169,16498080,16:13,A,3.0,607-E,,['Pedestrian' 'Driver'],W,0.0,40.0,False,False,1,0
-927733,41.91005,-71.89506,16487712,19:45,A,4.0,EDMOND ST,,['Driver' 'Pedestrian'],S,0.0,25.0,False,False,1,0
-928881,41.714523,-72.216943,16509312,12:42,A,4.0,VALLEY ST,HIGH ST,['Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
-930089,41.713497,-72.222379,16275168,22:04,K,3.0,66-E,,['Pedestrian' 'Witness' 'Driver'],E,0.0,25.0,True,False,1,0
-931266,41.80974,-72.26199,16513632,02:13,A,3.0,208N-N,,['Witness' 'Driver' 'Pedestrian' 'Passenger'],W,0.0,1.0,True,False,1,0
-931266,41.80974,-72.26199,16513632,02:13,A,3.0,208N-N,,['Witness' 'Driver' 'Pedestrian' 'Passenger'],,0.0,1.0,False,False,1,0
-937456,41.70925,-72.20977,16532640,14:00,A,3.0,32-N,SOUTH ST,['Pedestrian' 'Witness' 'Driver'],N,0.0,15.0,False,False,1,0
-938912,41.71067,-72.20913,16538688,16:36,A,3.0,66-E,,['Bicyclist' 'Driver'],E,0.0,25.0,False,False,0,1
-938912,41.71067,-72.20913,16538688,16:36,A,3.0,66-E,,['Bicyclist' 'Driver'],N,1.0,25.0,False,False,0,1
-940196,41.713396,-72.207592,16541280,15:39,A,4.0,JACKSON ST,,['Driver' 'Witness' 'Pedestrian'],N,0.0,25.0,False,False,1,0
-940214,41.809768,-72.258843,16504128,14:27,A,4.0,359N-E,,['Bicyclist' 'Driver'],S,1.0,10.0,False,False,0,1
-940214,41.809768,-72.258843,16504128,14:27,A,4.0,359N-E,,['Bicyclist' 'Driver'],W,0.0,25.0,False,True,0,1
-941532,41.645806,-71.962766,16541280,00:00,A,3.0,668-E,,['Pedestrian' 'Driver'],,99.0,1.0,True,False,1,0
-945835,41.920923,-71.912095,16552512,21:40,A,4.0,WOODSTOCK AV NO 2,,['Driver' 'Pedestrian' 'Witness'],E,0.0,25.0,False,False,1,0
-948604,41.715745,-72.196969,16566336,13:44,A,3.0,14-E,,['Witness' 'Pedestrian' 'Driver'],W,0.0,30.0,False,False,1,0
-948619,41.80192743,-71.88903994,16486848,23:54,A,2.0,6-W,,['Pedestrian' 'Driver'],W,99.0,40.0,False,False,1,0
-949018,41.71493,-72.21887,16568064,18:05,A,4.0,VALLEY ST,WINDHAM ST,['Driver' 'Bicyclist'],E,0.0,25.0,False,False,0,1
-949018,41.71493,-72.21887,16568064,18:05,A,4.0,VALLEY ST,WINDHAM ST,['Driver' 'Bicyclist'],N,99.0,25.0,True,False,0,1
-956323,41.921029,-71.91217,16573248,21:50,A,4.0,LAUREL ST,,['Pedestrian' 'Driver'],N,0.0,1.0,False,False,1,0
-956659,41.76675,-72.338154,16574976,14:23,A,4.0,SOUTH ST,CARSON DR,['Driver' 'Bicyclist'],E,0.0,,False,False,0,1
-956659,41.76675,-72.338154,16574976,14:23,A,4.0,SOUTH ST,CARSON DR,['Driver' 'Bicyclist'],N,0.0,,False,False,0,1
-959645,41.72187,-72.209968,16593984,14:21,A,4.0,NORTH ST,,['Pedestrian' 'Driver' 'Witness'],N,0.0,25.0,True,False,1,0
-959720,41.92456,-71.88136,16594848,15:23,A,2.0,44-E,,['Driver' 'Witness' 'Bicyclist'],W,0.0,45.0,False,False,0,1
-959720,41.92456,-71.88136,16594848,15:23,A,2.0,44-E,,['Driver' 'Witness' 'Bicyclist'],E,0.0,45.0,True,False,0,1
-959908,41.91634778,-72.32556568,16595712,10:25,A,4.0,SETTLERS WAY,DEERWOOD RD,['Driver' 'Pedestrian'],E,0.0,30.0,False,False,1,0
-962592,41.801386,-72.300771,16605216,23:46,A,3.0,32-N,,['Witness' 'Pedestrian' 'Driver'],,0.0,40.0,False,False,1,0
-962592,41.801386,-72.300771,16605216,23:46,A,3.0,32-N,,['Witness' 'Pedestrian' 'Driver'],S,0.0,40.0,False,False,1,0
-962592,41.801386,-72.300771,16605216,23:46,A,3.0,32-N,,['Witness' 'Pedestrian' 'Driver'],N,0.0,40.0,False,False,1,0
-964076,41.7067,-72.20006,16607808,17:51,A,3.0,32-N,MCDERMOTT AV,['Driver' 'Bicyclist' 'Passenger'],,0.0,88.0,,,0,1
-964076,41.7067,-72.20006,16607808,17:51,A,3.0,32-N,MCDERMOTT AV,['Driver' 'Bicyclist' 'Passenger'],S,0.0,25.0,False,False,0,1
-975476,41.757448,-72.329426,16629408,16:56,A,4.0,NATHAN HALE RD,JUDD RD,['Witness' 'Driver' 'Bicyclist'],S,0.0,30.0,False,False,0,1
-975476,41.757448,-72.329426,16629408,16:56,A,4.0,NATHAN HALE RD,JUDD RD,['Witness' 'Driver' 'Bicyclist'],W,0.0,30.0,False,False,0,1
-978456,41.803999,-71.887618,16644960,10:03,A,4.0,MAPLE ST,,['Pedestrian' 'Driver'],N,0.0,1.0,False,False,1,0
-979139,41.74404,-71.911705,16632864,21:27,A,4.0,FRONT ST,,['Driver' 'Pedestrian'],E,0.0,25.0,False,False,1,0
-982709,41.79786,-72.246604,16382304,17:08,K,3.0,275-E,,['Pedestrian' 'Witness' 'Driver'],W,0.0,30.0,False,False,1,0
-984868,41.759145,-72.402349,16408224,17:26,K,2.0,6-E,,['Passenger' 'Driver' 'Pedestrian'],E,0.0,50.0,False,False,1,0
-993391,41.770255,-72.305156,16679520,18:54,A,4.0,LAKE ST,31-E,['Witness' 'Pedestrian' 'Driver'],N,0.0,88.0,False,False,1,0
-994541,41.558762,-72.317323,16683840,14:42,A,3.0,85-N,,['Driver' 'Pedestrian' 'Passenger'],S,0.0,40.0,False,False,1,0
-994541,41.558762,-72.317323,16683840,14:42,A,3.0,85-N,,['Driver' 'Pedestrian' 'Passenger'],N,0.0,40.0,False,False,1,0
-997733,41.8286,-72.263194,16682976,02:25,A,2.0,44-E,,['Pedestrian' 'Witness' 'Driver'],W,0.0,40.0,False,False,1,0
-1007588,41.839986,-71.874392,16720992,19:52,K,3.0,101-E,VALLEY RD,['Pedestrian' 'Driver'],E,0.0,35.0,False,False,1,0
-1007696,41.80765031,-72.26509114,16714944,20:05,A,3.0,359N-E,HUNTING LODGE RD NO 1,['Pedestrian' 'Driver' 'Passenger'],E,0.0,25.0,False,False,1,0
-1009215,41.96639,-72.298434,16496352,14:43,K,4.0,FURNACE AV,,['Bicyclist' 'Passenger' 'Driver'],S,0.0,30.0,False,False,0,1
-1009215,41.96639,-72.298434,16496352,14:43,K,4.0,FURNACE AV,,['Bicyclist' 'Passenger' 'Driver'],E,1.0,30.0,False,False,0,1
-1010854,41.710751,-72.208962,16644096,06:18,A,4.0,JACKSON ST,UNION ST,['Bicyclist' 'Driver'],E,0.0,25.0,False,False,0,1
-1010854,41.710751,-72.208962,16644096,06:18,A,4.0,JACKSON ST,UNION ST,['Bicyclist' 'Driver'],S,0.0,25.0,False,False,0,1
-1010933,41.71461224,-72.21694802,16701984,10:48,A,4.0,VALLEY ST,HIGH ST,['Witness' 'Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
-1014687,41.84872,-71.804921,16739136,02:22,K,3.0,101-E,,['Driver' 'Pedestrian'],W,99.0,45.0,False,False,1,0
-1015136,41.708325,-72.311091,16738272,17:17,A,3.0,87-N,,['Driver' 'Pedestrian' 'Passenger'],S,0.0,35.0,False,False,1,0
-1015136,41.708325,-72.311091,16738272,17:17,A,3.0,87-N,,['Driver' 'Pedestrian' 'Passenger'],,0.0,35.0,False,False,1,0
-1021965,41.83201,-71.86204,16671744,19:35,A,4.0,COOK HILL RD,,['Pedestrian' 'Witness' 'Driver'],N,0.0,25.0,False,False,1,0
-1022798,41.66756851,-71.91561383,16758144,16:41,A,3.0,12-N,647-N,['Pedestrian' 'Driver'],E,0.0,25.0,False,False,1,0
-1023414,41.610987,-71.974091,16767648,13:53,A,3.0,201-N,,['Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
-1023783,41.857303,-72.270839,16438464,16:03,K,3.0,320-N,,['Driver' 'Witness' 'Pedestrian'],N,99.0,35.0,False,False,1,0
-1026041,41.597431,-71.978715,16768512,10:49,A,3.0,138-E,,['Bicyclist' 'Driver' 'Passenger'],N,0.0,25.0,False,False,0,1
-1026041,41.597431,-71.978715,16768512,10:49,A,3.0,138-E,,['Bicyclist' 'Driver' 'Passenger'],,0.0,99.0,,,0,1
-1029455,42.0200693,-71.85979365,16648416,19:31,K,1.0,I-395,,['Pedestrian' 'Driver'],S,0.0,65.0,,,1,0
-1030512,41.95637,-72.30289,16529184,02:20,A,4.0,SILVER ST,,['Pedestrian' 'Driver'],,99.0,25.0,True,False,1,0
-1032285,41.954066,-71.947822,16354656,22:36,A,4.0,SENEXET RD NO 1,,['Driver' 'Pedestrian'],S,99.0,30.0,True,False,1,0
-1032285,41.954066,-71.947822,16354656,22:36,A,4.0,SENEXET RD NO 1,,['Driver' 'Pedestrian'],N,0.0,30.0,False,False,1,0
-1033812,41.79955398,-72.23900126,16782336,17:14,A,3.0,195-N,,['Pedestrian' 'Driver'],N,0.0,30.0,False,True,1,0
-1038603,41.89323477,-72.37440801,16564608,08:43,A,4.0,Kozley Rd,WILLIAMS WAY,['Witness' 'Pedestrian' 'Driver'],W,0.0,30.0,False,False,1,0
-1039864,41.859322,-71.994597,16798752,14:25,A,2.0,44-E,,['Pedestrian' 'Driver'],E,0.0,88.0,False,False,1,0
-1040255,41.70913749,-72.20985046,16816032,02:16,A,3.0,661-N,SOUTH ST,['Pedestrian' 'Driver'],W,0.0,25.0,False,False,1,0
-1041906,41.719342,-71.896552,16820352,13:23,A,3.0,14-W,GREEN HOLLOW RD,['Driver' 'Pedestrian'],W,0.0,25.0,False,True,1,0
-1042642,41.7103,-72.2076,16816896,15:16,A,3.0,66-E,,['Driver' 'Pedestrian' 'Witness'],E,0.0,25.0,False,False,1,0
-1042661,41.713681,-72.223869,16822944,10:24,A,3.0,66-E,,['Bicyclist' 'Witness' 'Driver'],E,0.0,25.0,False,True,0,1
-1042661,41.713681,-72.223869,16822944,10:24,A,3.0,66-E,,['Bicyclist' 'Witness' 'Driver'],W,0.0,25.0,False,True,0,1
-1043288,41.7147,-72.20727,16817760,20:43,A,4.0,SPRUCE ST,,['Driver' 'Pedestrian'],S,0.0,25.0,False,False,1,0
-1043288,41.7147,-72.20727,16817760,20:43,A,4.0,SPRUCE ST,,['Driver' 'Pedestrian'],S,0.0,25.0,False,False,1,0
-1049650,41.88601246,-72.31023358,16843680,20:21,A,3.0,74-E,,['Passenger' 'Driver' 'Pedestrian'],W,0.0,25.0,False,False,1,0
-1049688,41.813294,-71.876709,16827264,13:57,A,3.0,12-N,NORTH ST,['Pedestrian' 'Passenger' 'Driver'],E,0.0,1.0,False,False,1,0
-1050239,41.706562,-72.199875,16844544,22:40,A,3.0,32-N,,['Witness' 'Driver' 'Pedestrian'],S,97.0,35.0,True,False,1,0
-1051987,41.566305,-72.128917,16756416,16:33,A,3.0,32-N,,['Driver' 'Pedestrian'],,0.0,1.0,True,False,1,0
-1056294,41.56253967,-72.35775017,16832448,16:55,A,3.0,16-E,,['Bicyclist' 'Driver' 'Witness'],W,0.0,45.0,False,False,0,1
-1056294,41.56253967,-72.35775017,16832448,16:55,A,3.0,16-E,,['Bicyclist' 'Driver' 'Witness'],W,0.0,45.0,False,False,0,1
-1059204,41.669239,-71.915154,16850592,16:20,A,3.0,12-N,,['Bicyclist' 'Driver'],N,0.0,35.0,False,False,0,1
-1059204,41.669239,-71.915154,16850592,16:20,A,3.0,12-N,,['Bicyclist' 'Driver'],S,0.0,35.0,False,False,0,1
-1060237,41.786507,-72.007691,16860096,14:55,A,2.0,6-E,CHERRY HILL RD,['Bicyclist' 'Driver'],W,99.0,50.0,False,False,0,1
-1060237,41.786507,-72.007691,16860096,14:55,A,2.0,6-E,CHERRY HILL RD,['Bicyclist' 'Driver'],S,99.0,50.0,False,False,0,1
-1060886,41.957983,-72.314386,16866144,19:39,A,4.0,WEST ST,GREEN ST,['Witness' 'Driver' 'Bicyclist'],W,0.0,25.0,False,False,0,1
-1060886,41.957983,-72.314386,16866144,19:39,A,4.0,WEST ST,GREEN ST,['Witness' 'Driver' 'Bicyclist'],S,0.0,25.0,False,False,0,1
-1065006,41.602937,-71.986658,16879104,20:44,A,4.0,K OF C DR,,['Driver' 'Pedestrian' 'Passenger'],N,0.0,25.0,False,False,1,0
-1068106,41.732703,-72.199999,16849728,16:00,A,3.0,195-N,632-E,['Driver' 'Occupant of a Non-Motor Vehicle Transportation Device'],S,0.0,35.0,False,False,0,0
-1070375,41.575356,-72.191415,16893792,17:40,A,3.0,608-E,,['Bicyclist' 'Driver' 'Passenger'],W,0.0,45.0,False,False,0,1
-1070375,41.575356,-72.191415,16893792,17:40,A,3.0,608-E,,['Bicyclist' 'Driver' 'Passenger'],W,0.0,45.0,False,False,0,1
-1073976,41.724572,-72.240773,16908480,10:58,A,3.0,32-N,CANTOR DR,"['Other Pedestrian (wheelchair, person in a building, skater, pedestrian conveyance)'
+819656,41.952491,-72.28783,Stafford,16234560,20:24,A,4.0,WESTFORD AV,,['Driver' 'Pedestrian' 'Passenger'],W,0.0,30.0,False,False,1,0
+830869,41.77517149,-72.20815351,Mansfield,16244928,17:56,A,3.0,195-N,,['Driver' 'Pedestrian' 'Witness'],S,0.0,45.0,False,False,1,0
+834189,41.98517,-71.898091,Thompson,16250976,10:24,A,3.0,12-N,,['Driver' 'Pedestrian'],N,0.0,25.0,False,False,1,0
+834548,41.725981,-72.242352,Windham,16273440,10:37,A,3.0,32-N,,['Witness' 'Pedestrian' 'Driver'],W,0.0,25.0,False,False,1,0
+834837,41.7124465,-72.20444981,Windham,16276896,18:43,A,4.0,IVES ST NO 1,,['Witness' 'Driver' 'Passenger' 'Pedestrian'],E,0.0,25.0,False,False,1,0
+839244,41.970743,-72.361308,Stafford,16276896,06:29,A,3.0,190-E,,['Driver' 'Bicyclist'],W,0.0,35.0,False,False,0,1
+839244,41.970743,-72.361308,Stafford,16276896,06:29,A,3.0,190-E,,['Driver' 'Bicyclist'],W,0.0,35.0,False,False,0,1
+843603,41.740415,-72.217333,Mansfield,16300224,08:07,A,4.0,PUDDIN LA,,['Pedestrian' 'Driver'],E,0.0,25.0,False,False,1,0
+846775,41.70986,-72.218648,Windham,16306272,14:27,A,3.0,289-N,32-N,['Driver' 'Witness' 'Pedestrian'],E,0.0,25.0,False,False,1,0
+852885,41.798403,-72.369791,Coventry,16328736,20:53,A,2.0,44-E,,['Pedestrian' 'Driver'],W,0.0,,True,False,1,0
+866056,41.716766,-72.218067,Windham,16358976,18:55,A,4.0,PROSPECT ST,WINDHAM ST,['Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
+868856,41.818746,-72.255325,Mansfield,16311456,21:35,A,3.0,195-N,224N-E,['Pedestrian' 'Driver' 'Witness'],S,0.0,40.0,False,False,1,0
+869551,41.95317614,-72.3067433,Stafford,16368480,12:02,A,3.0,32-N,,['Pedestrian' 'Driver'],E,0.0,25.0,False,False,1,0
+870364,41.714109,-72.215231,Windham,16370208,13:51,A,4.0,VALLEY ST,WALNUT ST,['Driver' 'Pedestrian'],W,0.0,30.0,False,False,1,0
+872590,41.714952,-72.218989,Windham,16375392,13:18,A,4.0,VALLEY ST,WINDHAM ST,['Pedestrian' 'Driver' 'Witness'],N,0.0,25.0,False,False,1,0
+876003,41.710866,-72.20948,Windham,16384032,17:40,A,3.0,661-N,JACKSON ST,['Pedestrian' 'Passenger' 'Driver'],S,0.0,25.0,False,False,1,0
+877690,41.80437,-72.25247,Mansfield,16381440,18:00,A,,207N-S,,['Pedestrian' 'Witness' 'Driver'],W,99.0,25.0,False,False,1,0
+877690,41.80437,-72.25247,Mansfield,16381440,18:00,A,,207N-S,,['Pedestrian' 'Witness' 'Driver'],S,99.0,25.0,True,False,1,0
+879326,41.79790304,-72.24646032,Mansfield,16372800,16:52,A,3.0,275-E,,['Bicyclist' 'Witness' 'Driver'],S,0.0,30.0,False,False,0,1
+879326,41.79790304,-72.24646032,Mansfield,16372800,16:52,A,3.0,275-E,,['Bicyclist' 'Witness' 'Driver'],S,0.0,30.0,False,False,0,1
+879835,41.76033,-72.120796,Chaplin,16371936,12:17,A,4.0,CHEWINK RD,,['Driver' 'Pedestrian'],N,0.0,1.0,,False,1,0
+886914,41.715881,-72.213257,Windham,16403040,02:32,A,4.0,CHESTNUT ST,,['Driver' 'Pedestrian'],S,0.0,25.0,True,False,1,0
+886914,41.715881,-72.213257,Windham,16403040,02:32,A,4.0,CHESTNUT ST,,['Driver' 'Pedestrian'],,0.0,25.0,False,False,1,0
+897497,41.966242,-72.200514,Union,16413408,09:40,A,3.0,89-N,190-E,['Pedestrian' 'Driver'],N,0.0,45.0,False,False,1,0
+907864,41.716061,-72.230628,Windham,16446240,15:19,A,3.0,66-E,,['Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
+909544,41.802176,-71.887233,Killingly,16447968,16:34,A,2.0,6-W,MAPLE ST,['Pedestrian' 'Driver'],S,99.0,35.0,False,False,1,0
+923560,41.649365,-72.359587,Hebron,16220736,12:16,A,3.0,85-N,,['Driver' 'Pedestrian'],,99.0,1.0,True,False,1,0
+927202,41.809149,-71.868169,Killingly,16498080,16:13,A,3.0,607-E,,['Pedestrian' 'Driver'],W,0.0,40.0,False,False,1,0
+927733,41.91005,-71.89506,Putnam,16487712,19:45,A,4.0,EDMOND ST,,['Driver' 'Pedestrian'],S,0.0,25.0,False,False,1,0
+928881,41.714523,-72.216943,Windham,16509312,12:42,A,4.0,VALLEY ST,HIGH ST,['Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
+930089,41.713497,-72.222379,Windham,16275168,22:04,K,3.0,66-E,,['Pedestrian' 'Witness' 'Driver'],E,0.0,25.0,True,False,1,0
+931266,41.80974,-72.26199,Mansfield,16513632,02:13,A,3.0,208N-N,,['Witness' 'Driver' 'Pedestrian' 'Passenger'],W,0.0,1.0,True,False,1,0
+931266,41.80974,-72.26199,Mansfield,16513632,02:13,A,3.0,208N-N,,['Witness' 'Driver' 'Pedestrian' 'Passenger'],,0.0,1.0,False,False,1,0
+937456,41.70925,-72.20977,Windham,16532640,14:00,A,3.0,32-N,SOUTH ST,['Pedestrian' 'Witness' 'Driver'],N,0.0,15.0,False,False,1,0
+938912,41.71067,-72.20913,Windham,16538688,16:36,A,3.0,66-E,,['Bicyclist' 'Driver'],E,0.0,25.0,False,False,0,1
+938912,41.71067,-72.20913,Windham,16538688,16:36,A,3.0,66-E,,['Bicyclist' 'Driver'],N,1.0,25.0,False,False,0,1
+940196,41.713396,-72.207592,Windham,16541280,15:39,A,4.0,JACKSON ST,,['Driver' 'Witness' 'Pedestrian'],N,0.0,25.0,False,False,1,0
+940214,41.809768,-72.258843,Mansfield,16504128,14:27,A,4.0,359N-E,,['Bicyclist' 'Driver'],S,1.0,10.0,False,False,0,1
+940214,41.809768,-72.258843,Mansfield,16504128,14:27,A,4.0,359N-E,,['Bicyclist' 'Driver'],W,0.0,25.0,False,True,0,1
+941532,41.645806,-71.962766,Canterbury,16541280,00:00,A,3.0,668-E,,['Pedestrian' 'Driver'],,99.0,1.0,True,False,1,0
+945835,41.920923,-71.912095,Putnam,16552512,21:40,A,4.0,WOODSTOCK AV NO 2,,['Driver' 'Pedestrian' 'Witness'],E,0.0,25.0,False,False,1,0
+948604,41.715745,-72.196969,Windham,16566336,13:44,A,3.0,14-E,,['Witness' 'Pedestrian' 'Driver'],W,0.0,30.0,False,False,1,0
+948619,41.80192743,-71.88903994,Brooklyn,16486848,23:54,A,2.0,6-W,,['Pedestrian' 'Driver'],W,99.0,40.0,False,False,1,0
+949018,41.71493,-72.21887,Windham,16568064,18:05,A,4.0,VALLEY ST,WINDHAM ST,['Driver' 'Bicyclist'],E,0.0,25.0,False,False,0,1
+949018,41.71493,-72.21887,Windham,16568064,18:05,A,4.0,VALLEY ST,WINDHAM ST,['Driver' 'Bicyclist'],N,99.0,25.0,True,False,0,1
+956323,41.921029,-71.91217,Putnam,16573248,21:50,A,4.0,LAUREL ST,,['Pedestrian' 'Driver'],N,0.0,1.0,False,False,1,0
+956659,41.76675,-72.338154,Coventry,16574976,14:23,A,4.0,SOUTH ST,CARSON DR,['Driver' 'Bicyclist'],E,0.0,,False,False,0,1
+956659,41.76675,-72.338154,Coventry,16574976,14:23,A,4.0,SOUTH ST,CARSON DR,['Driver' 'Bicyclist'],N,0.0,,False,False,0,1
+959645,41.72187,-72.209968,Windham,16593984,14:21,A,4.0,NORTH ST,,['Pedestrian' 'Driver' 'Witness'],N,0.0,25.0,True,False,1,0
+959720,41.92456,-71.88136,Putnam,16594848,15:23,A,2.0,44-E,,['Driver' 'Witness' 'Bicyclist'],W,0.0,45.0,False,False,0,1
+959720,41.92456,-71.88136,Putnam,16594848,15:23,A,2.0,44-E,,['Driver' 'Witness' 'Bicyclist'],E,0.0,45.0,True,False,0,1
+959908,41.91634778,-72.32556568,Tolland,16595712,10:25,A,4.0,SETTLERS WAY,DEERWOOD RD,['Driver' 'Pedestrian'],E,0.0,30.0,False,False,1,0
+962592,41.801386,-72.300771,Mansfield,16605216,23:46,A,3.0,32-N,,['Witness' 'Pedestrian' 'Driver'],,0.0,40.0,False,False,1,0
+962592,41.801386,-72.300771,Mansfield,16605216,23:46,A,3.0,32-N,,['Witness' 'Pedestrian' 'Driver'],S,0.0,40.0,False,False,1,0
+962592,41.801386,-72.300771,Mansfield,16605216,23:46,A,3.0,32-N,,['Witness' 'Pedestrian' 'Driver'],N,0.0,40.0,False,False,1,0
+964076,41.7067,-72.20006,Windham,16607808,17:51,A,3.0,32-N,MCDERMOTT AV,['Driver' 'Bicyclist' 'Passenger'],,0.0,88.0,,,0,1
+964076,41.7067,-72.20006,Windham,16607808,17:51,A,3.0,32-N,MCDERMOTT AV,['Driver' 'Bicyclist' 'Passenger'],S,0.0,25.0,False,False,0,1
+975476,41.757448,-72.329426,Coventry,16629408,16:56,A,4.0,NATHAN HALE RD,JUDD RD,['Witness' 'Driver' 'Bicyclist'],S,0.0,30.0,False,False,0,1
+975476,41.757448,-72.329426,Coventry,16629408,16:56,A,4.0,NATHAN HALE RD,JUDD RD,['Witness' 'Driver' 'Bicyclist'],W,0.0,30.0,False,False,0,1
+978456,41.803999,-71.887618,Killingly,16644960,10:03,A,4.0,MAPLE ST,,['Pedestrian' 'Driver'],N,0.0,1.0,False,False,1,0
+979139,41.74404,-71.911705,Plainfield,16632864,21:27,A,4.0,FRONT ST,,['Driver' 'Pedestrian'],E,0.0,25.0,False,False,1,0
+982709,41.79786,-72.246604,Mansfield,16382304,17:08,K,3.0,275-E,,['Pedestrian' 'Witness' 'Driver'],W,0.0,30.0,False,False,1,0
+984868,41.759145,-72.402349,Andover,16408224,17:26,K,2.0,6-E,,['Passenger' 'Driver' 'Pedestrian'],E,0.0,50.0,False,False,1,0
+993391,41.770255,-72.305156,Coventry,16679520,18:54,A,4.0,LAKE ST,31-E,['Witness' 'Pedestrian' 'Driver'],N,0.0,88.0,False,False,1,0
+994541,41.558762,-72.317323,Colchester,16683840,14:42,A,3.0,85-N,,['Driver' 'Pedestrian' 'Passenger'],S,0.0,40.0,False,False,1,0
+994541,41.558762,-72.317323,Colchester,16683840,14:42,A,3.0,85-N,,['Driver' 'Pedestrian' 'Passenger'],N,0.0,40.0,False,False,1,0
+997733,41.8286,-72.263194,Mansfield,16682976,02:25,A,2.0,44-E,,['Pedestrian' 'Witness' 'Driver'],W,0.0,40.0,False,False,1,0
+1007588,41.839986,-71.874392,Killingly,16720992,19:52,K,3.0,101-E,VALLEY RD,['Pedestrian' 'Driver'],E,0.0,35.0,False,False,1,0
+1007696,41.80765031,-72.26509114,Mansfield,16714944,20:05,A,3.0,359N-E,HUNTING LODGE RD NO 1,['Pedestrian' 'Driver' 'Passenger'],E,0.0,25.0,False,False,1,0
+1009215,41.96639,-72.298434,Stafford,16496352,14:43,K,4.0,FURNACE AV,,['Bicyclist' 'Passenger' 'Driver'],S,0.0,30.0,False,False,0,1
+1009215,41.96639,-72.298434,Stafford,16496352,14:43,K,4.0,FURNACE AV,,['Bicyclist' 'Passenger' 'Driver'],E,1.0,30.0,False,False,0,1
+1010854,41.710751,-72.208962,Windham,16644096,06:18,A,4.0,JACKSON ST,UNION ST,['Bicyclist' 'Driver'],E,0.0,25.0,False,False,0,1
+1010854,41.710751,-72.208962,Windham,16644096,06:18,A,4.0,JACKSON ST,UNION ST,['Bicyclist' 'Driver'],S,0.0,25.0,False,False,0,1
+1010933,41.71461224,-72.21694802,Windham,16701984,10:48,A,4.0,VALLEY ST,HIGH ST,['Witness' 'Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
+1014687,41.84872,-71.804921,Killingly,16739136,02:22,K,3.0,101-E,,['Driver' 'Pedestrian'],W,99.0,45.0,False,False,1,0
+1015136,41.708325,-72.311091,Columbia,16738272,17:17,A,3.0,87-N,,['Driver' 'Pedestrian' 'Passenger'],S,0.0,35.0,False,False,1,0
+1015136,41.708325,-72.311091,Columbia,16738272,17:17,A,3.0,87-N,,['Driver' 'Pedestrian' 'Passenger'],,0.0,35.0,False,False,1,0
+1021965,41.83201,-71.86204,Killingly,16671744,19:35,A,4.0,COOK HILL RD,,['Pedestrian' 'Witness' 'Driver'],N,0.0,25.0,False,False,1,0
+1022798,41.66756851,-71.91561383,Plainfield,16758144,16:41,A,3.0,12-N,647-N,['Pedestrian' 'Driver'],E,0.0,25.0,False,False,1,0
+1023414,41.610987,-71.974091,Griswold,16767648,13:53,A,3.0,201-N,,['Pedestrian' 'Driver'],S,0.0,25.0,False,False,1,0
+1023783,41.857303,-72.270839,Willington,16438464,16:03,K,3.0,320-N,,['Driver' 'Witness' 'Pedestrian'],N,99.0,35.0,False,False,1,0
+1026041,41.597431,-71.978715,Griswold,16768512,10:49,A,3.0,138-E,,['Bicyclist' 'Driver' 'Passenger'],N,0.0,25.0,False,False,0,1
+1026041,41.597431,-71.978715,Griswold,16768512,10:49,A,3.0,138-E,,['Bicyclist' 'Driver' 'Passenger'],,0.0,99.0,,,0,1
+1029455,42.0200693,-71.85979365,Thompson,16648416,19:31,K,1.0,I-395,,['Pedestrian' 'Driver'],S,0.0,65.0,,,1,0
+1030512,41.95637,-72.30289,Stafford,16529184,02:20,A,4.0,SILVER ST,,['Pedestrian' 'Driver'],,99.0,25.0,True,False,1,0
+1032285,41.954066,-71.947822,Woodstock,16354656,22:36,A,4.0,SENEXET RD NO 1,,['Driver' 'Pedestrian'],S,99.0,30.0,True,False,1,0
+1032285,41.954066,-71.947822,Woodstock,16354656,22:36,A,4.0,SENEXET RD NO 1,,['Driver' 'Pedestrian'],N,0.0,30.0,False,False,1,0
+1033812,41.79955398,-72.23900126,Mansfield,16782336,17:14,A,3.0,195-N,,['Pedestrian' 'Driver'],N,0.0,30.0,False,True,1,0
+1038603,41.89323477,-72.37440801,Tolland,16564608,08:43,A,4.0,Kozley Rd,WILLIAMS WAY,['Witness' 'Pedestrian' 'Driver'],W,0.0,30.0,False,False,1,0
+1039864,41.859322,-71.994597,Pomfret,16798752,14:25,A,2.0,44-E,,['Pedestrian' 'Driver'],E,0.0,88.0,False,False,1,0
+1040255,41.70913749,-72.20985046,Windham,16816032,02:16,A,3.0,661-N,SOUTH ST,['Pedestrian' 'Driver'],W,0.0,25.0,False,False,1,0
+1041906,41.719342,-71.896552,Plainfield,16820352,13:23,A,3.0,14-W,GREEN HOLLOW RD,['Driver' 'Pedestrian'],W,0.0,25.0,False,True,1,0
+1042642,41.7103,-72.2076,Windham,16816896,15:16,A,3.0,66-E,,['Driver' 'Pedestrian' 'Witness'],E,0.0,25.0,False,False,1,0
+1042661,41.713681,-72.223869,Windham,16822944,10:24,A,3.0,66-E,,['Bicyclist' 'Witness' 'Driver'],E,0.0,25.0,False,True,0,1
+1042661,41.713681,-72.223869,Windham,16822944,10:24,A,3.0,66-E,,['Bicyclist' 'Witness' 'Driver'],W,0.0,25.0,False,True,0,1
+1043288,41.7147,-72.20727,Windham,16817760,20:43,A,4.0,SPRUCE ST,,['Driver' 'Pedestrian'],S,0.0,25.0,False,False,1,0
+1043288,41.7147,-72.20727,Windham,16817760,20:43,A,4.0,SPRUCE ST,,['Driver' 'Pedestrian'],S,0.0,25.0,False,False,1,0
+1049650,41.88601246,-72.31023358,Tolland,16843680,20:21,A,3.0,74-E,,['Passenger' 'Driver' 'Pedestrian'],W,0.0,25.0,False,False,1,0
+1049688,41.813294,-71.876709,Killingly,16827264,13:57,A,3.0,12-N,NORTH ST,['Pedestrian' 'Passenger' 'Driver'],E,0.0,1.0,False,False,1,0
+1050239,41.706562,-72.199875,Windham,16844544,22:40,A,3.0,32-N,,['Witness' 'Driver' 'Pedestrian'],S,97.0,35.0,True,False,1,0
+1051987,41.566305,-72.128917,Franklin,16756416,16:33,A,3.0,32-N,,['Driver' 'Pedestrian'],,0.0,1.0,True,False,1,0
+1056294,41.56253967,-72.35775017,Colchester,16832448,16:55,A,3.0,16-E,,['Bicyclist' 'Driver' 'Witness'],W,0.0,45.0,False,False,0,1
+1056294,41.56253967,-72.35775017,Colchester,16832448,16:55,A,3.0,16-E,,['Bicyclist' 'Driver' 'Witness'],W,0.0,45.0,False,False,0,1
+1059204,41.669239,-71.915154,Plainfield,16850592,16:20,A,3.0,12-N,,['Bicyclist' 'Driver'],N,0.0,35.0,False,False,0,1
+1059204,41.669239,-71.915154,Plainfield,16850592,16:20,A,3.0,12-N,,['Bicyclist' 'Driver'],S,0.0,35.0,False,False,0,1
+1060237,41.786507,-72.007691,Brooklyn,16860096,14:55,A,2.0,6-E,CHERRY HILL RD,['Bicyclist' 'Driver'],W,99.0,50.0,False,False,0,1
+1060237,41.786507,-72.007691,Brooklyn,16860096,14:55,A,2.0,6-E,CHERRY HILL RD,['Bicyclist' 'Driver'],S,99.0,50.0,False,False,0,1
+1060886,41.957983,-72.314386,Stafford,16866144,19:39,A,4.0,WEST ST,GREEN ST,['Witness' 'Driver' 'Bicyclist'],W,0.0,25.0,False,False,0,1
+1060886,41.957983,-72.314386,Stafford,16866144,19:39,A,4.0,WEST ST,GREEN ST,['Witness' 'Driver' 'Bicyclist'],S,0.0,25.0,False,False,0,1
+1065006,41.602937,-71.986658,Griswold,16879104,20:44,A,4.0,K OF C DR,,['Driver' 'Pedestrian' 'Passenger'],N,0.0,25.0,False,False,1,0
+1068106,41.732703,-72.199999,Mansfield,16849728,16:00,A,3.0,195-N,632-E,['Driver' 'Occupant of a Non-Motor Vehicle Transportation Device'],S,0.0,35.0,False,False,0,0
+1070375,41.575356,-72.191415,Bozrah,16893792,17:40,A,3.0,608-E,,['Bicyclist' 'Driver' 'Passenger'],W,0.0,45.0,False,False,0,1
+1070375,41.575356,-72.191415,Bozrah,16893792,17:40,A,3.0,608-E,,['Bicyclist' 'Driver' 'Passenger'],W,0.0,45.0,False,False,0,1
+1073976,41.724572,-72.240773,Windham,16908480,10:58,A,3.0,32-N,CANTOR DR,"['Other Pedestrian (wheelchair, person in a building, skater, pedestrian conveyance)'
  'Driver' 'Witness']",W,0.0,35.0,False,False,0,0
-1073977,41.715762,-72.196602,16911072,18:55,A,3.0,14-E,MAYO ST,['Witness' 'Bicyclist' 'Driver'],S,0.0,25.0,False,False,0,1
-1073977,41.715762,-72.196602,16911072,18:55,A,3.0,14-E,MAYO ST,['Witness' 'Bicyclist' 'Driver'],E,0.0,25.0,False,True,0,1
-1077891,41.716095,-72.177526,16911072,22:06,A,4.0,OLD MANSFIELD RD,,['Pedestrian' 'Passenger' 'Driver'],S,0.0,25.0,False,False,1,0
-1081555,41.81149726,-72.25719126,16930944,21:50,A,0.0,226N-N,,['Witness' 'Pedestrian'],S,99.0,1.0,False,False,1,0
+1073977,41.715762,-72.196602,Windham,16911072,18:55,A,3.0,14-E,MAYO ST,['Witness' 'Bicyclist' 'Driver'],S,0.0,25.0,False,False,0,1
+1073977,41.715762,-72.196602,Windham,16911072,18:55,A,3.0,14-E,MAYO ST,['Witness' 'Bicyclist' 'Driver'],E,0.0,25.0,False,True,0,1
+1077891,41.716095,-72.177526,Windham,16911072,22:06,A,4.0,OLD MANSFIELD RD,,['Pedestrian' 'Passenger' 'Driver'],S,0.0,25.0,False,False,1,0
+1081555,41.81149726,-72.25719126,Mansfield,16930944,21:50,A,0.0,226N-N,,['Witness' 'Pedestrian'],S,99.0,1.0,False,False,1,0
