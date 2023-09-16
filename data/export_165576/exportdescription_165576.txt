@@ -1,9 +1,0 @@
-Dataset: mmucc
-Towns:Ansonia, Beacon Falls, Bethany, Branford, Cheshire, Derby, East Haven, Guilford, Hamden, Madison, Meriden, Middlebury, Milford, Naugatuck, New Haven, North Branford, North Haven, Orange, Oxford, Prospect, Seymour, Southbury, Wallingford, Waterbury, West Haven, Wolcott, Woodbridge
-Crash Severity: Fatal (Kill)
-Person Type: 3||4||5||6||8||, Driver
-Injury Status: Fatal Injury (K)
-Trafficway Ownership: Public Road, Private Road, Not Applicable, Unknown
-Trafficway Class: Trafficway, On Road, Trafficway, Not on Road, Non-trafficway, Parking Lot, Unknown
-Private Property Crashes: Public Property, Private Property
-Fatal Case Status: Under Investigation, Complete

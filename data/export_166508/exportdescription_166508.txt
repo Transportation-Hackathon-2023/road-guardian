@@ -1,0 +1,5 @@
+Dataset: mmucc
+Towns:Andover, Ashford, Bozrah, Brooklyn, Canterbury, Chaplin, Colchester, Columbia, Coventry, Eastford, Franklin, Griswold, Hampton, Hebron, Killingly, Lebanon, Lisbon, Mansfield, Marlborough, Plainfield, Pomfret, Putnam, Scotland, Sprague, Stafford, Sterling, Thompson, Tolland, Union, Voluntown, Willington, Windham, Woodstock
+Crash Severity: Injury of any type (Serious, Minor, Possible), Fatal (Kill)
+Person Type: 3||4||5||6||8||99||, Driver
+Private Property Crashes: Public Property

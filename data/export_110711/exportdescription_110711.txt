@@ -1,4 +1,0 @@
-Dataset: mmucc
-Towns:East Haven, Hamden, New Haven, North Haven, West Haven
-Person Type: 3||4||5||6||
-Injury Status: Fatal Injury (K)

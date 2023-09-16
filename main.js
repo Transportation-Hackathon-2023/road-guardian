@@ -1,10 +1,10 @@
-// Initialize Leaflet map for New Haven
+// Initialize Leaflet map for Eastern CT
 let map = L.map('map', {
     zoomControl: false,
     inertia: false,
-    center: [41.308, -72.924],
-    zoom: 13,
-    minZoom: 13,
+    center: [41.8793, -72.1243],
+    zoom: 10,
+    minZoom: 8,
     maxZoom: 19,
     scrollWheelZoom: 'center',
     attributionControl: false,
@@ -89,7 +89,7 @@ Papa.parse('./data/crashes.csv', {
             + formattedTo + "</span>")
 
         text += ', there ' + (crashesTotal === 1 ? 'was ' : 'were  <span class="orange fw5">') + (crashesTotal === 0 ? 'no' : crashesTotal.toLocaleString())
-        text += ' dangerous motor vehicle crash' + (crashesTotal === 1 ? '' : 'es') + '</span> in or around <b>New Haven</b>.'
+        text += ' dangerous motor vehicle crash' + (crashesTotal === 1 ? '' : 'es') + '</span> in <b>Northeastern Connecticut</b>.'
         
         if (crashesTotal > 1) {
             text += ' Of those, <span class="dark-pink fw5">' + (crashesPed > 0 ? crashesPed.toLocaleString() : ' none');
