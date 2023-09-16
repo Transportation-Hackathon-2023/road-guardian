@@ -1,0 +1,14 @@
+input[type="checkbox"] {
+    vertical-align:middle;
+    display:inline-block;
+}
+label.button {
+    display:inline-block;
+    cursor:pointer
+}
+label.button p {
+    vertical-align:middle;
+    padding:8px;
+    margin-top:0;
+    margin-bottom:0;
+}

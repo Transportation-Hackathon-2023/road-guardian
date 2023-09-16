@@ -1,0 +1,3 @@
+Dataset: mmucc
+Towns:New Haven
+Crash Severity: Injury of any type (Serious, Minor, Possible), Fatal (Kill)

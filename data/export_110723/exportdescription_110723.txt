@@ -1,0 +1,4 @@
+Dataset: mmucc
+Last Number of Years: 3
+Towns:East Haven, Hamden, New Haven, North Haven, West Haven
+Crash Severity: Injury of any type (Serious, Minor, Possible), Fatal (Kill)

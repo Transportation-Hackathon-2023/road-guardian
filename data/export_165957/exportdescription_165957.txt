@@ -1,0 +1,9 @@
+Dataset: mmucc
+Towns:East Haven, Hamden, New Haven, West Haven
+Crash Severity: Injury of any type (Serious, Minor, Possible), Fatal (Kill)
+Person Type: 3||4||5||6||8||, Driver
+Injury Status: Suspected Serious Injury (A), Fatal Injury (K)
+Trafficway Ownership: Public Road, Private Road, Not Applicable, Unknown
+Trafficway Class: Trafficway, On Road, Trafficway, Not on Road, Non-trafficway, Parking Lot, Unknown
+Private Property Crashes: Public Property, Private Property
+Fatal Case Status: Under Investigation, Complete
