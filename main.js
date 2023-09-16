@@ -67,8 +67,8 @@ Papa.parse('./data/crashes.csv', {
 
         let heat = L.heatLayer(
             [], 
-            { radius: 12,
-            blur: 10,
+            { radius: 5,
+            blur: 3,
             maxZoom: 17,
             gradient: {0.4: 'blue', 0.6: 'lime', 
             0.7: 'yellow', 0.8: 'red', 1: 'black'} 
@@ -154,7 +154,7 @@ Papa.parse('./data/crashes.csv', {
             individualPoints.clearLayers();
 
             // Update the heatlayer
-            let intensity = 3;
+            let intensity = 20;
 
             // Main heatmap
             document.addEventListener('DOMContentLoaded', function() {
@@ -170,7 +170,7 @@ Papa.parse('./data/crashes.csv', {
 
 
             // If zoomed in all the way, show points instead of a heatmap
-            if ( map.getZoom() >= 15 ) {
+            if ( map.getZoom() >= 12 ) {
 
                 heat.redraw();
                 let intensity = 1; // quickly adjusts intensity of heatmap
@@ -181,7 +181,7 @@ Papa.parse('./data/crashes.csv', {
 
                 // L.circleMarker is a Leaflet function that creates a circle marker at the lat and long of the crash
                 let circle = L.circleMarker([crash.x, crash.y], { 
-                    radius: 6,
+                    radius: 5,
                     color: '#000000',
                     fillColor: '#FFFFFF',
                     fillOpacity: 1,
@@ -195,7 +195,6 @@ Papa.parse('./data/crashes.csv', {
                         + '<br><p>Motor vehicle was driving on: ' + crash.o + (crash.h === null ? '' : ' and the nearest cross-street is ' + crash.h + '</p>')
                         + '<p>There was ' + (crash.f === 'True' ? 'a bike lane ' : 'no bike lane ') + 'present.</p>'
                         + '<a href="' + diagramUrl + '" target="_blank"><img src="' + diagramUrl + '" style="display:none" alt="Crash diagram" />Show crash diagram.</a>'
-                        + '<a href="" + id="diagram-popup" target="_blank">Popup crash diagram.</a>'
                         + '</span><br>',
                         { minWidth: 200 }
                     )
