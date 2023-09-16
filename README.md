@@ -18,3 +18,24 @@ Towns:	Andover, Ashford, Bozrah, Brooklyn, Canterbury, Chaplin, Colchester, Colu
 Crash Severity:	Injury of any type (Serious, Minor, Possible), Fatal (Kill)
 Person Type:	Pedestrian, Other Pedestrian (wheelchair, person in a building, skater, pedestrian conveyance), Bicyclist, Other Cyclist, Occupant of a Non-Motor Vehicle Transportation Device, Unknown Person Types.
 Private Property Crashes:	Public Property
+
+
+### NECCOG:
+
+- Northeastern CT COG:
+  + ashford
+  + brooklyn
+  + canterbury
+  + chaplin
+  + eastford
+  + hampton
+  + killingly
+  + plainfield
+  + pomfret
+  + putnam
+  + scotland
+  + sterling
+  + thompson
+  + union
+  + voluntown
+  + woodstock
