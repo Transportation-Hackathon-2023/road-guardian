@@ -6,7 +6,7 @@
     <meta name="description" content="Motor Vehicle Crashes in New Haven Resulting in Serious Injury or Death.">
     <title>Motor Vehicle Crashes in New Haven Resulting in Serious Injury or Death</title>
     <link rel="icon" type="image/png" href="./img/favicon.png">
-    
+
     <!-- CSS Libraries -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css" integrity="sha512-d0v474klOFSF7qD9WDvyRxAvXaWSxCHDZdnBSZQjo8BpVr6vpjwAgqetpqkKP38DzlOzdVPaLVnzzW1Ba8wB9w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" />
@@ -16,6 +16,25 @@
 <body class="helvetica">
   <!-- Filters -->
   <div id="filters" class="absolute bg-white o-70 pa2" style="z-index:999">
+    <p class="f4 mb1"><label for="dog-names">Sort by Town:</label></p>
+      <select name="town-name" id="town-name">
+        <option value="ashford">Ashford</option>
+        <option value="brooklyn">Brooklyn</option>
+        <option value="canterbury">Canterbury</option>
+        <option value="chaplin">Chaplin</option>
+        <option value="eastford">Eastford</option>
+        <option value="hampton">Hampton</option>
+        <option value="killingly">Killingly</option>
+        <option value="plainfield">Plainfield</option>
+        <option value="pomfret">Pomfret</option>
+        <option value="putnam">Putnam</option>
+        <option value="scotland">Scotland</option>
+        <option value="sterling">Sterling</option>
+        <option value="thompson">Thompson</option>
+        <option value="union">Union</option>
+        <option value="voluntown">Voluntown</option>
+        <option value="woodstock">Woodstock</option>
+      </select>
     <p class="f4 mb1">Crash Participants:</p>
     <label class="button f6 mb1 br2 bg-light-gray">
       <p><input type="checkbox" id="pedestrians"> Pedestrians</p>
