@@ -101,7 +101,7 @@ Papa.parse('./data/crashes.csv', {
             //contains date, county (if selected), and number of crashes in a circle
             const column1 = `
             <div class="flex flex-column mr3 justify-between">
-                <div class="tc mb2">${dateText} - <span class="town">${townName}</span></div> 
+                <div class="tc mb2">${dateText} - <br/><span class="town">${townName}</span></div> 
                 <div class="flex flex-column items-center tc">
                     <span class="bg-green-circle">${crashesTotal}</span>
                     <p class="b" style="color: var(--green);">Dangerous motor vehicle collisions</p>
