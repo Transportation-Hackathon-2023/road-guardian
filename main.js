@@ -28,7 +28,7 @@ let WaymarkedTrails_cycling = L.tileLayer('https://tile.waymarkedtrails.org/cycl
     attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | Map style: &copy; <a href="https://waymarkedtrails.org">waymarkedtrails.org</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
 })
 
-let OCGLayer = async function addCOGLayer() {
+let addBoundaryLayer = async function addCOGLayer() {
     const response = await fetch("data/eccog_and_towns.geojson");
     const eccog_and_towns = await response.json();
     L.geoJSON(eccog_and_towns).addTo(map);
@@ -44,9 +44,9 @@ $('#bike-lane-show').change(function () { // if the bike-lane-show checkbox is c
 
 $('#boundary-toggle').change(function() {
     if ($(this).prop('checked')) {
-        OCGLayer().addTo(map);
+        addBoundaryLayer().addTo(map);
     } else {
-        OCGLayer().remove()
+        addBoundaryLayer().remove()
     }
 });
 
@@ -187,7 +187,7 @@ Papa.parse('./data/crashes.csv', {
             filterByTown(crashes).length, // Total crashes
             filterByTown(crashes).filter(function(p) {return p.p === 1}).length,  // Ped crashes
             filterByTown(crashes).filter(function(p) {return p.c === 1}).length,  // Cyc crashes
-            filterByTown(crashes).filter(function(p) {return p.v === 'True'}).length, // Hit and run status
+            filterByTown(crashes).filter(function(p) {return p.hr === 'True'}).length, // Hit and run status
             filterByTown(crashes).filter(function(p) {return p.s === 'K'}).length, // Fatal crashes
             crashesFiltered.length,
             area
