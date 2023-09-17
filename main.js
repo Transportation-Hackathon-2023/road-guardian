@@ -300,7 +300,7 @@ Papa.parse('./data/crashes.csv', {
                     //map.flyTo([lat, lng], 15)
                     map.panTo([lat, lng])
                     let content = `<div>
-                                        <p>There are ${selectedFeatures.length}crashes within this location</p>
+                                        <p>There are ${selectedFeatures.length} crashes within this location</p>
                                         <hr style="margin: 1rem 0rem;"/>
                                     </div>`
                     if (selectedFeatures.length > 1) {
