@@ -260,9 +260,9 @@ Papa.parse('./data/crashes.csv', {
                 let miles = 1
                 if(mapZoom >= 8 && mapZoom < 10) {
                     miles = 0.75
-                }else if(mapZoom <= 12){
+                }else if(mapZoom >= 12 && mapZoom < 14){
                     miles = 0.05
-                }else if(mapZoom <= 14){
+                }else if(mapZoom >= 14){
                     miles = 0.01
                 }
                 
@@ -274,7 +274,7 @@ Papa.parse('./data/crashes.csv', {
                     //map.flyTo([lat, lng], 15)
                     map.panTo([lat, lng])
                     let content = `<div>
-                                        <p>There are ${selectedFeatures.length} crashes within this location</p>
+                                        <p>There are ${selectedFeatures.length}crashes within this location</p>
                                         <hr style="margin: 1rem 0rem;"/>
                                     </div>`
                     if (selectedFeatures.length > 1) {
