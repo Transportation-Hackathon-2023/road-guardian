@@ -12,3 +12,8 @@ label.button p {
     margin-top:0;
     margin-bottom:0;
 }
+
+.leaflet-popup-content{
+    max-height: 60vh;
+    overflow-y: auto;
+}

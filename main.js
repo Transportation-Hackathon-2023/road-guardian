@@ -78,7 +78,7 @@ Papa.parse('./data/crashes.csv', {
             }
         ).addTo(map);
 
-        let individualPoints = L.layerGroup().addTo(map); // POIs are added here with the Leaflet layergroup function
+        let geojsonLayer
 
         let tsCoef = 100000.0 // original timestamp needs to be multiplied by this to work in JS
 
@@ -171,7 +171,7 @@ Papa.parse('./data/crashes.csv', {
             )
 
             // Despite zoom, clear individual points
-            individualPoints.clearLayers();
+            if (geojsonLayer) geojsonLayer.clearLayers()
 
             // Update the heatlayer
             let intensity = 20;
@@ -206,56 +206,95 @@ Papa.parse('./data/crashes.csv', {
                 }))
             }
 
-            // add circles
-            const circles = crashesFiltered.map(function (crash) { // crash function declared here
-                let diagramUrl = 'https://www.ctcrash.uconn.edu/MMUCCDiagram?id=' + crash.id + '&asImage=true'
-
-                // L.circleMarker is a Leaflet function that creates a circle marker at the lat and long of the crash
-                let circle = L.circleMarker([crash.x, crash.y], {
-                    radius: 5,
-                    color: '#000000',
-                    fillColor: '#FFFFFF',
-                    fillOpacity: map.getZoom() >= 12 ? 1 : 0,  // only show circles at zoom level 12 or higher
-                    opacity: map.getZoom() >= 12 ? 1 : 0, // only show circles at zoom level 12 or higher
-                    weight: 2,
-                })
-
-                circle.bindPopup(
-                    '<span class="avenir fw5"><p>Crash ID: <b>' + crash.id + '</b></p><p>'
+            const features = crashesFiltered.map(crash => {
+                const diagramUrl = 'https://www.ctcrash.uconn.edu/MMUCCDiagram?id=' + crash.id + '&asImage=true'
+                const content = '<span class="avenir fw5"><p>Crash ID: <b>' + crash.id + '</b></p><p>'
                     + tsToDate(crash.d * tsCoef) + ' at ' + crash.t + '</p>'
                     + '<p>Severity: ' + (crash.s === 'K' ? 'Fatal crash' : crash.s === 'A' ? 'Suspected Serious Injury' : 'Property damage only'
                         + '<br><p>Trafficway Ownership: ' + crash.s === '' ? 'Public road' : 'Other')
                     + '<br><p>Motor vehicle was driving on: ' + crash.o + (crash.h === null ? '' : ' and the nearest cross-street is ' + crash.h + '</p>')
                     + '<p>There was ' + (crash.f === 'True' ? 'a bike lane ' : 'no bike lane ') + 'present.</p>'
                     + '<a href="' + diagramUrl + '" target="_blank"><img src="' + diagramUrl + '" style="display:none" alt="Crash diagram" />Show crash diagram.</a>'
-                    + '</span><br>',
-                    { minWidth: 200 }
-                )
+                    + '</span><br>'
 
-                // Unused function, but could be used to show crash diagram
-                function showDiagram() {
-                    var diagramElement = document.getElementById("diagram");
-                    diagramElement.style.display = "block"
-                }
-
-                circle.on('popupopen', function (e) {
-                    filters.style.display = "none";
-                    //move the map to center the popup
-                    const { lat, lng } = e.sourceTarget._latlng
-                    map.panTo([lat, lng + 0.001]);
-                });
-
-                circle.on('popupclose', function () {
-                    filters.style.display = "block";
-                });
-
-                individualPoints.addLayer(circle); // add the circle to the layergroup
-
-                return circle
+                return {
+                    "type": "Feature",
+                    "properties": { diagramUrl, content },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [crash.y, crash.x] // seems like x and y are flipped?
+                    }
+                };
             })
 
-            const group = new L.featureGroup(circles);
-            callback(group)
+            // circle.on('popupopen', function (e) {
+            //     filters.style.display = "none";
+            //     //move the map to center the popup
+            //     const { lat, lng } = e.sourceTarget._latlng
+            //     map.panTo([lat, lng + 0.001]);
+            // });
+
+
+            geojsonLayer = L.geoJSON(features, {
+                pointToLayer: function (feature, latlng) {
+                    return L.circleMarker(latlng, {
+                        radius: 5,
+                        color: '#000000',
+                        fillColor: '#FF0000',
+                        fillOpacity: map.getZoom() >= 12 ? 0.3 : 0,  // only show circles at zoom level 12 or higher
+                        opacity: map.getZoom() >= 12 ? 1 : 0, // only show circles at zoom level 12 or higher
+                        weight: 1,
+                    });
+                }
+            })
+
+            geojsonLayer.on('click', function (event) {
+                const { lat, lng } = event.latlng
+                //check how many features are around the point clicked, threshold is based on zoom level
+                const mapZoom = map.getZoom()
+                let miles = 1
+                if(mapZoom >= 8 && mapZoom < 10) {
+                    miles = 0.75
+                }else if(mapZoom <= 12){
+                    miles = 0.05
+                }else if(mapZoom <= 14){
+                    miles = 0.01
+                }
+                
+                const buffer = turf.buffer(turf.point([lng, lat]), miles, { units: 'miles' });
+                const selectedFeatures = features.filter(feature => turf.booleanIntersects(buffer, feature))
+
+                if (selectedFeatures) {
+                    //center on point
+                    //map.flyTo([lat, lng], 15)
+                    map.panTo([lat, lng])
+                    let content = `<div>
+                                        <p>There are ${selectedFeatures.length} crashes within this location</p>
+                                        <hr style="margin: 1rem 0rem;"/>
+                                    </div>`
+                    if (selectedFeatures.length > 1) {
+                        //if there is more than one feature, tell the user the amount of crashes at above levels 11
+
+                        if(mapZoom >= 12){
+                            //merge info
+                            content += selectedFeatures.map(feature => feature.properties.content).join('<hr style="margin: 1rem 0rem;"/>')
+                        }
+                    } else {
+                        content = selectedFeatures[0].properties.content
+                    }
+
+                    const popup = L.popup({
+                        closeOnClick: true,
+                        autoClose: false
+                      })
+                        .setLatLng([lat,lng])
+                        .setContent(content)
+                        .openOn(map);
+                }
+            })
+
+            geojsonLayer.addTo(map)
+            callback(geojsonLayer)
 
         } // End of updateHeatLayer function
 
