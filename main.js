@@ -39,7 +39,9 @@ $('#bike-lane-show').change(function () { // if the bike-lane-show checkbox is c
 let addBoundaryLayer = async function addCOGLayer() {
     const response = await fetch("data/eccog_and_towns.geojson");
     const eccog_and_towns = await response.json();
-    return L.geoJSON(eccog_and_towns);
+    return L.geoJSON(eccog_and_towns, {
+        style: {color: "steelblue", fillOpacity: 0, weight: 1.2}
+    });
 }
 
 let boundaryLayer
