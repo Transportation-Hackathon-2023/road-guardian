@@ -158,14 +158,20 @@ Papa.parse('./data/crashes.csv', {
 
           const area = $('#town-name').val() === "" ? 'Northeastern CT' : $('#town-name').val();
 
+          function filterByTown(crashes) {
+            return crashes.filter(function(point) {
+              return ( $('#town-name').val() === "" ? true : $('#town-name').val() === point.tn);
+            });
+          }
+
           updateStatsText(
             tsToDate(from * 100000),  // Date from
             tsToDate(to * 100000),  // Date to
-            crashes.length, // Total crashes
-            crashes.filter(function(p) {return p.p === 1}).length,  // Ped crashes
-            crashes.filter(function(p) {return p.c === 1}).length,  // Cyc crashes
-            crashes.filter(function(p) {return p.v === 'True'}).length, // Hit and run status
-            crashes.filter(function(p) {return p.s === 'K'}).length, // Fatal crashes
+            filterByTown(crashes).length, // Total crashes
+            filterByTown(crashes).filter(function(p) {return p.p === 1}).length,  // Ped crashes
+            filterByTown(crashes).filter(function(p) {return p.c === 1}).length,  // Cyc crashes
+            filterByTown(crashes).filter(function(p) {return p.v === 'True'}).length, // Hit and run status
+            filterByTown(crashes).filter(function(p) {return p.s === 'K'}).length, // Fatal crashes
             crashesFiltered.length,
             area
           )
