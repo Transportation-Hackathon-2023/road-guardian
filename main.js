@@ -36,6 +36,23 @@ $('#bike-lane-show').change(function () { // if the bike-lane-show checkbox is c
     }
 });
 
+let addBoundaryLayer = async function addCOGLayer() {
+    const response = await fetch("data/eccog_and_towns.geojson");
+    const eccog_and_towns = await response.json();
+    return L.geoJSON(eccog_and_towns);
+}
+
+let boundaryLayer
+
+$('#boundary-toggle').change(async function() {
+    if ($(this).prop('checked')) {
+        boundaryLayer = await addBoundaryLayer()
+        boundaryLayer.addTo(map);
+    } else {
+        boundaryLayer.remove();
+    }
+});
+
 function dateToTS(date) {
     return date.valueOf();
 }
@@ -195,6 +212,17 @@ Papa.parse('./data/crashes.csv', {
                 crashesFiltered.length,
                 area
             )
+          updateStatsText(
+            tsToDate(from * 100000),  // Date from
+            tsToDate(to * 100000),  // Date to
+            filterByTown(crashes).length, // Total crashes
+            filterByTown(crashes).filter(function(p) {return p.p === 1}).length,  // Ped crashes
+            filterByTown(crashes).filter(function(p) {return p.c === 1}).length,  // Cyc crashes
+            filterByTown(crashes).filter(function(p) {return p.hr === 'True'}).length, // Hit and run status
+            filterByTown(crashes).filter(function(p) {return p.s === 'K'}).length, // Fatal crashes
+            crashesFiltered.length,
+            area
+          )
 
             // Despite zoom, clear individual points
             if (geojsonLayer) geojsonLayer.clearLayers()
