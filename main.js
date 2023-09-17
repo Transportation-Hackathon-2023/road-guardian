@@ -120,7 +120,7 @@ Papa.parse('./data/crashes.csv', {
         }
 
         // Given `from` and `to` timestamps, updates the heatmap layer.
-        function updateHeatLayer(from, to) {
+        function updateHeatLayer(from, to, callback = (group) => { }) {
 
             from = dateToTS(new Date(from * 1).setHours(0, 0, 0, 0)) / tsCoef;
             to = dateToTS(new Date(to * 1).setHours(23, 59, 59, 0)) / tsCoef;
@@ -177,91 +177,85 @@ Papa.parse('./data/crashes.csv', {
             let intensity = 20;
 
             // Main heatmap
-            document.addEventListener('DOMContentLoaded', function () {
-                // setLatLngs is a Leaflet function that accepts the filtered crashes and sets the heatmap layer to those crashes
-                heat.setLatLngs(
-                    crashesFiltered.map(function (point) { // crashesFiltered is the array of crashes that satisfy the filter criteria
-                        return [point.x, point.y, intensity]; // x and y are the lat and long of the crash, intensity is the intensity of the heatmap
 
-                    })
-                )
-            });
+            // setLatLngs is a Leaflet function that accepts the filtered crashes and sets the heatmap layer to those crashes
+            heat.setLatLngs(
+                crashesFiltered.map(function (point) { // crashesFiltered is the array of crashes that satisfy the filter criteria
+                    return [point.x, point.y, intensity]; // x and y are the lat and long of the crash, intensity is the intensity of the heatmap
+
+                })
+            )
 
 
-            // If zoomed in all the way, show points instead of a heatmap
-            if (map.getZoom() >= 12) {
-
+            if (map.getZoom() >= 12) { //hide heatmap
                 heat.redraw();
                 let intensity = 1; // quickly adjusts intensity of heatmap
 
-                crashesFiltered.map(function (crash) { // crash function declared here
-
-                    let diagramUrl = 'https://www.ctcrash.uconn.edu/MMUCCDiagram?id=' + crash.id + '&asImage=true'
-
-                    // L.circleMarker is a Leaflet function that creates a circle marker at the lat and long of the crash
-                    let circle = L.circleMarker([crash.x, crash.y], {
-                        radius: 5,
-                        color: '#000000',
-                        fillColor: '#FFFFFF',
-                        fillOpacity: 1,
-                        opacity: 1,
-                        weight: 2,
-                    }).bindPopup(
-                        '<span class="avenir fw5"><p>Crash ID: <b>' + crash.id + '</b></p><p>'
-                        + tsToDate(crash.d * tsCoef) + ' at ' + crash.t + '</p>'
-                        + '<p>Severity: ' + (crash.s === 'K' ? 'Fatal crash' : crash.s === 'A' ? 'Suspected Serious Injury' : 'Property damage only'
-                            + '<br><p>Trafficway Ownership: ' + crash.s === '' ? 'Public road' : 'Other')
-                        + '<br><p>Motor vehicle was driving on: ' + crash.o + (crash.h === null ? '' : ' and the nearest cross-street is ' + crash.h + '</p>')
-                        + '<p>There was ' + (crash.f === 'True' ? 'a bike lane ' : 'no bike lane ') + 'present.</p>'
-                        + '<a href="' + diagramUrl + '" target="_blank"><img src="' + diagramUrl + '" style="display:none" alt="Crash diagram" />Show crash diagram.</a>'
-                        + '</span><br>',
-                        { minWidth: 200 }
-                    )
-
-                    // Unused function, but could be used to show crash diagram
-                    function showDiagram() {
-                        var diagramElement = document.getElementById("diagram");
-                        diagramElement.style.display = "block"
-                    }
-
-                    circle.on('popupopen', function () {
-                        filters.style.display = "none";
-                        map.setLatLng(map.getCenter() + [0, 0.0001]);
-                        console.log(map.getCenter())
-                    });
-
-                    circle.on('popupclose', function () {
-                        filters.style.display = "block";
-                    });
-
-                    individualPoints.addLayer(circle); // add the circle to the layergroup
-                })
-
                 // If zoomed in all the way, show points instead of a heatmap
-                // Adjust heatmap as zoom changes
                 if (map.getZoom() >= 17) {
-                    intensity = 1;
+                    intensity = 1
                     heat.setOptions({
                         maxZoom: 17,
                     })
-
-                    if (map.getZoom() >= 18) {
-                        intensity = 0;
-                    }
-                } else {
-                    intensity = 4;
-                    heat.setOptions({ maxZoom: 17, })
                 }
 
+                if (map.getZoom() >= 18) intensity = 0
                 // Update the heatlayer
                 heat.setLatLngs(crashesFiltered.map(function (point) {
                     return [point.x, point.y, intensity];
                 }))
-            } else {
-                heat.setLatLngs(crashesFiltered.map(function (point) {
-                    return [point.x, point.y, intensity];
-                }))
             }
+
+            // add circles
+            const circles = crashesFiltered.map(function (crash) { // crash function declared here
+                let diagramUrl = 'https://www.ctcrash.uconn.edu/MMUCCDiagram?id=' + crash.id + '&asImage=true'
+
+                // L.circleMarker is a Leaflet function that creates a circle marker at the lat and long of the crash
+                let circle = L.circleMarker([crash.x, crash.y], {
+                    radius: 5,
+                    color: '#000000',
+                    fillColor: '#FFFFFF',
+                    fillOpacity: map.getZoom() >= 12 ? 1 : 0,  // only show circles at zoom level 12 or higher
+                    opacity: map.getZoom() >= 12 ? 1 : 0, // only show circles at zoom level 12 or higher
+                    weight: 2,
+                })
+
+                circle.bindPopup(
+                    '<span class="avenir fw5"><p>Crash ID: <b>' + crash.id + '</b></p><p>'
+                    + tsToDate(crash.d * tsCoef) + ' at ' + crash.t + '</p>'
+                    + '<p>Severity: ' + (crash.s === 'K' ? 'Fatal crash' : crash.s === 'A' ? 'Suspected Serious Injury' : 'Property damage only'
+                        + '<br><p>Trafficway Ownership: ' + crash.s === '' ? 'Public road' : 'Other')
+                    + '<br><p>Motor vehicle was driving on: ' + crash.o + (crash.h === null ? '' : ' and the nearest cross-street is ' + crash.h + '</p>')
+                    + '<p>There was ' + (crash.f === 'True' ? 'a bike lane ' : 'no bike lane ') + 'present.</p>'
+                    + '<a href="' + diagramUrl + '" target="_blank"><img src="' + diagramUrl + '" style="display:none" alt="Crash diagram" />Show crash diagram.</a>'
+                    + '</span><br>',
+                    { minWidth: 200 }
+                )
+
+                // Unused function, but could be used to show crash diagram
+                function showDiagram() {
+                    var diagramElement = document.getElementById("diagram");
+                    diagramElement.style.display = "block"
+                }
+
+                circle.on('popupopen', function (e) {
+                    filters.style.display = "none";
+                    //move the map to center the popup
+                    const { lat, lng } = e.sourceTarget._latlng
+                    map.panTo([lat, lng + 0.001]);
+                });
+
+                circle.on('popupclose', function () {
+                    filters.style.display = "block";
+                });
+
+                individualPoints.addLayer(circle); // add the circle to the layergroup
+
+                return circle
+            })
+
+            const group = new L.featureGroup(circles);
+            callback(group)
 
         } // End of updateHeatLayer function
 
@@ -283,7 +277,11 @@ Papa.parse('./data/crashes.csv', {
         $('#filters .filter').not('#labels').change(function (e) {
             updateHeatLayer(
                 slider[0].value.split(';')[0],
-                slider[0].value.split(';')[1]
+                slider[0].value.split(';')[1],
+                (group) => {
+                    // when filters are updated, zoom to new extent
+                    map.fitBounds(group.getBounds());
+                }
             )
         })
 
