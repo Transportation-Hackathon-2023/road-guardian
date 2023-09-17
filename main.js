@@ -28,12 +28,6 @@ let WaymarkedTrails_cycling = L.tileLayer('https://tile.waymarkedtrails.org/cycl
     attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | Map style: &copy; <a href="https://waymarkedtrails.org">waymarkedtrails.org</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
 })
 
-let addBoundaryLayer = async function addCOGLayer() {
-    const response = await fetch("data/eccog_and_towns.geojson");
-    const eccog_and_towns = await response.json();
-    L.geoJSON(eccog_and_towns).addTo(map);
-}
-
 $('#bike-lane-show').change(function () { // if the bike-lane-show checkbox is checked (event change)
     if ($(this).prop('checked')) {
         WaymarkedTrails_cycling.addTo(map);
@@ -42,11 +36,20 @@ $('#bike-lane-show').change(function () { // if the bike-lane-show checkbox is c
     }
 });
 
-$('#boundary-toggle').change(function() {
+let addBoundaryLayer = async function addCOGLayer() {
+    const response = await fetch("data/eccog_and_towns.geojson");
+    const eccog_and_towns = await response.json();
+    return L.geoJSON(eccog_and_towns);
+}
+
+let boundaryLayer
+
+$('#boundary-toggle').change(async function() {
     if ($(this).prop('checked')) {
-        addBoundaryLayer().addTo(map);
+        boundaryLayer = await addBoundaryLayer()
+        boundaryLayer.addTo(map);
     } else {
-        addBoundaryLayer().remove()
+        boundaryLayer.remove();
     }
 });
 
