@@ -208,18 +208,23 @@ Papa.parse('./data/crashes.csv', {
 
             const features = crashesFiltered.map(crash => {
                 const diagramUrl = 'https://www.ctcrash.uconn.edu/MMUCCDiagram?id=' + crash.id + '&asImage=true'
-                const content = '<span class="avenir fw5"><p>Crash ID: <b>' + crash.id + '</b></p><p>'
-                    + tsToDate(crash.d * tsCoef) + ' at ' + crash.t + '</p>'
-                    + '<p>Severity: ' + (crash.s === 'K' ? 'Fatal crash' : crash.s === 'A' ? 'Suspected Serious Injury' : 'Property damage only'
-                        + '<br><p>Trafficway Ownership: ' + crash.s === '' ? 'Public road' : 'Other')
-                    + '<br><p>Motor vehicle was driving on: ' + crash.o + (crash.h === null ? '' : ' and the nearest cross-street is ' + crash.h + '</p>')
-                    + '<p>There was ' + (crash.f === 'True' ? 'a bike lane ' : 'no bike lane ') + 'present.</p>'
-                    + '<a href="' + diagramUrl + '" target="_blank"><img src="' + diagramUrl + '" style="display:none" alt="Crash diagram" />Show crash diagram.</a>'
-                    + '</span><br>'
-
+                const content = `
+                    <span class="avenir fw5">
+                        <p>Crash ID: <b>${crash.id}</b></p>
+                        <p>${tsToDate(crash.d * tsCoef)} at ${crash.t}</p>
+                        <p>Severity: ${(crash.s === 'K' ? 
+                                            'Fatal crash' : 
+                                            crash.s === 'A' ? 
+                                                'Suspected Serious Injury' :
+                                                'Property damage only' + '<br><p>Trafficway Ownership: ' + crash.s === '' ? 'Public road' : 'Other')}</p>
+                        <p>There was ${crash.f === 'True' ? 'a bike lane' : 'no bike lane'} present.</p>
+                        <a href="${diagramUrl}" target="_blank"><img src="${diagramUrl}" style="display:none" alt="Crash diagram" />Show crash diagram.</a>
+                    </span>
+                    <br>
+                `
                 return {
                     "type": "Feature",
-                    "properties": { diagramUrl, content },
+                    "properties": { ...crash, diagramUrl, content },
                     "geometry": {
                         "type": "Point",
                         "coordinates": [crash.y, crash.x] // seems like x and y are flipped?
