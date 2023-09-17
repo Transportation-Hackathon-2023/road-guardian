@@ -35,14 +35,14 @@ $('#bike-lane-show').change(function() { // if the bike-lane-show checkbox is ch
         WaymarkedTrails_cycling.remove();
     }
 });
-    
+
 function dateToTS(date) {
     return date.valueOf();
 }
 
 function tsToDate(ts) {
     let d = new Date(ts);
-    
+
     return d.toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'short',
@@ -59,19 +59,19 @@ Papa.parse('./data/crashes.csv', {
     download: true,
     header: true,
     dynamicTyping: true,
-    
+
     // Main function
     complete: function(result) {
 
         let data = result.data;
 
         let heat = L.heatLayer(
-            [], 
+            [],
             { radius: 5,
             blur: 3,
             maxZoom: 17,
-            gradient: {0.4: 'blue', 0.6: 'lime', 
-            0.7: 'yellow', 0.8: 'red', 1: 'black'} 
+            gradient: {0.4: 'blue', 0.6: 'lime',
+            0.7: 'yellow', 0.8: 'red', 1: 'black'}
             }
         ).addTo(map);
 
@@ -79,38 +79,45 @@ Papa.parse('./data/crashes.csv', {
 
         let tsCoef = 100000.0 // original timestamp needs to be multiplied by this to work in JS
 
-        let updateStatsText = function(formattedFrom, formattedTo, 
-        crashesTotal, crashesPed, crashesCyc, crashesHitAndRun, 
-        crashesFatal, filtered) {
+        let updateStatsText = function(
+          formattedFrom,
+          formattedTo,
+          crashesTotal,
+          crashesPed,
+          crashesCyc,
+          crashesHitAndRun,
+          crashesFatal,
+          filtered
+        ) {
 
-        let text = formattedFrom === formattedTo
-            ? ('On '+ formattedFrom) : ('From <span class="fw4">' 
-            + formattedFrom + ' </span> to  <span class="fw4">' 
-            + formattedTo + "</span>")
+          let text = formattedFrom === formattedTo
+              ? ('On '+ formattedFrom) : ('From <span class="fw4">'
+              + formattedFrom + ' </span> to  <span class="fw4">'
+              + formattedTo + "</span>")
 
-        text += ', there ' + (crashesTotal === 1 ? 'was ' : 'were  <span class="orange fw5">') + (crashesTotal === 0 ? 'no' : crashesTotal.toLocaleString())
-        text += ' dangerous motor vehicle crash' + (crashesTotal === 1 ? '' : 'es') + '</span> in <b>Northeastern Connecticut</b>.'
-        
-        if (crashesTotal > 1) {
-            text += ' Of those, <span class="dark-pink fw5">' + (crashesPed > 0 ? crashesPed.toLocaleString() : ' none');
-            text += ' involved a pedestrian</span>, and <span class="dark-blue fw5">';
-            text += (crashesCyc > 0 ? crashesCyc.toLocaleString() : ' none');
-            text += ' involved a cyclist.</span>';
-            text += ' <span class="fw4">' + crashesHitAndRun + ' crashes were hit and runs.</span>';
-            text += ' <span class="dark-red fw6 bb"> ' + crashesFatal + ' crashes were fatal.</span>';
-        }
-        
-        text += '<span class="i dark-green fw5' + (filtered ? '' : 'red') + '"><br><br>'
-            + (filtered ? filtered.toLocaleString() : 'No ') + ' crash'
-            + (filtered === 1 ? '' : 'es') + ' satisf' + (filtered === 1 ? 'ies' : 'y')
-            + ' your filtering criteria.</span>'
+          text += ', there ' + (crashesTotal === 1 ? 'was ' : 'were  <span class="orange fw5">') + (crashesTotal === 0 ? 'no' : crashesTotal.toLocaleString())
+          text += ' dangerous motor vehicle crash' + (crashesTotal === 1 ? '' : 'es') + '</span> in <b>Northeastern Connecticut</b>.'
 
-        $('#statsText').html(text) // set the statsText div to the text variable
-        
+          if (crashesTotal > 1) {
+              text += ' Of those, <span class="dark-pink fw5">' + (crashesPed > 0 ? crashesPed.toLocaleString() : ' none');
+              text += ' involved a pedestrian</span>, and <span class="dark-blue fw5">';
+              text += (crashesCyc > 0 ? crashesCyc.toLocaleString() : ' none');
+              text += ' involved a cyclist.</span>';
+              text += ' <span class="fw4">' + crashesHitAndRun + ' crashes were hit and runs.</span>';
+              text += ' <span class="dark-red fw6 bb"> ' + crashesFatal + ' crashes were fatal.</span>';
+          }
+
+          text += '<span class="i dark-green fw5' + (filtered ? '' : 'red') + '"><br><br>'
+              + (filtered ? filtered.toLocaleString() : 'No ') + ' crash'
+              + (filtered === 1 ? '' : 'es') + ' satisf' + (filtered === 1 ? 'ies' : 'y')
+              + ' your filtering criteria.</span>'
+
+          $('#statsText').html(text) // set the statsText div to the text variable
+
         }
 
         // Given `from` and `to` timestamps, updates the heatmap layer.
-        let updateHeatLayer = function(from, to) {
+        function updateHeatLayer (from, to) {
 
             from = dateToTS(new Date(from * 1).setHours(0, 0, 0, 0)) / tsCoef;
             to = dateToTS(new Date(to * 1).setHours(23, 59, 59, 0)) / tsCoef;
@@ -122,7 +129,8 @@ Papa.parse('./data/crashes.csv', {
             })
 
             // Filter crashes based on checkboxes
-            let crashesFiltered = crashes.filter(function(point) {
+            function filterCrashes() {
+              return crashes.filter(function(point) {
                 return (( $('#local').prop('checked') ? point.r !== 1 : false)
                 || ( $('#highways').prop('checked') ? point.r === 1 : false))
 
@@ -139,18 +147,24 @@ Papa.parse('./data/crashes.csv', {
                 && (( $('#crashesHitAndRun').prop('checked') ? point.hr === 'True' : true)
                 || ( !$('#crashesHitAndRun').prop('checked') ? point.hr !== 'True' : false))
 
-                // filter point 'tn' for town name
+                // filter point 'tn' for town name, or show all towns if empty string
+                && (( $('#town-name').val() === "")
+                || ( $('#town-name').val() === point.tn) ? true : false)
             });
+          }
+
+          let crashesFiltered = filterCrashes();
+            console.log("Crashes filtered = ", crashesFiltered);
 
             updateStatsText(
-            tsToDate(from * 100000),  // Date from
-            tsToDate(to * 100000),  // Date to
-            crashes.length, // Total crashes
-            crashes.filter(function(p) {return p.p === 1}).length,  // Ped crashes
-            crashes.filter(function(p) {return p.c === 1}).length,  // Cyc crashes
-            crashes.filter(function(p) {return p.v === 'True'}).length, // Hit and run status
-            crashes.filter(function(p) {return p.s === 'K'}).length, // Fatal crashes
-            crashesFiltered.length
+              tsToDate(from * 100000),  // Date from
+              tsToDate(to * 100000),  // Date to
+              crashes.length, // Total crashes
+              crashes.filter(function(p) {return p.p === 1}).length,  // Ped crashes
+              crashes.filter(function(p) {return p.c === 1}).length,  // Cyc crashes
+              crashes.filter(function(p) {return p.v === 'True'}).length, // Hit and run status
+              crashes.filter(function(p) {return p.s === 'K'}).length, // Fatal crashes
+              crashesFiltered.length
             )
 
             // Despite zoom, clear individual points
@@ -165,11 +179,10 @@ Papa.parse('./data/crashes.csv', {
                 heat.setLatLngs(
                     crashesFiltered.map(function(point) { // crashesFiltered is the array of crashes that satisfy the filter criteria
                     return [point.x, point.y, intensity]; // x and y are the lat and long of the crash, intensity is the intensity of the heatmap
-                
+
                 })
             )
             });
-
 
 
             // If zoomed in all the way, show points instead of a heatmap
@@ -183,7 +196,7 @@ Papa.parse('./data/crashes.csv', {
                 let diagramUrl = 'https://www.ctcrash.uconn.edu/MMUCCDiagram?id=' + crash.id + '&asImage=true'
 
                 // L.circleMarker is a Leaflet function that creates a circle marker at the lat and long of the crash
-                let circle = L.circleMarker([crash.x, crash.y], { 
+                let circle = L.circleMarker([crash.x, crash.y], {
                     radius: 5,
                     color: '#000000',
                     fillColor: '#FFFFFF',
@@ -207,7 +220,7 @@ Papa.parse('./data/crashes.csv', {
                     var diagramElement = document.getElementById("diagram");
                     diagramElement.style.display = "block"
                 }
-                
+
                 circle.on('popupopen', function () {
                     filters.style.display = "none";
                     map.setLatLng(map.getCenter() + [0, 0.0001]);
@@ -262,7 +275,7 @@ Papa.parse('./data/crashes.csv', {
         });
 
         // Re-draw heat layer when any filter (apart from street labels) is changed
-        $('#filters input').not('#labels').change(function (e) {
+        $('#filters .filter').not('#labels').change(function (e) {
             updateHeatLayer(
                 slider[0].value.split(';')[0],
                 slider[0].value.split(';')[1]
@@ -276,7 +289,7 @@ Papa.parse('./data/crashes.csv', {
                 slider[0].value.split(';')[1]
             )
         })
-      
+
       // Set default properties
       $('#filters #pedestrians').prop('checked', 'checked');
       $('#filters #cyclists').prop('checked', 'checked');
