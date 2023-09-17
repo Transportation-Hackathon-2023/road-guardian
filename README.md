@@ -9,6 +9,14 @@ Don't forget to check social media for hashtag **#HackCT2023** and tag your own 
 2. Download Jupyter Notebook and Live Preview (Microsoft version) extensions
 3. Click "Go live" in VS Code to host a local live server
 
+---
+
+Alternatively
+
+1. Clone the repo
+2. Install node.js
+3. Run npx serve
+
 # Data sources
 
 ## UConn Crash Repository:
