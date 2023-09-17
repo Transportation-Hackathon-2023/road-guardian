@@ -17,3 +17,56 @@ label.button p {
     max-height: 60vh;
     overflow-y: auto;
 }
+
+:root {
+    --grey: #363636;
+    --red: #8f3215;
+    --green: #db240c;
+}
+  
+.md-grey-circle{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    background: var(--grey);
+}
+
+.bg-red-circle{
+    display: block;
+    width: 60px;
+    height: 60px;;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    background: var(--red);
+}
+
+.bg-green-circle{
+    display: block;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    background: var(--green);
+}
+
+.date{
+    color:rgb(0, 90, 173);
+    font-weight: 800;
+}
+
+.town{
+    color:rgb(64, 149, 228);
+    font-weight: 800;
+    font-style: italic;
+}
