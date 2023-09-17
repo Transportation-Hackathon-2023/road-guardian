@@ -1,107 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Motor Vehicle Crashes in New Haven Resulting in Serious Injury or Death.">
-    <title>Motor Vehicle Crashes in New Haven Resulting in Serious Injury or Death</title>
-    <link rel="icon" type="image/png" href="./img/favicon.png">
 
-    <!-- CSS Libraries -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css" integrity="sha512-d0v474klOFSF7qD9WDvyRxAvXaWSxCHDZdnBSZQjo8BpVr6vpjwAgqetpqkKP38DzlOzdVPaLVnzzW1Ba8wB9w==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" integrity="sha512-NWCafukXClS6fKch6bSMl/WvPzZrD1OGMf1oMAnFYXSSKZ7hgeswls+r4SdK4bFJauVwmvFf7HlMwji2TsjROA==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./style.css">
-  </head>
-<body class="helvetica">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Motor Vehicle Crashes in New Haven Resulting in Serious Injury or Death.">
+  <title>Motor Vehicle Crashes in New Haven Resulting in Serious Injury or Death</title>
+  <link rel="icon" type="image/png" href="./img/favicon.png">
+
+  <!-- CSS Libraries -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css"
+    integrity="sha512-d0v474klOFSF7qD9WDvyRxAvXaWSxCHDZdnBSZQjo8BpVr6vpjwAgqetpqkKP38DzlOzdVPaLVnzzW1Ba8wB9w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css"
+    integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"
+    integrity="sha512-NWCafukXClS6fKch6bSMl/WvPzZrD1OGMf1oMAnFYXSSKZ7hgeswls+r4SdK4bFJauVwmvFf7HlMwji2TsjROA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="helvetica overflow-hidden">
   <!-- Filters -->
-  <div id="filters" class="absolute bg-white o-70 pa2" style="z-index:999">
-    <p class="f4 mb1"><label for="dog-names">Sort by Town:</label></p>
-      <select name="town-name" id="town-name" class="filter">
-        <option value="">Select a Town</option>
-        <option value="Ashford">Ashford</option>
-        <option value="Brooklyn">Brooklyn</option>
-        <option value="Canterbury">Canterbury</option>
-        <option value="Chaplin">Chaplin</option>
-        <option value="Eastford">Eastford</option>
-        <option value="Hampton">Hampton</option>
-        <option value="Killingly">Killingly</option>
-        <option value="Plainfield">Plainfield</option>
-        <option value="Pomfret">Pomfret</option>
-        <option value="Putnam">Putnam</option>
-        <option value="Scotland">Scotland</option>
-        <option value="Sterling">Sterling</option>
-        <option value="Thompson">Thompson</option>
-        <option value="Union">Union</option>
-        <option value="Voluntown">Voluntown</option>
-        <option value="Woodstock">Woodstock</option>
-      </select>
-    <p class="f4 mb1">Crash Participants:</p>
-    <label class="button f6 mb1 br2 bg-light-gray">
-      <p><input type="checkbox" id="pedestrians" class="filter"> Pedestrians</p>
-    </label>
-    <label class="button f6 mb1 br2 bg-light-gray">
-      <p><input type="checkbox" id="cyclists" class="filter"> Cyclists</p>
-    </label>
-    <p class="f4 mb1">Fatal:</p>
-    <label class="button f6 mb1 br2 bg-light-gray">
-      <p><input type="checkbox" id="fatal" class="filter"> True </p>
-    </label>
-    <p class="f4 mb1">Roads:</p>
-    <label class="button f6 mb1 br2 bg-light-gray">
-      <p><input type="checkbox" id="local" class="filter"> Local <br></p>
-    </label>
-    <label class="button f6 mb1 br2 bg-light-gray">
-      <p><input type="checkbox" id="highways" class="filter"> Highways</p>
-    </label>
-    <p class="f4 mb1">Bike Lane Present:</p>
-    <label class="button f6 mb1 br2 bg-light-gray">
-      <p><input type="checkbox" id="bikelane" class="filter"> True</p>
-    </label>
-    <label class="button f6 mb1 br2 bg-light-gray">
-      <p><input type="checkbox" id="bike-lane-show" class="filter"> Show bike lanes</p>
-    </label>
-    <p class="f4 mb1">Hit and Run Status:</p>
-    <label class="button f6 mb1 br2 bg-light-gray">
-      <p><input type="checkbox" id="crashesHitAndRun" class="filter"> True</p>
-    </label>
-    <p class="f4 mb1">Show Town Boundaries:</p>
-    <label class="button f6 mb1 br2 bg-light-gray">
-      <p><input type="checkbox" id="boundary-toggle" class="filter"> True</p>
-    </label>
+  <div class="absolute w-100 vh-100 bg-transparent">
+    <div class="ml3 w-25 flex flex-column justify-center" class="left-panel" style="max-height: 98vh;">
+      <div class="center" style="z-index:999;">
+        <p>Logo Here</p>
+      </div>
+      <div id="filters" class="br2 bg-white o-80 pa3 flex flex-column justify-center"
+        style="overflow-y: auto; z-index:999; flex: 1;">
+        <div>
+          <p class="f4 mb1 mt1 b"><label for="town-name">Sort by County:</label></p>
+          <select name="town-name" id="town-name" class="filter">
+            <option value="">Select a Town</option>
+            <option value="Ashford">Ashford</option>
+            <option value="Brooklyn">Brooklyn</option>
+            <option value="Canterbury">Canterbury</option>
+            <option value="Chaplin">Chaplin</option>
+            <option value="Eastford">Eastford</option>
+            <option value="Hampton">Hampton</option>
+            <option value="Killingly">Killingly</option>
+            <option value="Plainfield">Plainfield</option>
+            <option value="Pomfret">Pomfret</option>
+            <option value="Putnam">Putnam</option>
+            <option value="Scotland">Scotland</option>
+            <option value="Sterling">Sterling</option>
+            <option value="Thompson">Thompson</option>
+            <option value="Union">Union</option>
+            <option value="Voluntown">Voluntown</option>
+            <option value="Woodstock">Woodstock</option>
+          </select>
+        </div>
+        <div>
+          <p class="f4 mb1 b">Crash Participants:</p>
+          <label class="button f6 mb1 br2 bg-light-gray">
+            <p><input type="checkbox" id="pedestrians" class="filter"> Pedestrians</p>
+          </label>
+          <label class="button f6 mb1 br2 bg-light-gray">
+            <p><input type="checkbox" id="cyclists" class="filter"> Cyclists</p>
+          </label>
+        </div>
+        <div>
+          <p class="f4 mb1 b">Roads:</p>
+          <label class="button f6 mb1 br2 bg-light-gray">
+            <p><input type="checkbox" id="local" class="filter"> Local <br></p>
+          </label>
+          <label class="button f6 mb1 br2 bg-light-gray">
+            <p><input type="checkbox" id="highways" class="filter"> Highways</p>
+          </label>
+        </div>
+        <div>
+          <p class="f4 mb1 b">Show</p>
+          <div class="flex flex-column">
+            <div class="flex items-center mb2">
+              <label for="crashesHitAndRun" class="lh-copy mr2">Hit and Run Status:</label>
+              <input class="filter" type="checkbox" id="crashesHitAndRun">
+            </div>
+            <div class="flex items-center mb2">
+              <label for="fatal" class="lh-copy mr2">Fatal:</label>
+              <input class="filter" type="checkbox" id="fatal">
+            </div>
+            <div class="flex items-center mb2">
+              <label for="bike-lane-show" class="lh-copy mr2 ">Bike lanes Layer</label>
+              <input class="filter" type="checkbox" id="bike-lane-show">
+            </div>
+            <div class="flex items-center mb2">
+              <label for="boundary-toggle" class="lh-copy mr2 ">Show Town Boundaries</label>
+              <input class="filter" type="checkbox" id="boundary-toggle">
+            </div>
+          </div>
+        </div>
+
+        <!-- Date Range Slider -->
+        <div id="legend" class="w-100 center mb1">
+          <p class="f4 mb2 b">Search by date</p>
+          <form class="ph2 ml2 mr2">
+            <input type="text" class="js-range-slider" name="dates" value="" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Stats Box -->
+    <div class="w-70 absolute bg-white o-80 pa2 br2" style="min-height: 2rem; bottom: 0rem; right:0; margin: 2rem 2rem 2rem 0rem; z-index:1000;"
+      class="bottom-panel">
+      <div id="statsBox" class="mv2">
+        <div class="fw2" id="statsText"></div>
+      </div>
+    </div>
+
   </div>
 
   <!-- Map Container -->
   <div class="w-100">
-    <div id="map" class="mb3 vh-75 bg-near-white"></div>
-  </div>
-
-  <!-- CrashmapPopup (.bindPopup)-->
-
-
-  <!-- Stats Box -->
-  <div class="w-80 center mt3">
-    <div id="statsBox">
-      <p class="fw2" id="statsText"></p>
-    </div>
-  </div>
-
-  <!-- Date Range Slider -->
-  <div id="legend" class="w-80 center mt1 mb1">
-    <form class="ph2 ml3 mr3">
-      <input type="text" class="js-range-slider" name="dates" value="" />
-    </form>
+    <div id="map" class="mb3 vh-100 bg-near-white"></div>
   </div>
 
   <!-- JavaScript Libraries -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.heat/0.2.0/leaflet-heat.js" integrity="sha512-KhIBJeCI4oTEeqOmRi2gDJ7m+JARImhUYgXWiOTIp9qqySpFUAJs09erGKem4E5IPuxxSTjavuurvBitBmwE0w==" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js" integrity="sha512-kZsqvmw94Y8hyhwtWZJvDtobwQ9pLhF1DuIvcqSuracbRn6WJs1Ih+04fpH/8d1CFKysp7XA1tR0Aa2jKLTQUg==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"
+    integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.heat/0.2.0/leaflet-heat.js"
+    integrity="sha512-KhIBJeCI4oTEeqOmRi2gDJ7m+JARImhUYgXWiOTIp9qqySpFUAJs09erGKem4E5IPuxxSTjavuurvBitBmwE0w=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"
+    integrity="sha512-kZsqvmw94Y8hyhwtWZJvDtobwQ9pLhF1DuIvcqSuracbRn6WJs1Ih+04fpH/8d1CFKysp7XA1tR0Aa2jKLTQUg=="
+    crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/leaflet.sync@0.2.4/L.Map.Sync.min.js"></script>
   <script src=" https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js "></script>
   <script src="./main.js"></script>
 
 </body>
+
 </html>
