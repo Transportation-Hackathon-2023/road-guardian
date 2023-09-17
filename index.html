@@ -17,52 +17,53 @@
   <!-- Filters -->
   <div id="filters" class="absolute bg-white o-70 pa2" style="z-index:999">
     <p class="f4 mb1"><label for="dog-names">Sort by Town:</label></p>
-      <select name="town-name" id="town-name">
-        <option value="ashford">Ashford</option>
-        <option value="brooklyn">Brooklyn</option>
-        <option value="canterbury">Canterbury</option>
-        <option value="chaplin">Chaplin</option>
-        <option value="eastford">Eastford</option>
-        <option value="hampton">Hampton</option>
-        <option value="killingly">Killingly</option>
-        <option value="plainfield">Plainfield</option>
-        <option value="pomfret">Pomfret</option>
-        <option value="putnam">Putnam</option>
-        <option value="scotland">Scotland</option>
-        <option value="sterling">Sterling</option>
-        <option value="thompson">Thompson</option>
-        <option value="union">Union</option>
-        <option value="voluntown">Voluntown</option>
-        <option value="woodstock">Woodstock</option>
+      <select name="town-name" id="town-name" class="filter">
+        <option value="">Select a Town</option>
+        <option value="Ashford">Ashford</option>
+        <option value="Brooklyn">Brooklyn</option>
+        <option value="Canterbury">Canterbury</option>
+        <option value="Chaplin">Chaplin</option>
+        <option value="Eastford">Eastford</option>
+        <option value="Hampton">Hampton</option>
+        <option value="Killingly">Killingly</option>
+        <option value="Plainfield">Plainfield</option>
+        <option value="Pomfret">Pomfret</option>
+        <option value="Putnam">Putnam</option>
+        <option value="Scotland">Scotland</option>
+        <option value="Sterling">Sterling</option>
+        <option value="Thompson">Thompson</option>
+        <option value="Union">Union</option>
+        <option value="Voluntown">Voluntown</option>
+        <option value="Woodstock">Woodstock</option>
       </select>
     <p class="f4 mb1">Crash Participants:</p>
     <label class="button f6 mb1 br2 bg-light-gray">
-      <p><input type="checkbox" id="pedestrians"> Pedestrians</p>
+      <p><input type="checkbox" id="pedestrians" class="filter"> Pedestrians</p>
     </label>
     <label class="button f6 mb1 br2 bg-light-gray">
-      <p><input type="checkbox" id="cyclists" > Cyclists</p>
+      <p><input type="checkbox" id="cyclists" class="filter"> Cyclists</p>
     </label>
     <p class="f4 mb1">Fatal:</p>
     <label class="button f6 mb1 br2 bg-light-gray">
-      <p><input type="checkbox" id="fatal"> True </p>
+      <p><input type="checkbox" id="fatal" class="filter"> True </p>
     </label>
     <p class="f4 mb1">Roads:</p>
     <label class="button f6 mb1 br2 bg-light-gray">
-      <p><input type="checkbox" id="local"> Local <br></p>
+      <p><input type="checkbox" id="local" class="filter"> Local <br></p>
     </label>
     <label class="button f6 mb1 br2 bg-light-gray">
-      <p><input type="checkbox" id="highways"> Highways</p>
+      <p><input type="checkbox" id="highways" class="filter"> Highways</p>
     </label>
     <p class="f4 mb1">Bike Lane Present:</p>
     <label class="button f6 mb1 br2 bg-light-gray">
-      <p><input type="checkbox" id="bikelane"> True</p>
+      <p><input type="checkbox" id="bikelane" class="filter"> True</p>
     </label>
     <label class="button f6 mb1 br2 bg-light-gray">
-      <p><input type="checkbox" id="bike-lane-show"> Show bike lanes</p>
+      <p><input type="checkbox" id="bike-lane-show" class="filter"> Show bike lanes</p>
     </label>
     <p class="f4 mb1">Hit and Run Status:</p>
     <label class="button f6 mb1 br2 bg-light-gray">
-      <p><input type="checkbox" id="crashesHitAndRun"> True</p>
+      <p><input type="checkbox" id="crashesHitAndRun" class="filter"> True</p>
     </label>
   </div>
 
