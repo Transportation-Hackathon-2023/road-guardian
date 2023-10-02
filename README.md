@@ -1,7 +1,10 @@
 # Road Guardian
 
+## Demo:
 ![road-guardian](https://github.com/Transportation-Hackathon-2023/road-guardian/assets/77554154/9dd20b88-100e-4d60-ac81-d4bf924d1895)
 
+## Deployment:
+An active version of this app can be found here: https://transportation-hackathon-2023.github.io/road-guardian/
 
 ## Original Challenge
 -> Challenge 1: Walkable Streets & Bike Lanes
