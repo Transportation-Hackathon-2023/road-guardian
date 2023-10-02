@@ -10,9 +10,14 @@ The root directory for this challenge contains data, documents, and images that 
 Don't forget to check social media for hashtag **#HackCT2023** and tag your own posts with that hashtag!
 
 ## Set up:
-1. Clone the repo
-2. Download Jupyter Notebook and Live Preview (Microsoft version) extensions
-3. Click "Go live" in VS Code to host a local live server
+1. If you do not have a code editor already, download VS Code
+2. Under extensions on VS Code, download Jupyter Notebook and Live Preview (Microsoft version)
+3. Using your terminal, navigate to the folder where you would like the "road-guardian" folder to live on your computer
+4. Copy the HTTPS URL found when clicking the green "Code" button on this page.
+5. Clone the repo using the command "git clone url-you-copied"
+6. Navigate into the folder by using the command "cd road-guardian"
+7. Use the command "code ." to open the folder in VS Code
+8. In VS Code, Click "Go live" to host the project live on your local server
 
 ---
 
